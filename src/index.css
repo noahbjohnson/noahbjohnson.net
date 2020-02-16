@@ -19,3 +19,7 @@ i {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
 }
+
+body {
+    overscroll-behavior: none;
+}

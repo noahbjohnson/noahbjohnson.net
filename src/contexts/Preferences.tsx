@@ -36,23 +36,25 @@ export const PreferencesProvider = class extends React.Component<ProviderProps, 
   }
 
   toggleDark = () => {
-    this.setState({ darkMode: !this.state.darkMode })
-    localStorage.setItem('darkMode', JSON.stringify(this.state.darkMode))
+    const currentValue = this.state.darkMode
+    this.setState({
+      darkMode: !currentValue
+    })
+    localStorage.setItem('darkMode', JSON.stringify(!currentValue))
   }
 
   localStorageUpdated () {
-    this.setState({ darkMode: JSON.parse(localStorage.getItem('darkMode') || 'false') })
-    console.log(this.state)
-    console.log(localStorage.getItem('darkMode'))
+    const localValue = localStorage.getItem('darkMode')
+    if (localValue) {
+      this.setState({
+        darkMode: JSON.parse(localValue)
+      })
+    }
   }
 
   componentDidMount (): void {
     window.addEventListener('storage', this.localStorageUpdated)
-    this.setState({
-      darkMode: localStorage.getItem('darkMode') === null
-        ? this.state.darkMode
-        : Boolean(localStorage.getItem('darkMode'))
-    })
+    this.localStorageUpdated()
   }
 
   componentWillUnmount () {

@@ -83,3 +83,11 @@
 .certifications img {
     max-height: 20vh;
 }
+.job h4 {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.job h6 {
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}

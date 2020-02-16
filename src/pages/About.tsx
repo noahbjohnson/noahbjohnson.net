@@ -1,4 +1,4 @@
-import { Button, Col, Container, Modal, Row } from 'react-bootstrap'
+import { Badge, Button, Col, Container, Modal, Row } from 'react-bootstrap'
 import React, { useContext, useState } from 'react'
 import './about.css'
 import { PreferencesContext } from '../contexts/Preferences'
@@ -73,7 +73,17 @@ export const About = () => {
       <Row className={'about-section'}>
         <Col lg={12}>
           <h2>Work</h2>
-          <p>Put some cards here for jobs.</p>
+          <div className={'job'}>
+            <h4>Data Integration Engineer, Integration Engineer</h4>
+            <h6>Trinity Insight LLC | Rochester, Minnesota | May 2019 - Present</h6>
+            <ul>
+              <li>I do a thing</li>
+            </ul>
+          </div>
+          <div className={'job'}>
+            <h4>Data Integration Analyst - Internship</h4>
+            <h6>SC Data Center, Inc. | Monroe, Wisconsin | Summer 2018</h6>
+          </div>
         </Col>
       </Row>
       <Row className={'about-section'}>
