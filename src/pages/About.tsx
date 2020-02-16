@@ -10,8 +10,6 @@ import { Link } from 'react-router-dom'
 export const About = () => {
   const { darkMode } = useContext(PreferencesContext)
   const [showResume, setShowResume] = useState<boolean>(false)
-  const [pageNumber, setPageNumber] = useState<number>(1)
-  const [numPages, setNumPages] = useState<number>(0)
   return (
     <Container fluid className={'page'}>
       <Modal show={showResume}
@@ -31,14 +29,10 @@ export const About = () => {
           <Document
             className={'resume-doc'}
             file='/resume.pdf'
-            onLoadSuccess={({ numPages: number }) => {
-              setNumPages(numPages)
-            }}
           >
             <Page pageNumber={1} className={'resume-page'}/>
           </Document>
         </Modal.Body>
-
       </Modal>
 
       <Row className={'about-section cover'}>
