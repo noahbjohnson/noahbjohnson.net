@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="recreated navbar">
+    <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="CSS File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -32,6 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -64,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
-      <workItem from="1581813013409" duration="7535000" />
+      <workItem from="1581813013409" duration="10455000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -73,7 +80,28 @@
       <option name="project" value="LOCAL" />
       <updated>1581829925946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="idk some jetbrains thing">
+      <created>1581830096467</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581830096467</updated>
+    </task>
+    <task id="LOCAL-00003" summary="stupid react logo">
+      <created>1581830171802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581830171802</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nav styles">
+      <created>1581831928667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581831928667</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,13 +109,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="recreated navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="recreated navbar" />
+    <MESSAGE value="idk some jetbrains thing" />
+    <MESSAGE value="stupid react logo" />
+    <MESSAGE value="nav styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="nav styles" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581830037678">
+    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581831928076">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581830037678" />
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581831928076" />
     <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581830041260">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

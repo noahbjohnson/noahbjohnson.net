@@ -6,7 +6,7 @@ import './navbar.css'
 
 export const NavBar = () => {
   return (
-    <Navbar bg={'dark'} expand={'lg'} variant={'dark'} collapseOnSelect className={'headerFont'}>
+    <Navbar bg={'dark'} expand={'lg'} variant={'dark'} collapseOnSelect className={'headerFont'} sticky={'top'}>
       <Navbar.Brand href="#">Noah B. Johnson</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
