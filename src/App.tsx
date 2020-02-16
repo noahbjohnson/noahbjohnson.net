@@ -5,7 +5,6 @@ import { NavBar } from './components/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { About } from './pages/About'
-import { Footer } from './components/footer'
 
 function App () {
   return (
@@ -17,11 +16,10 @@ function App () {
             <BrowserRouter>
               <Switch>
                 <Route path='/about'>
-                  <About />
+                  <About/>
                 </Route>
               </Switch>
             </BrowserRouter>
-            <Footer/>
           </div>
         )}
       </PreferencesContext.Consumer>

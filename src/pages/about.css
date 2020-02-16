@@ -1,6 +1,7 @@
-.about-section {
+.about-section:not(.cover) {
     background-color: aliceblue;
     min-height: 200px;
+    padding-top: 20px;
 }
 
 .cover {
@@ -15,12 +16,12 @@
 
 .cover-header {
     color: black;
-    background-color: rgba(230,230,230,.75);
+    background-color: rgba(230, 230, 230, .75);
 }
 
 .cover-header.dark {
     color: whitesmoke;
-    background-color: rgba(10,10,10,.75);
+    background-color: rgba(10, 10, 10, .75);
 }
 
 .cover-header h1 {
@@ -33,4 +34,27 @@
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+}
+
+.resume-button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.resume-page {
+    width: 100%;
+    overflow: auto;
+}
+
+.resume-doc {
+    width: 100%;
+}
+
+.resume-modal {
+    width: 100%;
+    max-height: 95%;
+}
+.modal-dialog {
+    width: 750px;
+    max-width: 80%;
 }
