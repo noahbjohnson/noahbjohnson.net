@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 import './navbar.css'
+import { PreferencesContext } from '../contexts/Preferences'
 
 export const NavBar = () => {
+  const { darkMode } = useContext(PreferencesContext)
   return (
-    <Navbar bg={'dark'} expand={'lg'} variant={'dark'} collapseOnSelect className={'headerFont'} sticky={'top'}>
+    <Navbar bg={darkMode ? 'dark' : 'light'} expand={'lg'} variant={darkMode ? 'dark' : 'light'} collapseOnSelect
+            className={'headerFont'} fixed={'top'}>
       <Navbar.Brand href="#">Noah B. Johnson</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,13 +26,7 @@ export const NavBar = () => {
         </Nav>
       </Navbar.Collapse>
       <Navbar.Collapse className="justify-content-end">
-        <Nav>
-          <Nav.Link href="https://www.linkedin.com/in/noahbjohnson/"><FontAwesomeIcon icon={faLinkedin}
-                                                                                      size={'lg'}/></Nav.Link>
-          <Nav.Link href="https://github.com/noahbjohnson"><FontAwesomeIcon icon={faGithub} size={'lg'}/></Nav.Link>
-          <Nav.Link href="https://stackoverflow.com/users/5379654/noah-b-johnson"><FontAwesomeIcon
-            icon={faStackOverflow} size={'lg'}/></Nav.Link>
-        </Nav>
+
       </Navbar.Collapse>
     </Navbar>
   )
