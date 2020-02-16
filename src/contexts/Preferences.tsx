@@ -51,7 +51,7 @@ export const PreferencesProvider = class extends React.Component<ProviderProps, 
     this.setState({
       darkMode: localStorage.getItem('darkMode') === null
         ? this.state.darkMode
-        : JSON.parse(localStorage.getItem('darkMode') || 'false')
+        : Boolean(localStorage.getItem('darkMode'))
     })
   }
 

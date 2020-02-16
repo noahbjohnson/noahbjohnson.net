@@ -2,3 +2,15 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+.toggle.react-toggle--checked .react-toggle-track {
+    background-color: darkgray;
+}
+
+.toggle .react-toggle-track {
+    background-color: lightyellow;
+}
+
+.toggle.react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {
+    background-color: #128D15;
+}

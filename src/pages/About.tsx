@@ -1,28 +1,27 @@
 import { Col, Container, Row } from 'react-bootstrap'
-import React from 'react'
+import React, { useContext } from 'react'
 import './about.css'
+import { PreferencesContext } from '../contexts/Preferences'
 
 export const About = () => {
+  const { darkMode } = useContext(PreferencesContext)
   return (
     <Container fluid className={'page'}>
-      <Row className={'about-section'}>
-        <Col lg={12}>
-          <h2 id="about">About Me</h2>
-          <p>This site is not up to date, but my resume is!</p>
+
+      <Row className={'about-section cover'}>
+        <Col lg={12} className={`cover-header${darkMode ? ' dark' : ''}`}>
+          <h1>My Name</h1>
+          <h3>A catchy tag line</h3>
         </Col>
       </Row>
 
       <Row className={'about-section'}>
         <Col lg={12}>
-          <h2 id="skills">Skills</h2>
+
+          <h2 id="skills">About Me</h2>
         </Col>
       </Row>
 
-      <Row className={'about-section'}>
-        <Col lg={12}>
-          <h2>Education</h2>
-        </Col>
-      </Row>
 
       <Row className={'about-section'}>
         <Col lg={12}>
