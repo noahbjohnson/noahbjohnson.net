@@ -28,8 +28,7 @@ export const About = () => {
         <Modal.Body>
           <Document
             className={'resume-doc'}
-            file='/resume.pdf'
-          >
+            file='/resume.pdf'>
             <Page pageNumber={1} className={'resume-page'}/>
           </Document>
         </Modal.Body>
@@ -77,13 +76,22 @@ export const About = () => {
           <p>Put some cards here for jobs.</p>
         </Col>
       </Row>
-
       <Row className={'about-section'}>
         <Col lg={12}>
-          <h2>Hobbies</h2>
+          <h2>Certifications</h2>
+        </Col>
+        <Col md={3}>
+          <div className={'certifications'}>
+            <img src='gcp-cloud-dev.png'/>
+          </div>
+        </Col>
+        <Col md={3}>
+          <div className={'certifications'}>
+            <img src={'aws-certified.png'}/><br/>
+            <img src={'cloud-practitioner.png'}/>
+          </div>
         </Col>
       </Row>
-
     </Container>
   )
 }
