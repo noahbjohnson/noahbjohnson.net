@@ -75,10 +75,11 @@
     }
 }
 
-.certifications  {
+.certifications {
     height: 20vh;
     margin-bottom: 20px;
 }
+
 .certifications img {
     max-height: 20vh;
 }
