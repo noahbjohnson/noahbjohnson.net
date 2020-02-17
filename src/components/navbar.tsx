@@ -16,11 +16,11 @@ export const NavBar = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
-          <Nav.Link href="/about">Profile</Nav.Link>
-          <Nav.Link href="/stack">Stack</Nav.Link>
+          <Nav.Link href="/about">profile</Nav.Link>
+          <Nav.Link href="/work">work</Nav.Link>
 
 
-          <NavDropdown title="Projects" id="collapsible-nav-dropdown" className={'headerFont'}>
+          <NavDropdown title="projects" id="collapsible-nav-dropdown" className={'headerFont'}>
             <NavDropdown.Item href="ds.html" className={'headerFont'}>Data Science</NavDropdown.Item>
             {/*<NavDropdown.Item href="photos.html">Photography</NavDropdown.Item>*/}
           </NavDropdown>

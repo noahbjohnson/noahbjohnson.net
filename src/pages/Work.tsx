@@ -1,8 +1,8 @@
-import './stack.css'
+import './work.css'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
-export const Stack = () => {
+export const Work = () => {
   return (
     <Container fluid className={'page'}>
       <Row>

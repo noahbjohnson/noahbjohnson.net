@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/aws-certified.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/cloud-practitioner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/gcp-cloud-dev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/noahjohnson.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Stack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Work.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/stack.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/service-logos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +55,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/service-logos" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
@@ -84,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
-      <workItem from="1581813013409" duration="34245000" />
+      <workItem from="1581813013409" duration="47016000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -149,7 +150,35 @@
       <option name="project" value="LOCAL" />
       <updated>1581876359436</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cert badges">
+      <created>1581885378399</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581885378399</updated>
+    </task>
+    <task id="LOCAL-00011" summary="package cleanup">
+      <created>1581885460150</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581885460150</updated>
+    </task>
+    <task id="LOCAL-00012" summary="lint">
+      <created>1581885596696</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581885596696</updated>
+    </task>
+    <task id="LOCAL-00013" summary="app icons and context fixes">
+      <created>1581896504425</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581896504425</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,17 +194,21 @@
     <MESSAGE value="footer and about page cover photo" />
     <MESSAGE value="resume modal" />
     <MESSAGE value="homepage redirect" />
-    <option name="LAST_COMMIT_MESSAGE" value="homepage redirect" />
+    <MESSAGE value="cert badges" />
+    <MESSAGE value="package cleanup" />
+    <MESSAGE value="lint" />
+    <MESSAGE value="app icons and context fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="app icons and context fixes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581876358792">
+    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581896503361">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581876358792" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581870504765">
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581896503361" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581896507279">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581870504765" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581896507279" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1581882068824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

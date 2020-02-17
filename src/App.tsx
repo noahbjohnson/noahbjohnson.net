@@ -5,7 +5,7 @@ import { NavBar } from './components/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom'
 import { About } from './pages/About'
-import { Stack } from './pages/Stack'
+import { Work } from './pages/Work'
 
 function App () {
   return (
@@ -17,7 +17,7 @@ function App () {
             <BrowserRouter>
               <Switch>
                 <Route path='/about' component={About}/>
-                <Route path='/stack' component={Stack}/>
+                <Route path='/work' component={Work}/>
                 <Redirect path={'/'} to={'/about'}/>
               </Switch>
             </BrowserRouter>

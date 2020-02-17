@@ -1,9 +1,9 @@
-import { Badge, Button, Col, Container, Modal, Row } from 'react-bootstrap'
+import { Button, Col, Container, Modal, Row } from 'react-bootstrap'
 import React, { useContext, useState } from 'react'
 import './about.css'
 import { PreferencesContext } from '../contexts/Preferences'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileAlt, faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import { faDna, faFileAlt, faFileDownload } from '@fortawesome/free-solid-svg-icons'
 import { Document, Page } from 'react-pdf'
 import { Link } from 'react-router-dom'
 
@@ -36,37 +36,50 @@ export const About = () => {
 
       <Row className={'about-section cover'}>
         <Col lg={12} className={`cover-header${darkMode ? ' dark' : ''}`}>
-          <h1>My Name</h1>
-          <h3>A catchy tag line</h3>
-        </Col>
-      </Row>
-
-      <Row className={'about-section'}>
-        <Col lg={12}>
-          <h2 id="skills">About Me</h2>
+          <h1>about</h1>
+          <h3>my job is to automate my job</h3>
           <Button
-            variant={'outline-primary'}
+            variant={'outline-dark'}
             className={'resume-button'}
             onClick={() => {setShowResume(!showResume)}}
           >
             <FontAwesomeIcon icon={faFileAlt}/> &nbsp;
             boring formal resume
-          </Button>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Donec maximus purus nec posuere accumsan.
-            Sed a sapien sit amet mi vestibulum vestibulum.
-            Nam ultrices lorem odio, in sagittis tortor auctor in.
-            Phasellus ut lacus in sapien eleifend vehicula.
-            Phasellus luctus elit et justo tristique bibendum.
-            Mauris blandit turpis nec nisl pulvinar, eget sollicitudin mauris porttitor.
-            Donec justo est, varius sit amet massa in, egestas lacinia augue.
-            In sed ex felis. Morbi lacus sapien, feugiat vel sapien at, efficitur luctus orci.
-            Praesent nec erat et enim pulvinar aliquet.
-            Nunc dapibus est sodales, consectetur purus sed, blandit dui.
-            Interdum et malesuada fames ac ante ipsum primis in faucibus.
-            Suspendisse urna diam, suscipit id tincidunt semper, rhoncus in nulla.
-            Maecenas ultricies metus et nisl fringilla facilisis.
-            Vivamus euismod sed mi ac venenatis.</p>
+          </Button><br/>
+          <a href={'https://github.com/noahbjohnson/dna'}><Button
+            variant={'outline-dark'}
+            className={'resume-button'}
+          >
+            <FontAwesomeIcon icon={faDna}/> &nbsp;
+            my genome
+          </Button></a>
+        </Col>
+      </Row>
+
+      <Row className={'about-section'}>
+        <Col lg={6}>
+          <h2 id="skills">About Me</h2>
+          <p>I'm a full-stack data scientist and engineer. I enjoy decoupling data architectures, refactoring code
+            repeatedly, and abstracting infrastructure into json and yaml. Strong believer in the pillars of SCRUM:
+            transparency, inspection, and adaptation.</p>
+          <p><b>pronouns: </b> he/him</p>
+          <p><b>great at: </b> internal tooling development & enablement, clearing roadblocks, conceptual communication,
+            teaching
+          </p>
+          <p><b>good at: </b> cloud stuff, standards, documentation, big picture, APIs, data models, data engineering
+          </p>
+          <p><b>pretty ok at: </b> project management, stakeholder management, proving ROI
+          </p>
+          <p><b>not great at: </b> embedded & low-level, anything microsoft, LAMP stack, calling it 'good enough',
+            avoiding scope creep</p>
+          <p><b>currently reading: </b> The Wheel of Time</p>
+          <p><b>hobbies: </b> scanning film negatives, star trek, data hoarding</p>
+          <p><b>academic interests: </b> sociology, algorithmic bias, archival science, generative adversarial networks
+          </p>
+
+
+          <p><b>voting for: </b> bernie sanders</p>
+
         </Col>
       </Row>
 
