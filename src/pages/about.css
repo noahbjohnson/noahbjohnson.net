@@ -1,5 +1,4 @@
 .about-section:not(.cover) {
-    background-color: aliceblue;
     min-height: 200px;
     padding-top: 20px;
 }
@@ -91,4 +90,9 @@
 .job h6 {
     font-weight: 200;
     font-family: 'Montserrat', sans-serif;
+}
+
+.about-column {
+    padding-right: 50px;
+    padding-left: 50px;
 }

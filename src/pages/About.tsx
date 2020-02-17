@@ -39,15 +39,14 @@ export const About = () => {
           <h1>about</h1>
           <h3>my job is to automate my job</h3>
           <Button
-            variant={'outline-dark'}
+            variant={darkMode ? 'dark' : 'light'}
             className={'resume-button'}
-            onClick={() => {setShowResume(!showResume)}}
-          >
+            onClick={() => {setShowResume(!showResume)}}>
             <FontAwesomeIcon icon={faFileAlt}/> &nbsp;
             boring formal resume
           </Button><br/>
           <a href={'https://github.com/noahbjohnson/dna'}><Button
-            variant={'outline-dark'}
+            variant={darkMode ? 'dark' : 'light'}
             className={'resume-button'}
           >
             <FontAwesomeIcon icon={faDna}/> &nbsp;
@@ -55,9 +54,8 @@ export const About = () => {
           </Button></a>
         </Col>
       </Row>
-
       <Row className={'about-section'}>
-        <Col lg={6}>
+        <Col lg={6} className={'about-column'}>
           <h2 id="skills">About Me</h2>
           <p>I'm a full-stack data scientist and engineer. I enjoy decoupling data architectures, refactoring code
             repeatedly, and abstracting infrastructure into json and yaml. Strong believer in the pillars of SCRUM:
@@ -73,18 +71,11 @@ export const About = () => {
           <p><b>not great at: </b> embedded & low-level, anything microsoft, LAMP stack, calling it 'good enough',
             avoiding scope creep</p>
           <p><b>currently reading: </b> The Wheel of Time</p>
-          <p><b>hobbies: </b> scanning film negatives, star trek, data hoarding</p>
+          <p><b>hobbies: </b> digitizing film negatives, star trek, data hoarding</p>
           <p><b>academic interests: </b> sociology, algorithmic bias, archival science, generative adversarial networks
           </p>
-
-
-          <p><b>voting for: </b> bernie sanders</p>
-
         </Col>
-      </Row>
-
-      <Row className={'about-section'}>
-        <Col lg={12}>
+        <Col lg={6} className={'about-column'}>
           <h2>Work</h2>
           <div className={'job'}>
             <h4>Data Integration Engineer, Integration Engineer</h4>
@@ -97,18 +88,11 @@ export const About = () => {
             <h4>Data Integration Analyst - Internship</h4>
             <h6>SC Data Center, Inc. | Monroe, Wisconsin | Summer 2018</h6>
           </div>
-        </Col>
-      </Row>
-      <Row className={'about-section'}>
-        <Col lg={12}>
+
           <h2>Certifications</h2>
-        </Col>
-        <Col md={3}>
           <div className={'certifications'}>
             <img src='gcp-cloud-dev.png'/>
           </div>
-        </Col>
-        <Col md={3}>
           <div className={'certifications'}>
             <img src={'aws-certified.png'}/><br/>
             <img src={'cloud-practitioner.png'}/>
