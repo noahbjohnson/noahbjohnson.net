@@ -2,12 +2,9 @@ language: node_js
 node_js:
   - "10.17"
 script:
-  - npm install
   - CI=false npm run build
-
 deploy:
   provider: pages
-  skip_cleanup: false
   github_token: $github_token
   local_dir: build
   on:

@@ -80,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
-      <workItem from="1581813013409" duration="64175000" />
+      <workItem from="1581813013409" duration="64400000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -292,14 +292,20 @@
       <option name="project" value="LOCAL" />
       <updated>1581920945626</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="rollback kinda fml">
+      <created>1581921158255</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1581921158255</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="header jumbotron and about page headers" />
     <MESSAGE value="working darkmode toggle and some routing stuff" />
     <MESSAGE value="footer and about page cover photo" />
     <MESSAGE value="resume modal" />
@@ -324,17 +330,18 @@
     <MESSAGE value="user page limitation" />
     <MESSAGE value="cache breaking deploy maybe?" />
     <MESSAGE value="garbage collection? what is this? C?" />
-    <option name="LAST_COMMIT_MESSAGE" value="garbage collection? what is this? C?" />
+    <MESSAGE value="rollback kinda fml" />
+    <option name="LAST_COMMIT_MESSAGE" value="rollback kinda fml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581918607095">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1581918607095" />
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581920945182">
+    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581921157826">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581920945182" />
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581921157826" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1581911006846">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -351,10 +358,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581911006846" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581920947302">
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581921160031">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581920947302" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581921160031" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1581882068824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
