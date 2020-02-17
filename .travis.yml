@@ -1,8 +1,12 @@
 language: node_js
 node_js:
   - "10.17"
+install:
+  - npm ci
+cache:
+  directories:
+    - "$HOME/.npm"
 script:
-  - npm install
   - CI=false npm run build
 
 deploy:
