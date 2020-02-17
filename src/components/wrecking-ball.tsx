@@ -1,10 +1,25 @@
 import React from 'react'
 import Matter, { Composites, Constraint, Events } from 'matter-js'
 
-class Scene extends React.Component {
-  constructor (props: Readonly<{}>) {
+interface SceneProps {
+  logos: string[]
+}
+
+interface SceneState {
+  logos: string[]
+}
+
+function choose (choices: any[]) {
+  const index = Math.floor(Math.random() * choices.length)
+  return choices[index]
+}
+
+class Scene extends React.Component<SceneProps, SceneState> {
+  constructor (props: Readonly<SceneProps>) {
     super(props)
-    this.state = {}
+    this.state = {
+      logos: props.logos
+    }
   }
 
   componentDidMount () {
@@ -26,7 +41,7 @@ class Scene extends React.Component {
       element: this.refs.scene as HTMLElement,
       engine: engine,
       options: {
-        background: '#010101',
+        background: 'lightgrey',
         wireframes: false,
         width,
         height
@@ -44,8 +59,18 @@ class Scene extends React.Component {
         stiffness: 0.05
       })
 
+    const images = this.state.logos
+
     const pyramid = Composites.pyramid(500, 300, 9, 10, 0, 0, function (x: number, y: number) {
-      return Bodies.rectangle(x, y, 25, 40)
+      return Bodies.rectangle(x, y, 25, 40, {
+        render: {
+          sprite: {
+            texture: choose(images),
+            xScale: .015,
+            yScale: .015,
+          }
+        }
+      })
     })
 
     const ground2 = Bodies.rectangle(610, 250, 200, 20, { isStatic: true })

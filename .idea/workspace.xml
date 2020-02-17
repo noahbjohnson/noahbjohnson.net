@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wrecking-ball.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrecking-ball.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Work.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
-      <workItem from="1581813013409" duration="59771000" />
+      <workItem from="1581813013409" duration="61152000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581916685629</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="format">
+      <created>1581916743477</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1581916743477</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,13 +249,14 @@
     <MESSAGE value="more service logos" />
     <MESSAGE value="minigame start" />
     <MESSAGE value="tracking and cleanup for publish" />
-    <option name="LAST_COMMIT_MESSAGE" value="tracking and cleanup for publish" />
+    <MESSAGE value="format" />
+    <option name="LAST_COMMIT_MESSAGE" value="format" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581916684922">
+    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581916743079">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581916684922" />
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581916743079" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1581911006846">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
