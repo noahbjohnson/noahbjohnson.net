@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
-      <workItem from="1581813013409" duration="64400000" />
+      <workItem from="1581813013409" duration="64690000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -299,14 +299,20 @@
       <option name="project" value="LOCAL" />
       <updated>1581921158255</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="unneeded lines">
+      <created>1581921386948</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1581921386948</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working darkmode toggle and some routing stuff" />
     <MESSAGE value="footer and about page cover photo" />
     <MESSAGE value="resume modal" />
     <MESSAGE value="homepage redirect" />
@@ -331,17 +337,18 @@
     <MESSAGE value="cache breaking deploy maybe?" />
     <MESSAGE value="garbage collection? what is this? C?" />
     <MESSAGE value="rollback kinda fml" />
-    <option name="LAST_COMMIT_MESSAGE" value="rollback kinda fml" />
+    <MESSAGE value="unneeded lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="unneeded lines" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581918607095">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1581918607095" />
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581921157826">
+    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581921386542">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581921157826" />
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581921386542" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1581911006846">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -358,10 +365,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581911006846" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581921160031">
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581921388668">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581921160031" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581921388668" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1581882068824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
