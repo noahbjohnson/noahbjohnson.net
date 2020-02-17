@@ -3,9 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/App-Icon-1200x1200-teamwork-projects.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/Klaviyo-Logos.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/Logos-for-Download.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/amazon-web-services.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/docker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/docker.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/firebase-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/firebase-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-analytics-developer-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-analytics-developer-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-analytics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-analytics.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-cloud-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-cloud-pub-sub-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-cloud-pub-sub-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-cloud-source-repositories.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-cloud-source-repositories.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-data-studio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-data-studio.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-developers-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-developers-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-webmaster-tools.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-webmaster-tools.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/javascript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/javascript.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/salesforce-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/salesforce-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/salesforce-marketing-cloud-vector-logo-1F9C37AA2C-seeklogo.com.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/slack-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/slack-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/slack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/typescript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/typescript.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Work.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -36,6 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript JSX" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/service-logos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -81,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
-      <workItem from="1581813013409" duration="48727000" />
+      <workItem from="1581813013409" duration="58785000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -181,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581903604108</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="flex and darkmode fix">
+      <created>1581905790026</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1581905790026</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finished up about page">
+      <created>1581911030409</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1581911030409</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,13 +238,31 @@
     <MESSAGE value="lint" />
     <MESSAGE value="app icons and context fixes" />
     <MESSAGE value="added my about info" />
-    <option name="LAST_COMMIT_MESSAGE" value="added my about info" />
+    <MESSAGE value="flex and darkmode fix" />
+    <MESSAGE value="finished up about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished up about page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581903603407">
+    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581911029668">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581903603407" />
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581911029668" />
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1581911006846">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581911006846" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1581911006845">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581911006845" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1581911006844">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581911006844" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1581911006846">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581911006846" />
     <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581903606883">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
