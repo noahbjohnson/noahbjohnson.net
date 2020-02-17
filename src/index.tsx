@@ -4,8 +4,12 @@ import './index.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 import { pdfjs } from 'react-pdf'
+import { HashRouter } from 'react-router-dom'
 
-ReactDOM.render(<App/>, document.getElementById('root'))
+ReactDOM.render(
+  <HashRouter>
+    <App/>
+  </HashRouter>, document.getElementById('root'))
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
 
 // If you want your app to work offline and load faster, you can change

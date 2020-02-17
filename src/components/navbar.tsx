@@ -6,6 +6,7 @@ import { PreferencesContext } from '../contexts/Preferences'
 import Toggle from 'react-toggle'
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { NavLink } from 'react-router-dom'
 
 export const NavBar = () => {
   const { darkMode, toggleDark } = useContext(PreferencesContext)
@@ -16,8 +17,8 @@ export const NavBar = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
-          <Nav.Link href="/about">profile</Nav.Link>
-          <Nav.Link href="/work">work</Nav.Link>
+          <Nav.Link><NavLink to={'/about'}>profile</NavLink></Nav.Link>
+          <Nav.Link><NavLink to={'/work'}>work</NavLink></Nav.Link>
 
           {/*<NavDropdown title="projects" id="collapsible-nav-dropdown" className={'headerFont'}>*/}
           {/*  <NavDropdown.Item href="ds.html" className={'headerFont'}>Data Science</NavDropdown.Item>*/}
