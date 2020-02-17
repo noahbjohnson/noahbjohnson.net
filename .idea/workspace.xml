@@ -4,8 +4,6 @@
     <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/public/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
-      <workItem from="1581813013409" duration="65160000" />
+      <workItem from="1581813013409" duration="65643000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -315,14 +313,20 @@
       <option name="project" value="LOCAL" />
       <updated>1581921693926</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="this is absurd">
+      <created>1581922144673</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1581922144673</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="resume modal" />
     <MESSAGE value="homepage redirect" />
     <MESSAGE value="cert badges" />
     <MESSAGE value="package cleanup" />
@@ -347,17 +351,18 @@
     <MESSAGE value="rollback kinda fml" />
     <MESSAGE value="unneeded lines" />
     <MESSAGE value="removed gitignore for build cause apparently I have to commit that crap on github pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed gitignore for build cause apparently I have to commit that crap on github pages" />
+    <MESSAGE value="this is absurd" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is absurd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581918607095">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1581918607095" />
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581921693395">
+    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581922144227">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581921693395" />
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581922144227" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1581911006846">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -374,10 +379,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581911006846" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581921698065">
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581922617245">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581921698065" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581922617245" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1581882068824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
