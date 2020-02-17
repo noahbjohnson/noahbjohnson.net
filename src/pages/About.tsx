@@ -11,7 +11,7 @@ export const About = () => {
   const { darkMode } = useContext(PreferencesContext)
   const [showResume, setShowResume] = useState<boolean>(false)
   return (
-    <Container fluid className={'page'}>
+    <Container fluid className={`page ${darkMode ? 'dark' : 'light'}`}>
       <Modal show={showResume}
              onHide={() => {setShowResume(false)}} className={'resume-modal'}>
         <Modal.Header>
@@ -80,14 +80,24 @@ export const About = () => {
           <div className={'job'}>
             <h4>Data Integration Engineer, Integration Engineer</h4>
             <h6>Trinity Insight LLC | Rochester, Minnesota | May 2019 - Present</h6>
-            <ul>
-              <li>I do a thing</li>
+            <ul style={{ fontWeight: 400, fontFamily: 'Montserrat; sans-serif' }}>
+              <li>Custom serverless data pipelines and integrations on Google Cloud Platform</li>
+              <li>Lead React application development for client portal and internal tooling</li>
+              <li>Leverage Google BigQuery to ensure reliable conversion attribution and segmentation</li>
+              <li>Maintain internal DevOps standards and practices and provide user support</li>
             </ul>
           </div>
           <div className={'job'}>
             <h4>Data Integration Analyst - Internship</h4>
             <h6>SC Data Center, Inc. | Monroe, Wisconsin | Summer 2018</h6>
+            <ul style={{ fontWeight: 400, fontFamily: 'Montserrat; sans-serif' }}>
+              <li>Lead development on a serverless data dictionary web application for the data warehouse</li>
+              <li>Provided expansive business value with data provenance and metadata for all users</li>
+              <li>Assisted in company-wide efforts to lift-and-shift cobol mainframe routines to AWS</li>
+            </ul>
           </div>
+
+          <Link to={'/work'}>Check out the work page for more detailed stack information and other work</Link>
 
           <h2>Certifications</h2>
           <div className={'certifications'}>
