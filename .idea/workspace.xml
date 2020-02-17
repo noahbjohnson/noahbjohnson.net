@@ -3,30 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/App-Icon-1200x1200-teamwork-projects.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/Klaviyo-Logos.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/Logos-for-Download.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/amazon-web-services.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/docker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/docker.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/firebase-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/firebase-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-analytics-developer-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-analytics-developer-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-analytics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-analytics.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-cloud-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-cloud-pub-sub-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-cloud-pub-sub-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-cloud-source-repositories.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-cloud-source-repositories.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-cloud.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-data-studio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-data-studio.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-developers-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-developers-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/google-webmaster-tools.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/google-webmaster-tools.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/javascript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/javascript.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/react.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/salesforce-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/salesforce-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/salesforce-marketing-cloud-vector-logo-1F9C37AA2C-seeklogo.com.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/slack-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/slack-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/slack.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/service-logos/typescript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-logos/typescript.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
-      <workItem from="1581813013409" duration="58785000" />
+      <workItem from="1581813013409" duration="59693000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -217,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581911030409</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="more service logos">
+      <created>1581915796381</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1581915796381</updated>
+    </task>
+    <task id="LOCAL-00018" summary="minigame start">
+      <created>1581915816327</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581915816327</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,13 +235,15 @@
     <MESSAGE value="added my about info" />
     <MESSAGE value="flex and darkmode fix" />
     <MESSAGE value="finished up about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished up about page" />
+    <MESSAGE value="more service logos" />
+    <MESSAGE value="minigame start" />
+    <option name="LAST_COMMIT_MESSAGE" value="minigame start" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581915794924">
+    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1581915815918">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581915794924" />
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581915815918" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1581911006846">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -263,10 +260,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581911006846" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581903606883">
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581915817387">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581903606883" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581915817387" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1581882068824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -19,11 +19,10 @@ export const NavBar = () => {
           <Nav.Link href="/about">profile</Nav.Link>
           <Nav.Link href="/work">work</Nav.Link>
 
-
-          <NavDropdown title="projects" id="collapsible-nav-dropdown" className={'headerFont'}>
-            <NavDropdown.Item href="ds.html" className={'headerFont'}>Data Science</NavDropdown.Item>
-            {/*<NavDropdown.Item href="photos.html">Photography</NavDropdown.Item>*/}
-          </NavDropdown>
+          {/*<NavDropdown title="projects" id="collapsible-nav-dropdown" className={'headerFont'}>*/}
+          {/*  <NavDropdown.Item href="ds.html" className={'headerFont'}>Data Science</NavDropdown.Item>*/}
+          {/*  /!*<NavDropdown.Item href="photos.html">Photography</NavDropdown.Item>*!/*/}
+          {/*</NavDropdown>*/}
         </Nav>
       </Navbar.Collapse>
       <Navbar.Collapse className="justify-content-end">
