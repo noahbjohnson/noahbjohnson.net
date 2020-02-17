@@ -3,7 +3,7 @@ node_js:
   - "10.17"
 script:
   - npm install
-  - npm run build
+  - CI=false npm run build
 
 deploy:
   provider: pages
