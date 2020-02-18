@@ -1,6 +1,11 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 
+/**
+ * Data Science Portfolio
+ * @todo: add senior year stuff
+ * @constructor
+ */
 export const DataScience = () => {
   return (
     <Container className={'page'}>

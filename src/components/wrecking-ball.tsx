@@ -42,7 +42,7 @@ class Scene extends React.Component<SceneProps, SceneState> {
       engine: engine,
       options: {
         background: 'lightgrey',
-        wireframes: true,
+        wireframes: false,
         width,
         height
       }

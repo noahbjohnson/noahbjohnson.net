@@ -7,6 +7,10 @@ import { faDna, faFileAlt, faFileDownload } from '@fortawesome/free-solid-svg-ic
 import { Document, Page } from 'react-pdf'
 import { Link } from 'react-router-dom'
 
+/**
+ *
+ * @constructor
+ */
 export const About = () => {
   const { darkMode } = useContext(PreferencesContext)
   const [showResume, setShowResume] = useState<boolean>(false)
@@ -45,13 +49,15 @@ export const About = () => {
             <FontAwesomeIcon icon={faFileAlt}/> &nbsp;
             boring formal resume
           </Button><br/>
-          <a href={'https://github.com/noahbjohnson/dna'}><Button
-            variant={darkMode ? 'dark' : 'light'}
-            className={'resume-button'}
-          >
-            <FontAwesomeIcon icon={faDna}/> &nbsp;
-            my genome
-          </Button></a>
+          <a href={'https://github.com/noahbjohnson/dna'}>
+            <Button
+              variant={darkMode ? 'dark' : 'light'}
+              className={'resume-button'}
+            >
+              <FontAwesomeIcon icon={faDna}/> &nbsp;
+              my genome
+            </Button>
+          </a>
         </Col>
       </Row>
       <Row className={'about-section'}>
