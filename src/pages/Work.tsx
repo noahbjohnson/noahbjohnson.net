@@ -5,11 +5,9 @@ import WreckingBall from '../components/wrecking-ball'
 
 export const Work = () => {
   const [logoList, setLogoList] = useState<string[]>([
-    '/service-logos/firebase-2.svg',
     '/service-logos/typescript.svg',
     '/service-logos/slack-1.svg',
     '/service-logos/react.svg',
-    '/service-logos/klaviyo.svg',
     '/service-logos/javascript.svg'
   ])
   return (

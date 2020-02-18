@@ -49,19 +49,33 @@ class Scene extends React.Component<SceneProps, SceneState> {
     })
 
     // add bodies
-    let ground = Bodies.rectangle(width / 2, height, width - 20, 50, { isStatic: true }),
-      rockOptions = { density: 0.004 },
-      rock = Bodies.polygon(170, 450, 8, 20, rockOptions),
+    // let ground = Bodies.rectangle(width / 2, height, width - 20, 50, { isStatic: true }),
+    let rockOptions = { density: 0.004 },
+      rock = Bodies.polygon(170, 450, 80, 20, rockOptions),
       anchor = { x: 170, y: 450 },
       elastic = Constraint.create({
         pointA: anchor,
         bodyB: rock,
-        stiffness: 0.05
+        stiffness: 0.01
       })
 
     const images = this.state.logos
 
-    const pyramid = Composites.pyramid(500, 300, 9, 10, 0, 0, function (x: number, y: number) {
+    // const pyramid = Composites.pyramid(500, 300, 9, 10, 0, 0, function (x: number, y: number) {
+    //   return Bodies.rectangle(x, y, 25, 40, {
+    //     render: {
+    //       sprite: {
+    //         texture: choose(images),
+    //         xScale: .015,
+    //         yScale: .015,
+    //       }
+    //     }
+    //   })
+    // })
+
+    const ground2 = Bodies.rectangle(width / 1.2, 250, 200, 20, { isStatic: true, angle: -.075 })
+
+    const pyramid2 = Composites.pyramid(width / 1.2 - 50, 0, 5, 10, 0, 0, function (x: number, y: number) {
       return Bodies.rectangle(x, y, 25, 40, {
         render: {
           sprite: {
@@ -72,14 +86,8 @@ class Scene extends React.Component<SceneProps, SceneState> {
         }
       })
     })
-
-    const ground2 = Bodies.rectangle(610, 250, 200, 20, { isStatic: true })
-
-    const pyramid2 = Composites.pyramid(550, 0, 5, 10, 0, 0, function (x: number, y: number) {
-      return Bodies.rectangle(x, y, 25, 40)
-    })
-    World.add(engine.world, ground)
-    World.add(engine.world, pyramid)
+    // World.add(engine.world, ground)
+    // World.add(engine.world, pyramid)
     World.add(engine.world, ground2)
     World.add(engine.world, pyramid2)
     World.add(engine.world, rock)
@@ -87,9 +95,12 @@ class Scene extends React.Component<SceneProps, SceneState> {
 
     Events.on(engine, 'afterUpdate', function () {
       if (mouseConstraint.mouse.button === -1 && (rock.position.x > 190 || rock.position.y < 430)) {
-        rock = Bodies.polygon(170, 450, 7, 20, rockOptions)
-        World.add(engine.world, rock)
-        elastic.bodyB = rock
+        rock = Bodies.polygon(170, 450, 80, 20, rockOptions)
+        setTimeout(() => {
+          World.add(engine.world, rock)
+          elastic.bodyB = rock
+        }, 10)
+
       }
     })
 
