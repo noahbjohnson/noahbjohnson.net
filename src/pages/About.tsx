@@ -37,7 +37,7 @@ export const About = () => {
       <Row className={'about-section cover'}>
         <Col lg={12} className={`cover-header${darkMode ? ' dark' : ''}`}>
           <h1>about</h1>
-          <h3>my job is to automate my job</h3>
+          <h3>full-stack data science</h3>
           <Button
             variant={darkMode ? 'dark' : 'light'}
             className={'resume-button'}
