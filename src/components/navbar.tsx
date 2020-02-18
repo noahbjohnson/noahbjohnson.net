@@ -18,6 +18,7 @@ export const NavBar = () => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
           <Nav.Link><NavLink to={'/about'}>profile</NavLink></Nav.Link>
+          <Nav.Link><NavLink to={'/data-science'}>data science</NavLink></Nav.Link>
           <Nav.Link><NavLink to={'/work'}>work</NavLink></Nav.Link>
 
           {/*<NavDropdown title="projects" id="collapsible-nav-dropdown" className={'headerFont'}>*/}

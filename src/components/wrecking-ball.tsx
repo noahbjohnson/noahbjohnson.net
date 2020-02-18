@@ -42,7 +42,7 @@ class Scene extends React.Component<SceneProps, SceneState> {
       engine: engine,
       options: {
         background: 'lightgrey',
-        wireframes: false,
+        wireframes: true,
         width,
         height
       }
@@ -73,17 +73,18 @@ class Scene extends React.Component<SceneProps, SceneState> {
     //   })
     // })
 
-    const ground2 = Bodies.rectangle(width / 1.2, 250, 200, 20, { isStatic: true, angle: -.075 })
-
-    const pyramid2 = Composites.pyramid(width / 1.2 - 50, 0, 5, 10, 0, 0, function (x: number, y: number) {
-      return Bodies.rectangle(x, y, 25, 40, {
+    const ground2 = Bodies.rectangle(width / 1.2, height / 2, 200, 20, { isStatic: true, angle: -.075,
+      friction: .50 })
+    const pyramid2 = Composites.pyramid(width / 1.2 - 75, height/3, 5, 10, 0, 0, function (x: number, y: number) {
+      return Bodies.rectangle(x, y, 32, 30, {
         render: {
           sprite: {
             texture: choose(images),
             xScale: .015,
             yScale: .015,
           }
-        }
+        },
+        friction: .50
       })
     })
     // World.add(engine.world, ground)
