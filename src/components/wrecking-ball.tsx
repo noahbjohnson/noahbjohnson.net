@@ -1,6 +1,5 @@
 import React from 'react'
 import Matter, { Composites, Constraint, Events } from 'matter-js'
-
 interface SceneProps {
   logos: string[]
 }
@@ -76,12 +75,14 @@ class Scene extends React.Component<SceneProps, SceneState> {
     const ground2 = Bodies.rectangle(width / 1.2, height / 2, 200, 20, { isStatic: true, angle: -.075,
       friction: .50 })
     const pyramid2 = Composites.pyramid(width / 1.2 - 75, height/3, 5, 10, 0, 0, function (x: number, y: number) {
+      const image = choose(images)
+
       return Bodies.rectangle(x, y, 32, 30, {
         render: {
           sprite: {
-            texture: choose(images),
-            xScale: .015,
-            yScale: .015,
+            texture: image,
+            xScale: .1,
+            yScale: .1,
           }
         },
         friction: .50
