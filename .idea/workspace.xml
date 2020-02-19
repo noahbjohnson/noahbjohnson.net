@@ -3,11 +3,234 @@
   <component name="ChangeListManager">
     <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="cna">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/service-logos/firebase-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/service-logos/klaviyo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/BigQuery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AI Hub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AI Hub.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AI Platform Data Labeling Service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AI Platform Data Labeling Service.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AI Platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AI Platform.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Advanced Solutions Lab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Advanced Solutions Lab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Natural Language.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Natural Language.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Tables.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Tables.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Translation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Translation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Video Intelligence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Video Intelligence.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Vision.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/AutoML Vision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud AutoML.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud AutoML.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Inference API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Inference API.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Jobs API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Jobs API.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Natural Language API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Natural Language API.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Speech-to-Text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Speech-to-Text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud TPU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud TPU.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Text-to-Speech.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Text-to-Speech.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Translation API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Translation API.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Video Intelligence API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Video Intelligence API.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Vision API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Cloud Vision API.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Dialog Flow Enterprise Edition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Dialog Flow Enterprise Edition.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Recommendations AI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/AI and Machine Learning/Recommendations AI.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/API Analytics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/API Analytics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/API Monetization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/API Monetization.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/Apigee API Platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/Apigee API Platform.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/Apigee Sense.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/Apigee Sense.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/Cloud Endpoints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/Cloud Endpoints.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/Developer Portal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/API Management/Developer Portal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/App Engine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/App Engine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Cloud Functions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Cloud Functions.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Cloud Run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Cloud Run.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Compute Engine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Compute Engine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Container-Optimized OS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Container-Optimized OS.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/GKE On-Prem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/GKE On-Prem.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/GPU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/GPU.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Kubernetes Engine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Compute/Kubetnetes Engine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/BigQuery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Composer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Composer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Data Catalog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Data Catalog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Data Fusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Data Fusion.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Dataflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Dataflow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Datalab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Datalab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Dataprep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Dataprep.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Dataproc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud Dataproc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud PubSub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Cloud PubSub.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Genomics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Data Analytics/Genomics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Bigtable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Bigtable.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Datastore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Datastore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Firestore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Firestore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Memorystore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Memorystore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud SQL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud SQL.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Spanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Databases/Cloud Spanner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Build.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Build.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Code for IntelliJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Code for IntelliJ.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud SDK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud SDK.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Scheduler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Scheduler.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Source Repositories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Source Repositories.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Tasks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Tasks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Test Lab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Test Lab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Tools for Eclipse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Tools for Eclipse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Tools for PowerShell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Tools for PowerShell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Tools for Visual Studio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Cloud Tools for Visual Studio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Container Registry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Container Registry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Gradle App Engine Plugin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Gradle App Engine Plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/IDE Plugins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/IDE Plugins.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Maven App Engine Plugin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Developer Tools/Maven App Engine Plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Hybrid and Multi Cloud/Stackdriver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Hybrid and Multi Cloud/Stackdriver.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Hybrid and Multi Cloud/Traffic Director.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Hybrid and Multi Cloud/Traffic Director.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Internet of Things/Cloud IoT Core.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Internet of Things/Cloud IoT Core.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud APIs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud APIs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Billing API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Billing API.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Console.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Console.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Deployment Manager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Deployment Manager.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Mobile App.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Mobile App.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Service Mesh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Service Mesh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Shell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Cloud Shell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Debugger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Debugger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Error Reporting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Error Reporting.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Logging.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Logging.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Monitoring.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Profiler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Profiler.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Stackdriver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Stackdriver.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Trace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Management Tools/Trace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Migration/Transfer Appliance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Migration/Transfer Appliance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Armor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Armor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud CDN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud CDN.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud DNS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud DNS.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud External IP Addresses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud External IP Addresses.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Firewall Rules.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Firewall Rules.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Load Balancing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Load Balancing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud NAT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud NAT.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Network.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Router.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Router.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Routes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud Routes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud VPN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Cloud VPN.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Dedicated Interconnect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Dedicated Interconnect.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Partner Interconnect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Partner Interconnect.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Premium Network Tier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Premium Network Tier.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Standard Network Tier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Standard Network Tier.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Traffic Director.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Traffic Director.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Virtual Private Cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Networking/Virtual Private Cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Cloud IAM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Cloud IAM.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Cloud Resource Manager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Cloud Resource Manager.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Cloud Security Command Center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Cloud Security Command Center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Cloud Security Scanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Cloud Security Scanner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Key Management Service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Security/Key Management Service.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Storage/Cloud Filestore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Storage/Cloud Filestore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Storage/Cloud Storage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Storage/Cloud Storage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Storage/Persistent Disk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/GCP Icons/Products and services/Storage/Persistent Disk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/google-cloud-pub-sub-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/google-cloud-source-repositories.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/javascript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/salesforce-marketing-cloud-seeklogo.com.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-logos/typescript.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/wrecking-ball.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrecking-ball.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Stack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Stack.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +261,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript JSX" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;TypeScript JSX" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -50,6 +273,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/service-logos" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
@@ -85,7 +309,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
-      <workItem from="1581813013409" duration="81231000" />
+      <workItem from="1581813013409" duration="86776000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -360,16 +584,34 @@
       <option name="project" value="LOCAL" />
       <updated>1582001715799</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="copied over hardcoded data science projects">
+      <created>1582045801308</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1582045801309</updated>
+    </task>
+    <task id="LOCAL-00041" summary="cleanup">
+      <created>1582046727372</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1582046727372</updated>
+    </task>
+    <task id="LOCAL-00042" summary="comments">
+      <created>1582052303173</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1582052303173</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added my about info" />
-    <MESSAGE value="flex and darkmode fix" />
-    <MESSAGE value="finished up about page" />
     <MESSAGE value="more service logos" />
     <MESSAGE value="minigame start" />
     <MESSAGE value="tracking and cleanup for publish" />
@@ -392,17 +634,20 @@
     <MESSAGE value="force to github io" />
     <MESSAGE value="shitty blue buttons but working routes" />
     <MESSAGE value="more game like platform" />
-    <option name="LAST_COMMIT_MESSAGE" value="more game like platform" />
+    <MESSAGE value="copied over hardcoded data science projects" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581918607095">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1581918607095" />
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1582001713875">
+    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1582052302342">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582001713875" />
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582052302342" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1581911006846">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -423,10 +668,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="606" y="243" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581923550291" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582001722320">
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582084163348">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582001722320" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582084163348" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1581882068824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
