@@ -1,14 +1,20 @@
-import './work.css'
+import './stack.css'
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import WreckingBall from '../components/wrecking-ball'
 
-export const Work = () => {
+/**
+ * @todo: set up stack toggler and fix sprite scale
+ * @constructor
+ */
+export const Stack = () => {
   const [logoList, setLogoList] = useState<string[]>([
-    '/service-logos/typescript.svg',
-    '/service-logos/slack-1.svg',
-    '/service-logos/react.svg',
-    '/service-logos/javascript.svg'
+    '/sprites/Advanced Solutions Lab.png',
+    '/sprites/AI-Platform.png',
+    '/sprites/AI-Platform-Data-Labeling-Service.png',
+    '/sprites/API-Analytics.png',
+    '/sprites/API-Monetization.png',
+    '/sprites/Apigee-API-Platform.png'
   ])
   return (
     <Container fluid className={'page'}>

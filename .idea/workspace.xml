@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="cna">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/service-logos/firebase-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/service-logos/klaviyo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/wrecking-ball.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrecking-ball.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Stack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Stack.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
       <workItem from="1581813013409" duration="81231000" />
+      <workItem from="1582410513789" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>

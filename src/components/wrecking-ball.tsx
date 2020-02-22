@@ -1,5 +1,6 @@
 import React from 'react'
 import Matter, { Composites, Constraint, Events } from 'matter-js'
+
 interface SceneProps {
   logos: string[]
 }
@@ -29,12 +30,15 @@ class Scene extends React.Component<SceneProps, SceneState> {
       Mouse = Matter.Mouse,
       MouseConstraint = Matter.MouseConstraint
 
-    const engine = Engine.create({
-      // positionIterations: 20
-    })
+    const engine = Engine.create()
 
     const width = window.innerWidth * .9
     const height = window.innerHeight * .9
+
+    const launchPoint = {
+      x: 400,
+      y: 450
+    }
 
     const render = Render.create({
       element: this.refs.scene as HTMLElement,
@@ -48,10 +52,9 @@ class Scene extends React.Component<SceneProps, SceneState> {
     })
 
     // add bodies
-    // let ground = Bodies.rectangle(width / 2, height, width - 20, 50, { isStatic: true }),
     let rockOptions = { density: 0.004 },
-      rock = Bodies.polygon(170, 450, 80, 20, rockOptions),
-      anchor = { x: 170, y: 450 },
+      rock = Bodies.polygon(launchPoint.x, launchPoint.y, 80, 20, rockOptions),
+      anchor = { x: launchPoint.x, y: launchPoint.y },
       elastic = Constraint.create({
         pointA: anchor,
         bodyB: rock,
@@ -60,21 +63,11 @@ class Scene extends React.Component<SceneProps, SceneState> {
 
     const images = this.state.logos
 
-    // const pyramid = Composites.pyramid(500, 300, 9, 10, 0, 0, function (x: number, y: number) {
-    //   return Bodies.rectangle(x, y, 25, 40, {
-    //     render: {
-    //       sprite: {
-    //         texture: choose(images),
-    //         xScale: .015,
-    //         yScale: .015,
-    //       }
-    //     }
-    //   })
-    // })
-
-    const ground2 = Bodies.rectangle(width / 1.2, height / 2, 200, 20, { isStatic: true, angle: -.075,
-      friction: .50 })
-    const pyramid2 = Composites.pyramid(width / 1.2 - 75, height/3, 5, 10, 0, 0, function (x: number, y: number) {
+    const ground2 = Bodies.rectangle(width / 1.2, height / 2, 200, 20, {
+      isStatic: true, angle: -.075,
+      friction: .50
+    })
+    const pyramid2 = Composites.pyramid(width / 1.2 - 75, height / 3, 5, 10, 0, 0, function (x: number, y: number) {
       const image = choose(images)
 
       return Bodies.rectangle(x, y, 32, 30, {
@@ -88,16 +81,14 @@ class Scene extends React.Component<SceneProps, SceneState> {
         friction: .50
       })
     })
-    // World.add(engine.world, ground)
-    // World.add(engine.world, pyramid)
     World.add(engine.world, ground2)
     World.add(engine.world, pyramid2)
     World.add(engine.world, rock)
     World.add(engine.world, elastic)
 
     Events.on(engine, 'afterUpdate', function () {
-      if (mouseConstraint.mouse.button === -1 && (rock.position.x > 190 || rock.position.y < 430)) {
-        rock = Bodies.polygon(170, 450, 80, 20, rockOptions)
+      if (mouseConstraint.mouse.button === -1 && (rock.position.x > launchPoint.x + 20 || rock.position.y < launchPoint.y - 20)) {
+        rock = Bodies.polygon(launchPoint.x, launchPoint.y, 80, 20, rockOptions)
         setTimeout(() => {
           World.add(engine.world, rock)
           elastic.bodyB = rock
@@ -106,7 +97,7 @@ class Scene extends React.Component<SceneProps, SceneState> {
       }
     })
 
-// add mouse control
+    // add mouse control
     let mouse = Mouse.create(render.canvas)
     //@ts-ignore
     let mouseConstraint = MouseConstraint.create(engine, {
@@ -121,7 +112,7 @@ class Scene extends React.Component<SceneProps, SceneState> {
 
     World.add(engine.world, mouseConstraint)
 
-// keep the mouse in sync with rendering
+    // keep the mouse in sync with rendering
     // @ts-ignore
     render.mouse = mouse
 
