@@ -1,3 +1,9 @@
 .page {
     padding-top: 55px;
+    background-color: rgba(230, 230, 230, .75);
+}
+
+.page.dark {
+    background-color: rgba(10, 10, 10, .75);
+    color: whitesmoke;
 }
