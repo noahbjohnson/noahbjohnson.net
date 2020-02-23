@@ -22,6 +22,16 @@
     background-color: rgba(50, 50, 50, .75);
 }
 
+.ds-footer {
+    text-align: center;
+}
+
 .ds-header.dark {
     background-color: rgba(50, 50, 50, .75);
+}
+
+.ds-footer a {
+    color: whitesmoke;
+    font-size: 2em;
+    padding: 1em;
 }
