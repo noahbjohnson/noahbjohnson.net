@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
+import './datascience.css'
 
 /**
  * Data Science Portfolio
@@ -8,6 +9,7 @@ import { Card, Col, Container, Row } from 'react-bootstrap'
  */
 export const DataScience = () => {
   return (
+
     <Container className={'page'}>
       <header className={'ds-page-header'}>
         <Row>
@@ -123,7 +125,7 @@ export const DataScience = () => {
                  target="_blank" rel="noopener noreferrer">Read the Report</a>
             </Card.Footer>
           </Card></Col>
-        <Col md={6}>
+        <Col lg={6}>
           <Card className={'ds-card'}>
             <Card.Header className={'ds-header'}>An Analysis of World Happiness Data - <i>11/3/2017</i></Card.Header>
             <Card.Body className={'ds-body'}>
