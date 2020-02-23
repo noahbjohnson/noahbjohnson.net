@@ -81,12 +81,12 @@ export const About = () => {
           <p><b>academic interests: </b> sociology, algorithmic bias, archival science, generative adversarial networks
           </p>
         </Col>
-        <Col lg={6} className={'about-column'}>
+        <Col lg={6} className={`about-column`}>
           <h2>Work</h2>
           <div className={'job'}>
             <h4>Data Integration Engineer, Integration Engineer</h4>
             <h6>Trinity Insight LLC | Rochester, Minnesota | May 2019 - Present</h6>
-            <ul style={{ fontWeight: 400, fontFamily: 'Montserrat; sans-serif' }}>
+            <ul>
               <li>Custom serverless data pipelines and integrations on Google Cloud Platform</li>
               <li>Lead React application development for client portal and internal tooling</li>
               <li>Leverage Google BigQuery to ensure reliable conversion attribution and segmentation</li>

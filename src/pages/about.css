@@ -83,16 +83,33 @@
 .certifications img {
     max-height: 20vh;
 }
+
 .job h4 {
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
+
 .job h6 {
     font-weight: 200;
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .about-column {
     padding-right: 50px;
     padding-left: 50px;
+}
+
+.page.dark {
+    background-color: rgba(10, 10, 10, .75);
+    color: whitesmoke;
+}
+
+.page {
+    background-color: rgba(230, 230, 230, .75);
+}
+
+ul {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
