@@ -66,19 +66,22 @@ export const About = () => {
           <p>I'm a full-stack data scientist and engineer. I enjoy decoupling data architectures, refactoring code
             repeatedly, and abstracting infrastructure into json and yaml. Strong believer in the pillars of SCRUM:
             transparency, inspection, and adaptation.</p>
-          <p><b>pronouns: </b> he/him</p>
-          <p><b>great at: </b> internal tooling development & enablement, clearing roadblocks, conceptual communication,
+          <p><b>pronouns: <br/></b> he/him</p>
+          <p><b>great at: <br/></b> internal tooling development & enablement, clearing roadblocks, conceptual
+            communication,
             teaching
           </p>
-          <p><b>good at: </b> cloud stuff, standards, documentation, big picture, APIs, data models, data engineering
+          <p><b>good at: <br/></b> cloud stuff, standards, documentation, big picture, APIs, data models, data
+            engineering
           </p>
-          <p><b>pretty ok at: </b> project management, stakeholder management, proving ROI
+          <p><b>pretty ok at: <br/></b> project management, stakeholder management, proving ROI
           </p>
-          <p><b>not great at: </b> embedded & low-level, anything microsoft, LAMP stack, calling it 'good enough',
+          <p><b>not great at: <br/></b> embedded & low-level, anything microsoft, LAMP stack,
             avoiding scope creep</p>
-          <p><b>currently reading: </b> The Wheel of Time</p>
-          <p><b>hobbies: </b> digitizing film negatives, star trek, data hoarding</p>
-          <p><b>academic interests: </b> sociology, algorithmic bias, archival science, generative adversarial networks
+          <p><b>currently reading: <br/></b> The Wheel of Time</p>
+          <p><b>hobbies: <br/></b> digitizing film negatives, star trek, data hoarding</p>
+          <p><b>academic interests: <br/></b> sociology, algorithmic bias, archival science, generative adversarial
+            networks
           </p>
         </Col>
         <Col lg={6} className={`about-column`}>
@@ -87,23 +90,25 @@ export const About = () => {
             <h4>Data Integration Engineer, Integration Engineer</h4>
             <h6>Trinity Insight LLC | Rochester, Minnesota | May 2019 - Present</h6>
             <ul>
-              <li>Custom serverless data pipelines and integrations on Google Cloud Platform</li>
-              <li>Lead React application development for client portal and internal tooling</li>
-              <li>Leverage Google BigQuery to ensure reliable conversion attribution and segmentation</li>
-              <li>Maintain internal DevOps standards and practices and provide user support</li>
+              <li>Built Custom serverless data pipelines and integrations on Google Cloud Platform</li>
+              <li>Led React application development for client portal and internal tooling</li>
+              <li>Leveraged Google BigQuery to ensure reliable conversion attribution and segmentation</li>
+              <li>Maintain internal DevOps standards and practices and provided user support</li>
             </ul>
           </div>
           <div className={'job'}>
             <h4>Data Integration Analyst - Internship</h4>
             <h6>SC Data Center, Inc. | Monroe, Wisconsin | Summer 2018</h6>
             <ul style={{ fontWeight: 400, fontFamily: 'Montserrat; sans-serif' }}>
-              <li>Lead development on a serverless data dictionary web application for the data warehouse</li>
-              <li>Provided expansive business value with data provenance and metadata for all users</li>
-              <li>Assisted in company-wide efforts to lift-and-shift cobol mainframe routines to AWS</li>
+              <li>Led development on a serverless data dictionary web application for the data warehouse team</li>
+              <li>Provided extensive business value with clear data provenance and metadata for all users</li>
+              <li>Assisted in company-wide efforts to lift-and-shift cobol mainframe routines to an AWS-hosted Hadoop
+                cluster
+              </li>
             </ul>
           </div>
 
-          <Link to={'/work'}>Check out the work page for more detailed stack information and other work</Link>
+          {/*<Link to={'/work'}>Check out the work page for more detailed stack information and other work</Link>*/}
 
           <h2>Certifications</h2>
           <div className={'certifications'}>
