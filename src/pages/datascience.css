@@ -9,3 +9,19 @@
     width: 100%;
     text-align: center;
 }
+
+.page {
+    padding: 3em;
+}
+
+.dark.ds-card {
+    background-color: rgba(10, 10, 10, .75);
+}
+
+.ds-footer.dark {
+    background-color: rgba(50, 50, 50, .75);
+}
+
+.ds-header.dark {
+    background-color: rgba(50, 50, 50, .75);
+}
