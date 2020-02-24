@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="43d2c826-f085-4771-8f14-2cf6ca953462" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/DataScience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DataScience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,15 +45,18 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/assets/service-logos" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/content/dsProjects.tsx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -82,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581813010291</updated>
       <workItem from="1581813013409" duration="81231000" />
-      <workItem from="1582410513789" duration="3063000" />
+      <workItem from="1582410513789" duration="12020000" />
     </task>
     <task id="LOCAL-00001" summary="recreated navbar">
       <created>1581829925946</created>
@@ -364,21 +367,69 @@
       <option name="project" value="LOCAL" />
       <updated>1582412099823</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="added new projects">
+      <created>1582414227271</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1582414227271</updated>
+    </task>
+    <task id="LOCAL-00042" summary="data science styling">
+      <created>1582418585735</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1582418585735</updated>
+    </task>
+    <task id="LOCAL-00043" summary="about dark mode">
+      <created>1582418931089</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1582418931089</updated>
+    </task>
+    <task id="LOCAL-00044" summary="data science dark mode">
+      <created>1582419818847</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1582419818847</updated>
+    </task>
+    <task id="LOCAL-00045" summary="general page dark mode">
+      <created>1582419828934</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1582419828934</updated>
+    </task>
+    <task id="LOCAL-00046" summary="changed some wording">
+      <created>1582498563593</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1582498563593</updated>
+    </task>
+    <task id="LOCAL-00047" summary="ds project buttons">
+      <created>1582499153982</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1582499153982</updated>
+    </task>
+    <task id="LOCAL-00048" summary="paramatized ds projects">
+      <created>1582504557056</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1582504557056</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="flex and darkmode fix" />
-    <MESSAGE value="finished up about page" />
-    <MESSAGE value="more service logos" />
-    <MESSAGE value="minigame start" />
-    <MESSAGE value="tracking and cleanup for publish" />
-    <MESSAGE value="format" />
-    <MESSAGE value="some logos in ma game" />
-    <MESSAGE value="travis setup" />
     <MESSAGE value="travis and dependency updates" />
     <MESSAGE value="npm ci error" />
     <MESSAGE value="npm ci fix" />
@@ -396,17 +447,26 @@
     <MESSAGE value="shitty blue buttons but working routes" />
     <MESSAGE value="more game like platform" />
     <MESSAGE value="stack page cleanup for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack page cleanup for now" />
+    <MESSAGE value="added new projects" />
+    <MESSAGE value="data science styling" />
+    <MESSAGE value="about dark mode" />
+    <MESSAGE value="data science dark mode" />
+    <MESSAGE value="general page dark mode" />
+    <MESSAGE value="changed some wording" />
+    <MESSAGE value="ds project buttons" />
+    <MESSAGE value="paramatized ds projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="paramatized ds projects" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581918607095">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1581918607095" />
-    <state x="410" y="129" key="CommitChangelistDialog2" timestamp="1582412098920">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="410" y="149" key="CommitChangelistDialog2" timestamp="1582504556205">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582412098920" />
+    <state x="410" y="129" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582499153612" />
+    <state x="410" y="149" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582504556205" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1581911006846">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -427,10 +487,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="606" y="243" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581923550291" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582412101991">
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582499254491">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582412101991" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582499254491" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1581882068824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
