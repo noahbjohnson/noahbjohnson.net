@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Button, ButtonGroup } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -11,37 +11,61 @@ import {
   faTwitter
 } from '@fortawesome/free-brands-svg-icons'
 import { faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import ReactGA from 'react-ga'
+import { PreferencesContext } from '../contexts/Preferences'
+import './footer.css'
 
-export const Footer = () => {
+const Footer = () => {
+  const { darkMode } = useContext(PreferencesContext)
   return (
-    <ButtonGroup size="lg" style={{position: 'fixed', bottom: 0}}>
-      <a href="https://www.linkedin.com/in/noahbjohnson/" target="_blank">
-        <Button><FontAwesomeIcon icon={faLinkedin}/></Button>
-      </a>
-      <a href="https://github.com/noahbjohnson" target="_blank">
-        <Button><FontAwesomeIcon icon={faGithub}/></Button>
-      </a>
-      <a href="https://stackoverflow.com/users/5379654/noah-b-johnson" target="_blank">
-        <Button><FontAwesomeIcon icon={faStackOverflow}/></Button>
-      </a>
-      <a href="https://twitter.com/NoahBJ" target="_blank">
-        <Button><FontAwesomeIcon icon={faTwitter}/></Button>
-      </a>
-      <a href="https://www.instagram.com/noahbjohnsonphotos/" target="_blank">
-        <Button><FontAwesomeIcon icon={faInstagram}/></Button>
-      </a>
-      <a href="mailto:noah@noahbjohnson.net" target="_blank">
-        <Button><FontAwesomeIcon icon={faEnvelope}/></Button>
-      </a>
-      <a href="https://www.flickr.com/noahbjohnson/" target="_blank">
-        <Button><FontAwesomeIcon icon={faFlickr}/></Button>
-      </a>
-      <a href="skype:noah.johnson2015" target="_blank">
-        <Button><FontAwesomeIcon icon={faSkype}/></Button>
-      </a>
-      <a href="sms:noahbjohnson@icloud.com" target="_blank">
-        <Button><FontAwesomeIcon icon={faComment}/></Button>
-      </a>
-    </ButtonGroup>
+    <div style={{
+      bottom: 0,
+      backgroundColor: darkMode ? 'rgba(10, 10, 10, .75)' : 'rgba(230, 230, 230, .75)',
+      width: '100%',
+      textAlign: 'center'
+    }}>
+      <ButtonGroup size="lg">
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="https://www.linkedin.com/in/noahbjohnson/" target="_blank"
+                              eventLabel={'LinkedIn'}>
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faLinkedin}/></Button>
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="https://github.com/noahbjohnson" eventLabel={'github'}
+                              target="_blank">
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faGithub}/></Button>
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="https://stackoverflow.com/users/5379654/noah-b-johnson"
+                              eventLabel={'stack overflow'}
+                              target="_blank">
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon
+            icon={faStackOverflow}/></Button>
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="https://twitter.com/NoahBJ" eventLabel={'twitter'}
+                              target="_blank">
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faTwitter}/></Button>
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="https://www.instagram.com/noahbjohnsonphotos/"
+                              eventLabel={'instagram'} target="_blank">
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faInstagram}/></Button>
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="mailto:noah@noahbjohnson.net" eventLabel={'email'}
+                              target="_blank">
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faEnvelope}/></Button>
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="https://www.flickr.com/noahbjohnson/" eventLabel={'flickr'}
+                              target="_blank">
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faFlickr}/></Button>
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="skype:noah.johnson2015" eventLabel={'skype'}
+                              target="_blank">
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faSkype}/></Button>
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="sms:noahbjohnson@icloud.com" eventLabel={'sms'}
+                              target="_blank">
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faComment}/></Button>
+        </ReactGA.OutboundLink>
+      </ButtonGroup>
+    </div>
   )
 }
+
+export default Footer

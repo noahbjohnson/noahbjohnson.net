@@ -9,6 +9,7 @@ import { Stack } from './pages/Stack'
 import { DataScience } from './pages/DataScience'
 import { dataScienceProjects } from './content/dsProjects'
 import { withTracker } from './tracker'
+import Footer from './components/footer'
 
 function dsWrapper () {
   return (<DataScience projects={dataScienceProjects}/>)
@@ -27,6 +28,7 @@ function App () {
               <Route path='/data-science' component={withTracker(dsWrapper)}/>
               <Redirect path={'**'} to={'/about'}/>
             </Switch>
+            <Footer />
           </div>
         )}
       </PreferencesContext.Consumer>

@@ -9,7 +9,8 @@ export const withTracker = <P extends RouteComponentProps> (
   ReactGA.initialize('UA-158638918-1', {
     gaOptions: {
       siteSpeedSampleRate: 100
-    }
+    },
+    testMode: window.location.hostname === "localhost"
   })
   const trackPage = (page: string) => {
     ReactGA.set({ page, ...options })
