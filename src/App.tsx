@@ -28,7 +28,7 @@ function App () {
               <Route path='/about' component={withTracker(About)}/>
               <Route path='/my-stack' component={withTracker(Stack)}/>
               <Route path='/data-science' component={withTracker(dsWrapper)}/>
-              <Route exact path="/blog/:slug" component={withTracker(BlogEntry)} />
+              <Route exact path="/blog/:slug" component={withTracker(BlogEntry)}/>
               <Route path='/blog' component={withTracker(Blog)}/>
               <Redirect path={'**'} to={'/about'}/>
             </Switch>
