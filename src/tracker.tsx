@@ -8,7 +8,8 @@ export const withTracker = <P extends RouteComponentProps> (
 ) => {
   ReactGA.initialize('UA-158638918-1', {
     gaOptions: {
-      siteSpeedSampleRate: 100
+      siteSpeedSampleRate: 100,
+      alwaysSendReferrer: true
     },
     testMode: window.location.hostname === "localhost"
   })
