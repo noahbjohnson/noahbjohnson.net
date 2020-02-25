@@ -6,7 +6,11 @@ export const withTracker = <P extends RouteComponentProps> (
   WrappedComponent: React.ComponentType<P>,
   options: FieldsObject = {},
 ) => {
-  ReactGA.initialize('UA-158638918-1')
+  ReactGA.initialize('UA-158638918-1', {
+    gaOptions: {
+      siteSpeedSampleRate: 100
+    }
+  })
   const trackPage = (page: string) => {
     ReactGA.set({ page, ...options })
     ReactGA.pageview(page)

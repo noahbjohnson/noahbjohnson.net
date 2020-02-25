@@ -5,7 +5,7 @@ import { PreferencesContext } from '../contexts/Preferences'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDna, faFileAlt, faFileDownload } from '@fortawesome/free-solid-svg-icons'
 import { Document, Page } from 'react-pdf'
-import { Link } from 'react-router-dom'
+import ReactGA from 'react-ga'
 
 /**
  *
@@ -22,12 +22,12 @@ export const About = () => {
           <Button variant="secondary" onClick={() => {setShowResume(false)}}>
             Close
           </Button>
-          <Link to="/resume.pdf" target="_blank" download>
+          <ReactGA.OutboundLink to="/resume.pdf" target="_blank" download eventLabel={'resume'}>
             <Button variant="outline-dark">
               <FontAwesomeIcon icon={faFileDownload}/> &nbsp;
               Download PDF
             </Button>
-          </Link>
+          </ReactGA.OutboundLink>
         </Modal.Header>
         <Modal.Body>
           <Document
@@ -45,11 +45,19 @@ export const About = () => {
           <Button
             variant={darkMode ? 'dark' : 'light'}
             className={'resume-button'}
-            onClick={() => {setShowResume(!showResume)}}>
+            onClick={() => {
+              ReactGA.modalview('resume')
+              ReactGA.event({
+                category: 'User',
+                action: 'Opened Resume Modal'
+              })
+              setShowResume(!showResume)
+            }}>
             <FontAwesomeIcon icon={faFileAlt}/> &nbsp;
             boring formal resume
           </Button><br/>
-          <a href={'https://github.com/noahbjohnson/dna'}>
+          <ReactGA.OutboundLink to={'https://github.com/noahbjohnson/dna'} target="_blank" rel="noopener noreferrer"
+                                eventLabel={'dna'}>
             <Button
               variant={darkMode ? 'dark' : 'light'}
               className={'resume-button'}
@@ -57,7 +65,7 @@ export const About = () => {
               <FontAwesomeIcon icon={faDna}/> &nbsp;
               my genome
             </Button>
-          </a>
+          </ReactGA.OutboundLink>
         </Col>
       </Row>
       <Row className={'about-section'}>
