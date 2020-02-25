@@ -3,6 +3,7 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { PreferencesContext } from '../contexts/Preferences'
 import { BlogPosts } from '../content/blogPosts'
 import { Link } from 'react-router-dom'
+import './blog.css'
 
 export interface BlogPost {
   title: string
@@ -28,25 +29,23 @@ export const Blog = () => {
       </Row>
     </header>
     <Row>
-      <Col lg={12}>
-        {BlogPosts.map((post, index) => {
-          return <Col lg={6} key={index}>
-            <Card className={`ds-card ${darkMode ? 'dark' : 'light'}`}>
-              <Card.Header
-                className={`ds-header ${darkMode ? 'dark' : 'light'}`}>{post.tags} - <i>{post.date}</i></Card.Header>
-              <Card.Body className={`ds-body ${darkMode ? 'dark' : 'light'}`}>
-                <Card.Title className={`ds-title ${darkMode ? 'dark' : 'light'}`}>{post.title}</Card.Title>
-                <Card.Text className={`ds-text ${darkMode ? 'dark' : 'light'}`}>{post.summary}</Card.Text>
-              </Card.Body>
-              <Card.Footer className={`${darkMode ? 'dark' : 'light'}`}>
-                <Link to={`/blog/${post.slug}`}>
-                  <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>{post.slug}</Button>
-                </Link>
-              </Card.Footer>
-            </Card>
-          </Col>
-        })}
-      </Col>
+      {BlogPosts.map((post, index) => {
+        return <Col lg={6} key={index}>
+          <Card className={`blog-card ${darkMode ? 'dark' : 'light'}`}>
+            <Card.Header
+              className={`blog-header ${darkMode ? 'dark' : 'light'}`}>{post.tags?.join(', ').toLowerCase()} - <i>{post.date}</i></Card.Header>
+            <Card.Body className={`blog-body ${darkMode ? 'dark' : 'light'}`}>
+              <Card.Title className={`blog-title ${darkMode ? 'dark' : 'light'}`}>{post.title}</Card.Title>
+              <Card.Text className={`blog-text ${darkMode ? 'dark' : 'light'}`}>{post.summary}</Card.Text>
+            </Card.Body>
+            <Card.Footer className={`blog-footer ${darkMode ? 'dark' : 'light'}`}>
+              <Link to={`/blog/${post.slug}`}>
+                <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>Read</Button>
+              </Link>
+            </Card.Footer>
+          </Card>
+        </Col>
+      })}
     </Row>
   </Container>
 }
