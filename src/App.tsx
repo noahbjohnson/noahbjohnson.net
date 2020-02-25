@@ -14,7 +14,6 @@ import Footer from './components/footer'
 function dsWrapper () {
   return (<DataScience projects={dataScienceProjects}/>)
 }
-
 function App () {
   return (
     <PreferencesProvider>
@@ -28,7 +27,7 @@ function App () {
               <Route path='/data-science' component={withTracker(dsWrapper)}/>
               <Redirect path={'**'} to={'/about'}/>
             </Switch>
-            <Footer />
+            <Footer/>
           </div>
         )}
       </PreferencesContext.Consumer>

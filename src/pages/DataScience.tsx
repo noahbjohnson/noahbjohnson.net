@@ -52,7 +52,7 @@ interface DsProps {
 export const DataScience: FC<DsProps> = (props) => {
   const { darkMode } = useContext(PreferencesContext)
   return (
-    <Container className={`page ${darkMode ? 'dark' : 'light'}`} fluid>
+    <Container className={`page ds-page ${darkMode ? 'dark' : 'light'}`} fluid>
       <header className={'ds-page-header'}>
         <Row>
           <Col lg={12}>
