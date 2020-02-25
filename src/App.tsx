@@ -8,6 +8,7 @@ import { About } from './pages/About'
 import { Stack } from './pages/Stack'
 import { DataScience } from './pages/DataScience'
 import { dataScienceProjects } from './content/dsProjects'
+import { withTracker } from './tracker'
 
 function dsWrapper () {
   return (<DataScience projects={dataScienceProjects}/>)
@@ -21,9 +22,9 @@ function App () {
           <div className="App">
             <NavBar/>
             <Switch>
-              <Route path='/about' component={About}/>
-              <Route path='/my-stack' component={Stack}/>
-              <Route path='/data-science' component={dsWrapper}/>
+              <Route path='/about' component={withTracker(About)}/>
+              <Route path='/my-stack' component={withTracker(Stack)}/>
+              <Route path='/data-science' component={withTracker(dsWrapper)}/>
               <Redirect path={'**'} to={'/about'}/>
             </Switch>
           </div>

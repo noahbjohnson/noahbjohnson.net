@@ -2,9 +2,6 @@ import React, { FC, useContext } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import './datascience.css'
 import { PreferencesContext } from '../contexts/Preferences'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faChartBar, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 
 interface FooterButton {
   /**
