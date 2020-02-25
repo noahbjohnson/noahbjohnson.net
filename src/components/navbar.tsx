@@ -19,6 +19,7 @@ export const NavBar = () => {
         <Nav>
           <Nav.Link><NavLink to={'/about'}>profile</NavLink></Nav.Link>
           <Nav.Link><NavLink to={'/data-science'}>data science</NavLink></Nav.Link>
+          <Nav.Link><NavLink to={'/blog'}>blog</NavLink></Nav.Link>
           <Nav.Link><NavLink to={'/my-stack'}>my stack</NavLink></Nav.Link>
 
           {/*<NavDropdown title="projects" id="collapsible-nav-dropdown" className={'headerFont'}>*/}
