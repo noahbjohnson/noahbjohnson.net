@@ -11,6 +11,7 @@ import { dataScienceProjects } from './content/dsProjects'
 import { withTracker } from './tracker'
 import Footer from './components/footer'
 import { Blog } from './pages/blog'
+import { BlogEntry } from './pages/BlogEntry'
 
 function dsWrapper () {
   return (<DataScience projects={dataScienceProjects}/>)
@@ -27,6 +28,7 @@ function App () {
               <Route path='/about' component={withTracker(About)}/>
               <Route path='/my-stack' component={withTracker(Stack)}/>
               <Route path='/data-science' component={withTracker(dsWrapper)}/>
+              <Route exact path="/blog/:slug" component={BlogEntry} />
               <Route path='/blog' component={withTracker(Blog)}/>
               <Redirect path={'**'} to={'/about'}/>
             </Switch>

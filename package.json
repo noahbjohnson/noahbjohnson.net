@@ -9,6 +9,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.8",
+    "@types/superagent": "^4.1.7",
     "bootstrap": "^4.4.1",
     "matter-js": "^0.14.2",
     "react": "^16.12.0",
@@ -19,6 +20,7 @@
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
     "react-toggle": "^4.1.1",
+    "superagent": "^5.2.2",
     "typescript": "^3.7.5"
   },
   "devDependencies": {
