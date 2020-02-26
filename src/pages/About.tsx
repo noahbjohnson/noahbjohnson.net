@@ -87,7 +87,7 @@ export const About = () => {
           <p><b>not great at: <br/></b> embedded & low-level, anything microsoft, LAMP stack,
             avoiding scope creep</p>
           <p><b>currently reading: <br/></b> The Wheel of Time</p>
-          <p><b>hobbies: <br/></b> digitizing film negatives, star trek, data hoarding</p>
+          <p><b>hobbies: <br/></b> genealogy, digitizing film negatives, star trek, data hoarding</p>
           <p><b>academic interests: <br/></b> sociology, algorithmic bias, archival science, generative adversarial
             networks
           </p>
