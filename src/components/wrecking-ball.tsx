@@ -14,11 +14,11 @@ function choose (choices: any[]) {
   return choices[index]
 }
 
-const Scene2: FC<SceneProps> = (props) => {
-  const [logos, setLogos] = useState<string[]>(props.logos)
-
-
-}
+// const Scene2: FC<SceneProps> = (props) => {
+//   const [logos, setLogos] = useState<string[]>(props.logos)
+//
+//
+// }
 
 class Scene extends React.Component<SceneProps, SceneState> {
   constructor (props: Readonly<SceneProps>) {
