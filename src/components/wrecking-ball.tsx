@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC, useState } from 'react'
 import Matter, { Composites, Constraint, Events } from 'matter-js'
 
 interface SceneProps {
@@ -12,6 +12,12 @@ interface SceneState {
 function choose (choices: any[]) {
   const index = Math.floor(Math.random() * choices.length)
   return choices[index]
+}
+
+const Scene2: FC<SceneProps> = (props) => {
+  const [logos, setLogos] = useState<string[]>(props.logos)
+
+
 }
 
 class Scene extends React.Component<SceneProps, SceneState> {
@@ -122,7 +128,7 @@ class Scene extends React.Component<SceneProps, SceneState> {
   }
 
   render () {
-    return <div ref="scene"/>
+    return window.innerWidth > 750 ? <div ref="scene"/> : <p>Your screen is too narrow</p>
   }
 }
 

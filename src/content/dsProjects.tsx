@@ -102,15 +102,11 @@ Seaborn to visually identify patterns in the data.`
     date: 'Dec, 2017',
     bodyText: [
       `
-      The purpose of this analysis is to build a
-model that can accurately
-determine if someone’s
-income
-is over $50,000 or under/equal. The data used in this analysis was downloaded from the website
-data.world
-as
-a complete package including a training set and test set. (original attribution is at the end of this
-document) The data was originally obtained from the US census bureau and includes information about
+      The purpose of this analysis was to build a
+model that could accurately determine if someone’s
+income is over $50,000. The data used in this analysis was downloaded from the website
+data.world as a complete package including a training set and test set. The data was originally obtained from the 
+US census bureau and includes information about
 employment, education, and demographics.`
     ],
     footerButtons: [
