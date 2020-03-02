@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
-import './navbar.css'
+import '../assets/styles/navbar.css'
 import 'react-toggle/style.css'
 import { PreferencesContext } from '../contexts/Preferences'
 import Toggle from 'react-toggle'

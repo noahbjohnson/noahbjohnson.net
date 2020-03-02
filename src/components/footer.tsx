@@ -13,7 +13,7 @@ import {
 import { faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import ReactGA from 'react-ga'
 import { PreferencesContext } from '../contexts/Preferences'
-import './footer.css'
+import '../assets/styles/footer.css'
 
 const Footer = () => {
   const { darkMode } = useContext(PreferencesContext)

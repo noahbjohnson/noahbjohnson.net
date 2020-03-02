@@ -3,7 +3,7 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { PreferencesContext } from '../contexts/Preferences'
 import { BlogPosts } from '../content/blogPosts'
 import { Link } from 'react-router-dom'
-import './blog.css'
+import '../assets/styles/blog.css'
 
 export interface BlogPost {
   title: string

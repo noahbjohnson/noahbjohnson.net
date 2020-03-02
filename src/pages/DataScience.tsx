@@ -1,6 +1,6 @@
 import React, { FC, useContext } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import './datascience.css'
+import '../assets/styles/datascience.css'
 import { PreferencesContext } from '../contexts/Preferences'
 import ReactGA from 'react-ga'
 interface FooterButton {

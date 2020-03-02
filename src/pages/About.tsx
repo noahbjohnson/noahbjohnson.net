@@ -1,6 +1,6 @@
 import { Button, Col, Container, Modal, Row } from 'react-bootstrap'
 import React, { useContext, useState } from 'react'
-import './about.css'
+import '../assets/styles/about.css'
 import { PreferencesContext } from '../contexts/Preferences'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDna, faFileAlt, faFileDownload } from '@fortawesome/free-solid-svg-icons'

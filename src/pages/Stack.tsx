@@ -1,4 +1,4 @@
-import './stack.css'
+import '../assets/styles/stack.css'
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import WreckingBall from '../components/wrecking-ball'

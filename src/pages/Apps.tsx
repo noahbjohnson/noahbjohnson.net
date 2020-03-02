@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { PreferencesContext } from '../contexts/Preferences'
-import './apps.css'
+import '../assets/styles/apps.css'
 
 export const Apps = () => {
   const { darkMode } = useContext(PreferencesContext)
