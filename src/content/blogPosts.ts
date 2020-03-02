@@ -1,4 +1,4 @@
-import { BlogPost } from '../pages/Blog'
+import { BlogPost } from '../pages/blog'
 
 /**
  * Posts in the /blog folder should use the format: "{slug}.md"
