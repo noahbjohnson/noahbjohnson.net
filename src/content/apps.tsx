@@ -1,11 +1,15 @@
 import { FC } from 'react'
 import { Reps } from './apps/reps'
 
-type app = {
+export type app = {
   /**
    * The name of the app...
    */
   name: string
+  /**
+   *
+   */
+  slug: string
   /**
    * Brief description of the app
    */
@@ -23,6 +27,7 @@ type app = {
 export const myApps: app[] = [
   {
     name: 'reps',
+    slug: 'reps',
     description: 'discover your elected representatives',
     component: Reps
   }

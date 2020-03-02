@@ -13,6 +13,7 @@ import Footer from './components/footer'
 import { Blog } from './pages/Blog'
 import { BlogEntry } from './pages/BlogEntry'
 import { Apps } from './pages/Apps'
+import { AppEntry } from './pages/App'
 
 function dsWrapper () {
   return (<DataScience projects={dataScienceProjects}/>)
@@ -31,6 +32,7 @@ function App () {
               <Route path='/data-science' component={withTracker(dsWrapper)}/>
               <Route exact path="/blog/:slug" component={withTracker(BlogEntry)}/>
               <Route path='/blog' component={withTracker(Blog)}/>
+              <Route path='/apps/:slug' component={withTracker(AppEntry)}/>
               <Route path='/apps' component={withTracker(Apps)}/>
               <Redirect path={'**'} to={'/about'}/>
             </Switch>

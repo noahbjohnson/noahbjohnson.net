@@ -25,8 +25,8 @@ export const Apps = () => {
               <Card.Text className={`blog-text ${darkMode ? 'dark' : 'light'}`}>{app.description}</Card.Text>
             </Card.Body>
             <Card.Footer className={`blog-footer ${darkMode ? 'dark' : 'light'}`}>
-              <Link to={`/blog/${app.blogSlug || ''}`}>
-                <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>Read</Button>
+              <Link to={`/apps/${app.slug || ''}`}>
+                <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>Open</Button>
               </Link>
             </Card.Footer>
           </Card>
