@@ -10,7 +10,7 @@ import { DataScience } from './pages/DataScience'
 import { dataScienceProjects } from './content/dsProjects'
 import { withTracker } from './tracker'
 import Footer from './components/footer'
-import { Blog } from './pages/blog'
+import { Blog } from './pages/Blog'
 import { BlogEntry } from './pages/BlogEntry'
 import { Apps } from './pages/Apps'
 
