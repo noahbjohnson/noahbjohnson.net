@@ -16,7 +16,7 @@ export const AppEntry: FC<RouteComponentProps<AppEntryProps>> = (props) => {
   const slug = props.match?.params.slug || ''
   const [contents, setContents] = useState<FC | undefined>()
 
-  useEffect(()=>{
+  useEffect(() => {
     const appMatch = myApps.filter(x => x.slug === slug)
 
     if (appMatch.length === 0) {
@@ -28,8 +28,6 @@ export const AppEntry: FC<RouteComponentProps<AppEntryProps>> = (props) => {
       setContents(appMatch[0].component)
     }
   }, [])
-
-
 
   return <Container className={`page ${darkMode ? 'dark' : 'light'}`} fluid>
     <header>

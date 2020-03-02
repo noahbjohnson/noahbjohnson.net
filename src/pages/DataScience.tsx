@@ -3,6 +3,7 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import '../assets/styles/datascience.css'
 import { PreferencesContext } from '../contexts/Preferences'
 import ReactGA from 'react-ga'
+
 interface FooterButton {
   /**
    * Button link url
@@ -78,7 +79,8 @@ export const DataScience: FC<DsProps> = (props) => {
                 <Card.Footer className={`ds-footer ${darkMode ? 'dark' : 'light'}`}>
                   <></>
                   {project.footerButtons.map((footerButton, index2) => {
-                    return <ReactGA.OutboundLink eventLabel={project.title} to={footerButton.link} target="_blank" rel="noopener noreferrer" key={index2}>
+                    return <ReactGA.OutboundLink eventLabel={project.title} to={footerButton.link} target="_blank"
+                                                 rel="noopener noreferrer" key={index2}>
                       <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>
                         {footerButton.icon || ''} {footerButton.text}
                       </Button>
