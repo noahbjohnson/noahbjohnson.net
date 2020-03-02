@@ -10,7 +10,11 @@ export const dataScienceProjects: DsProject[] = [
     subtitle: 'Completed for the Senior Project requirement at Luther College',
     date: 'May, 2019',
     bodyText: [
-      'Tourism is often regarded as a positive force for its perceived effects on economic development, modernization, and globalization of destination populations. Much of the analysis of this issue relies on a number of assumptions about the nature of \'development\' and its accoutrement. Significant relationships are often taken out of context or extrapolated inappropriately. The purpose of this analysis is to identify other correlations with tourist activity to provide further context to relationships and demonstrate the limitations of underlying assumptions.'
+      'Tourism is often regarded as a positive force for its perceived effects on economic development, modernization, ' +
+      'and globalization of destination populations. Much of the analysis of this issue relies on a number of assumptions ' +
+      'about the nature of \'development\' and its accoutrement. Significant relationships are often taken out of context ' +
+      'or extrapolated inappropriately. The purpose of this analysis is to identify other correlations with tourist activity ' +
+      'to provide further context to relationships and demonstrate the limitations of underlying assumptions.'
     ],
     footerButtons: [
       {
