@@ -25,7 +25,8 @@ export const Reps: FC = () => {
         .get('https://www.googleapis.com/civicinfo/v2/representatives')
         .query({
           key,
-          address: addressValue
+          address: addressValue,
+          prettyPrint: false
         })
         .then((res) => {
           setVoterInfo(res.body)
