@@ -78,8 +78,11 @@ export const Reps: FC = () => {
             <h4>Select a Constituency</h4>
             <Accordion> {
               Object.entries(voterInfo.divisions).map((division: [string, any], key) => {
-                return <Card key={key}>
-                  <Card.Header onClick={()=>ReactGA.event({ category: 'Apps', action: 'Viewed Division Representatives' })}>
+                return <Card key={key} className={`card ${darkMode ? 'dark' : 'light'}`}>
+                  <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`} onClick={() => ReactGA.event({
+                    category: 'Apps',
+                    action: 'Viewed Division Representatives'
+                  })}>
                     <Accordion.Toggle as={Button} variant="link" eventKey={String(key)}
                                       disabled={!division[1]?.officeIndices}>
                       {division[1].name}
@@ -87,9 +90,9 @@ export const Reps: FC = () => {
                   </Card.Header>
                   {division[1]?.officeIndices
                     ? <Accordion.Collapse eventKey={String(key)}>
-                      <Card.Body>{
-                        division[1].officeIndices.map((officeIndex: number) => {
-                          return <OfficeCard key={key} office={voterInfo.offices[officeIndex]}
+                      <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>{
+                        division[1].officeIndices.map((officeIndex: number, key2: number) => {
+                          return <OfficeCard key={key2} office={voterInfo.offices[officeIndex]}
                                              officials={voterInfo.officials}/>
                         })
                       }</Card.Body>

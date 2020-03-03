@@ -7,3 +7,18 @@
     background-color: rgba(10, 10, 10, .75);
     color: whitesmoke;
 }
+
+.card.dark {
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+}
+
+.card-body.dark {
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+}
+
+.card-header.dark {
+    background-color: rgb(10, 10, 10);
+    color: whitesmoke;
+}

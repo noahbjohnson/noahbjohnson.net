@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import { Official, OfficialCard } from './officialCard'
+import { PreferencesContext } from '../../../contexts/Preferences'
 
 export interface Office {
   name: string
@@ -13,11 +14,13 @@ interface officeCardProps {
 }
 
 export const OfficeCard: React.FC<officeCardProps> = (props) => {
-  return <Card>
-    <Card.Header>
+  const { darkMode } = React.useContext(PreferencesContext)
+
+  return <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
+    <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`}>
       {props.office.name}
     </Card.Header>
-    <Card.Body>
+    <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>
       {props.office.officialIndices.map((officialIndex: number, key2: number) => {
         return <OfficialCard key={key2} official={props.officials[officialIndex]}/>
       })}
