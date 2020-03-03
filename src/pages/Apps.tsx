@@ -5,6 +5,7 @@ import '../assets/styles/apps.css'
 import { Link, Route, Switch } from 'react-router-dom'
 import { Reps } from '../content/apps/reps'
 import { withTracker } from '../tracker'
+import { Vote } from '../content/apps/vote'
 
 const DefaultView: FC = () => {
   const { darkMode } = useContext(PreferencesContext)
@@ -32,6 +33,20 @@ const DefaultView: FC = () => {
           </Card.Footer>
         </Card>
       </Col>
+      <Col lg={6}>
+        <Card className={`blog-card ${darkMode ? 'dark' : 'light'}`}>
+          <Card.Body className={`blog-body ${darkMode ? 'dark' : 'light'}`}>
+            <Card.Title className={`blog-title ${darkMode ? 'dark' : 'light'}`}>vote</Card.Title>
+            <Card.Text className={`blog-text ${darkMode ? 'dark' : 'light'}`}>find your polling location and view a
+            sample ballot</Card.Text>
+          </Card.Body>
+          <Card.Footer className={`blog-footer ${darkMode ? 'dark' : 'light'}`}>
+            <Link to={'/apps/vote'}>
+              <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>Open</Button>
+            </Link>
+          </Card.Footer>
+        </Card>
+      </Col>
     </Row>
   </Container>
 }
@@ -40,6 +55,7 @@ export const Apps = () => {
 
   return <Switch>
     <Route exact path={'/apps/reps'} component={withTracker(Reps)}/>
+    <Route exact path={'/apps/vote'} component={withTracker(Vote)}/>
     <Route component={withTracker(DefaultView)}/>
   </Switch>
 }

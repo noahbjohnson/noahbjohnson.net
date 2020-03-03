@@ -35,9 +35,11 @@ export const PreferencesProvider = class extends React.Component<ProviderProps, 
     this.state = defaultContext
   }
 
+  _isMounted = false
+
   toggleDark = () => {
     const currentValue = this.state.darkMode
-    this.setState({
+    if (this._isMounted) this.setState({
       darkMode: !currentValue
     })
     localStorage.setItem('darkMode', JSON.stringify(!currentValue))
@@ -53,11 +55,13 @@ export const PreferencesProvider = class extends React.Component<ProviderProps, 
   }
 
   componentDidMount (): void {
+    this._isMounted = true
     window.addEventListener('storage', this.localStorageUpdated)
     this.localStorageUpdated()
   }
 
   componentWillUnmount () {
+    this._isMounted = false
     if (typeof window !== 'undefined') {
       window.removeEventListener('storage', this.localStorageUpdated)
     }
@@ -68,7 +72,8 @@ export const PreferencesProvider = class extends React.Component<ProviderProps, 
     const { darkMode } = this.state
     const toggleDark = this.toggleDark
     return (
-      <PreferencesContext.Provider value={{ darkMode, toggleDark }}>
+      <PreferencesContext.Provider
+        value={{ darkMode, toggleDark }}>
         {children}
       </PreferencesContext.Provider>
     )
