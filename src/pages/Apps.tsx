@@ -2,8 +2,9 @@ import React, { FC, useContext } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { PreferencesContext } from '../contexts/Preferences'
 import '../assets/styles/apps.css'
-import { Switch, Route, Link } from 'react-router-dom'
+import { Link, Route, Switch } from 'react-router-dom'
 import { Reps } from '../content/apps/reps'
+import { withTracker } from '../tracker'
 
 const DefaultView: FC = () => {
   const { darkMode } = useContext(PreferencesContext)
@@ -11,8 +12,8 @@ const DefaultView: FC = () => {
     <header>
       <Row>
         <Col lg={12}>
-          <h1>Nothing here yet</h1>
-          <h4>I'll get to it</h4>
+          <h1>Apps and Tools</h1>
+          <h4>Enjoy these poorly-styled demonstrations of my coding skills</h4>
         </Col>
       </Row>
     </header>
@@ -26,7 +27,7 @@ const DefaultView: FC = () => {
           </Card.Body>
           <Card.Footer className={`blog-footer ${darkMode ? 'dark' : 'light'}`}>
             <Link to={'/apps/reps'}>
-            <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>Open</Button>
+              <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>Open</Button>
             </Link>
           </Card.Footer>
         </Card>
@@ -38,11 +39,7 @@ const DefaultView: FC = () => {
 export const Apps = () => {
 
   return <Switch>
-    <Route exact path={'/apps/reps'}>
-      <Reps/>
-    </Route>
-    <Route>
-      <DefaultView/>
-    </Route>
+    <Route exact path={'/apps/reps'} component={withTracker(Reps)}/>
+    <Route component={withTracker(DefaultView)}/>
   </Switch>
 }

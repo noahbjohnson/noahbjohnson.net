@@ -9,6 +9,7 @@ import GooglePlacesAutocomplete from 'react-google-places-autocomplete'
 import 'react-google-places-autocomplete/dist/assets/index.css'
 import * as request from 'superagent'
 import { OfficeCard } from './reps/officeCard'
+import ReactGA from 'react-ga'
 
 const key = 'AIzaSyD_aPp6QpLVktpfB8Ayxn_hgILELpEH5zw'
 
@@ -31,6 +32,9 @@ export const Reps: FC = () => {
         })
     }
   }
+
+  ReactGA.set({ page: '/apps/reps' })
+  ReactGA.pageview('/apps/reps')
 
   return <Container className={`page ${darkMode ? 'dark' : 'light'}`} fluid>
     <Row>
@@ -62,17 +66,20 @@ export const Reps: FC = () => {
         />
       </Col>
       <Col lg={4}>
-        <Button onClick={getReps}>GO</Button>
+        <Button onClick={() => {
+          ReactGA.event({ category: 'Apps', action: 'Retrieved Representatives' })
+          return getReps()
+        }}>GO</Button>
       </Col>
     </Row>
     <Row>
       <Col lg={12}>
         {voterInfo ? <>
-          <h4>Select a Constituency</h4>
+            <h4>Select a Constituency</h4>
             <Accordion> {
               Object.entries(voterInfo.divisions).map((division: [string, any], key) => {
                 return <Card key={key}>
-                  <Card.Header>
+                  <Card.Header onClick={()=>ReactGA.event({ category: 'Apps', action: 'Viewed Division Representatives' })}>
                     <Accordion.Toggle as={Button} variant="link" eventKey={String(key)}
                                       disabled={!division[1]?.officeIndices}>
                       {division[1].name}
