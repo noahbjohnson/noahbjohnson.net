@@ -84,7 +84,7 @@ export const About = () => {
           </p>
           <p><b>pretty ok at: <br/></b> project management, stakeholder management, proving ROI
           </p>
-          <p><b>not great at: <br/></b> embedded & low-level, anything microsoft, LAMP stack,
+          <p><b>not great at: <br/></b> embedded & low-level, anything microsoft that isn't TypeScript, LAMP stack,
             avoiding scope creep</p>
           <p><b>currently reading: <br/></b> The Wheel of Time</p>
           <p><b>hobbies: <br/></b> genealogy, digitizing film negatives, star trek, data hoarding</p>
