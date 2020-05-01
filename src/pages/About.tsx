@@ -22,7 +22,7 @@ export const About = () => {
           <Button variant="secondary" onClick={() => {setShowResume(false)}}>
             Close
           </Button>
-          <ReactGA.OutboundLink to="/resume.pdf" target="_blank" download eventLabel={'resume'}>
+          <ReactGA.OutboundLink to="about-assets/resume.pdf" target="_blank" download eventLabel={'resume'}>
             <Button variant="outline-dark">
               <FontAwesomeIcon icon={faFileDownload}/> &nbsp;
               Download PDF
@@ -32,7 +32,7 @@ export const About = () => {
         <Modal.Body>
           <Document
             className={'resume-doc'}
-            file='/resume.pdf'>
+            file='about-assets/resume.pdf'>
             <Page pageNumber={1} className={'resume-page'}/>
           </Document>
         </Modal.Body>
@@ -84,8 +84,8 @@ export const About = () => {
           </p>
           <p><b>pretty ok at: <br/></b> project management, stakeholder management, proving ROI
           </p>
-          <p><b>not great at: <br/></b> embedded & low-level, anything microsoft that isn't TypeScript, LAMP stack,
-            avoiding scope creep</p>
+          <p><b>not great at: <br/></b> embedded & low-level, LAMP stack,
+            weak types</p>
           <p><b>currently reading: <br/></b> The Wheel of Time</p>
           <p><b>hobbies: <br/></b> genealogy, digitizing film negatives, star trek, data hoarding</p>
           <p><b>academic interests: <br/></b> sociology, algorithmic bias, archival science, generative adversarial
@@ -120,11 +120,11 @@ export const About = () => {
 
           <h2>Certifications</h2>
           <div className={'certifications'}>
-            <img src='gcp-cloud-dev.png'/>
+            <img src='about-assets/gcp-cloud-dev.png'/>
           </div>
           <div className={'certifications'}>
-            <img src={'aws-certified.png'}/><br/>
-            <img src={'cloud-practitioner.png'}/>
+            <img src={'about-assets/aws-certified.png'}/><br/>
+            <img src={'about-assets/cloud-practitioner.png'}/>
           </div>
         </Col>
       </Row>

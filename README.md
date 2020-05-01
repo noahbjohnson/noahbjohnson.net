@@ -1,16 +1,15 @@
 # Noah B Johnson personal site
 [![Build Status](https://travis-ci.com/noahbjohnson/noahbjohnson.net.svg?branch=master)](https://travis-ci.com/noahbjohnson/noahbjohnson.net)
 
-## Built With
+## Getting Started
 
- - React
- - Typescript
- - Travis
- - Github Pages
- - React Bootstrap
- - React Router
- - Markdown
- - A lot of npm packages
+> Why would you want to run this locally? Just go look at the site: <https://noahbjohnson.net>
+
+1. Clone the repo `git clone https://github.com/noahbjohnson/noahbjohnson.net.git`
+2. Install the dependencies `npm i`
+3. Fire it up `npm start`
+
+
 
 ## Blog
 
