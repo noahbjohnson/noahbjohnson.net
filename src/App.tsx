@@ -5,7 +5,6 @@ import { NavBar } from './components/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Redirect, Route, Switch, HashRouter } from 'react-router-dom';
 import { About } from './pages/About'
-import { Stack } from './pages/Stack'
 import { DataScience } from './pages/DataScience'
 import { dataScienceProjects } from './content/dsProjects'
 import { withTracker } from './tracker'
@@ -28,7 +27,6 @@ function App () {
               <NavBar />
               <Switch>
                 <Route path='/about' component={withTracker(About)} />
-                <Route path='/my-stack' component={withTracker(Stack)} />
                 <Route path='/data-science' component={withTracker(dsWrapper)} />
                 <Route exact path="/blog/:slug" component={withTracker(BlogEntry)} />
                 <Route path='/blog' component={withTracker(Blog)} />

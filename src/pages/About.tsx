@@ -84,11 +84,9 @@ export const About = () => {
           </p>
           <p><b>pretty ok at: <br/></b> project management, stakeholder management, proving ROI
           </p>
-          <p><b>not great at: <br/></b> embedded & low-level, LAMP stack,
-            weak types</p>
           <p><b>currently reading: <br/></b> The Wheel of Time</p>
           <p><b>hobbies: <br/></b> genealogy, digitizing film negatives, data hoarding</p>
-          <p><b>academic interests: <br/></b> sociology, algorithmic bias, archival science
+          <p><b>academic interests: <br/></b> social science statistics, algorithmic bias, archival science, information ethics
           </p>
         </Col>
         <Col lg={6} className={`about-column`}>
