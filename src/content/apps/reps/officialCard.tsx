@@ -68,7 +68,7 @@ export const OfficialCard: React.FC<officialCardProps> = (props) => {
         : ''}
       <b>Photo</b>
       <p>
-        <img width={'256px'} src={props.official.photoUrl}/>
+        <img width={'256px'} src={props.official.photoUrl} alt={`${props.official.name} official`}/>
       </p>
       <b>Social</b>
       <p>

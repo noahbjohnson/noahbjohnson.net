@@ -110,6 +110,7 @@ class Scene extends React.Component<SceneProps, SceneState> {
       mouse: mouse,
       constraint: {
         stiffness: 0.2,
+        //@ts-ignore
         render: {
           visible: false
         }
