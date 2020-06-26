@@ -87,21 +87,27 @@ export const About = () => {
           <p><b>not great at: <br/></b> embedded & low-level, LAMP stack,
             weak types</p>
           <p><b>currently reading: <br/></b> The Wheel of Time</p>
-          <p><b>hobbies: <br/></b> genealogy, digitizing film negatives, star trek, data hoarding</p>
-          <p><b>academic interests: <br/></b> sociology, algorithmic bias, archival science, generative adversarial
-            networks
+          <p><b>hobbies: <br/></b> genealogy, digitizing film negatives, data hoarding</p>
+          <p><b>academic interests: <br/></b> sociology, algorithmic bias, archival science
           </p>
         </Col>
         <Col lg={6} className={`about-column`}>
           <h2>Work</h2>
           <div className={'job'}>
+            <h4>Senior Backend Developer</h4>
+            <h6>Stellar IMS | Remote | March 2020 – July 2020</h6>
+            <ul>
+              <li>Designed cloud infrastructure with the other backend developer</li>
+              <li>Authored containerized microservices and API gateway in TS/Node</li>
+            </ul>
+          </div>
+          <div className={'job'}>
             <h4>Data Integration Engineer, Integration Engineer</h4>
-            <h6>Trinity Insight LLC | Rochester, Minnesota | May 2019 - Present</h6>
+            <h6>Trinity Insight LLC | Rochester, Minnesota | May 2019 - March 2020</h6>
             <ul>
               <li>Built Custom serverless data pipelines and integrations on Google Cloud Platform</li>
               <li>Led React application development for client portal and internal tooling</li>
               <li>Leveraged Google BigQuery to ensure reliable conversion attribution and segmentation</li>
-              <li>Maintain internal DevOps standards and practices and provided user support</li>
             </ul>
           </div>
           <div className={'job'}>
@@ -117,15 +123,20 @@ export const About = () => {
           </div>
 
           {/*<Link to={'/work'}>Check out the work page for more detailed stack information and other work</Link>*/}
-
+        </Col>
+      </Row>
+      <Row className={'about-section'}>
+        <Col lg={12} className={`about-column center`}>
           <h2>Certifications</h2>
-          <div className={'certifications'}>
-            <img src='about-assets/gcp-cloud-dev.png'/>
-          </div>
-          <div className={'certifications'}>
-            <img src={'about-assets/aws-certified.png'}/><br/>
-            <img src={'about-assets/cloud-practitioner.png'}/>
-          </div>
+          <Row className={'certifications'}>
+            <Col md={6}>
+            <img src='about-assets/gcp-cloud-dev.png' alt='Google Cloud Certified Cloud Developer' />
+            </Col>
+            <Col md={6}>
+            <img src={'about-assets/aws-certified.png'} alt='AWS Certified' /><br />
+            <img src={'about-assets/cloud-practitioner.png'} alt='Cloud Practitioner' />
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
