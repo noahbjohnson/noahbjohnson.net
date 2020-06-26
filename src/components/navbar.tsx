@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Nav, Navbar } from 'react-bootstrap'
 import '../assets/styles/navbar.css'
 import 'react-toggle/style.css'
 import { PreferencesContext } from '../contexts/Preferences'
@@ -8,10 +8,11 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { NavLink } from 'react-router-dom'
 
+
 export const NavBar = () => {
   const { darkMode, toggleDark } = useContext(PreferencesContext)
   return (
-    <Navbar bg={darkMode ? 'dark' : 'light'} expand={'lg'} variant={darkMode ? 'dark' : 'light'} collapseOnSelect
+    <Navbar bg={darkMode ? 'dark' : 'light'} expand={'md'} variant={darkMode ? 'dark' : 'light'} collapseOnSelect
             className={'headerFont'} fixed={'top'}>
       <Navbar.Brand href="#">Noah B. Johnson</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>

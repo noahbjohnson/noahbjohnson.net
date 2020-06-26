@@ -18,12 +18,7 @@ import '../assets/styles/footer.css'
 const Footer = () => {
   const { darkMode } = useContext(PreferencesContext)
   return (
-    <div style={{
-      bottom: 0,
-      backgroundColor: darkMode ? 'rgba(10, 10, 10, .75)' : 'rgba(230, 230, 230, .75)',
-      width: '100%',
-      textAlign: 'center'
-    }}>
+    <div className={`footer ${darkMode ? 'dark' : 'light'}`}>
       <ButtonGroup size="lg">
         <ReactGA.OutboundLink rel="noopener noreferrer" to="https://www.linkedin.com/in/noahbjohnson/" target="_blank"
                               eventLabel={'LinkedIn'}>
