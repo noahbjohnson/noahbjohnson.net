@@ -19,7 +19,6 @@ const Footer = () => {
   const { darkMode } = useContext(PreferencesContext)
   return (
     <div className={`footer ${darkMode ? 'dark' : 'light'}`}>
-      <ButtonGroup size="lg">
         <ReactGA.OutboundLink rel="noopener noreferrer" to="https://www.linkedin.com/in/noahbjohnson/" target="_blank"
                               eventLabel={'LinkedIn'}>
           <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faLinkedin}/></Button>
@@ -58,7 +57,6 @@ const Footer = () => {
                               target="_blank">
           <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faComment}/></Button>
         </ReactGA.OutboundLink>
-      </ButtonGroup>
     </div>
   )
 }

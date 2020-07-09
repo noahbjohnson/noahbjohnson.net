@@ -13,7 +13,7 @@ export const NavBar = () => {
   const { darkMode, toggleDark } = useContext(PreferencesContext)
   return (
     <Navbar bg={darkMode ? 'dark' : 'light'} expand={'md'} variant={darkMode ? 'dark' : 'light'} collapseOnSelect
-            className={'headerFont'} fixed={'top'}>
+            className={'headerFont'} fixed={'top'} style={{maxWidth: "100vw"}}>
       <Navbar.Brand href="#">Noah B. Johnson</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
