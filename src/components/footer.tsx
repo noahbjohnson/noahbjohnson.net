@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Button, ButtonGroup } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFlickr,
