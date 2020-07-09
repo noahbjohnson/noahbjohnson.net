@@ -22,7 +22,7 @@ function App () {
     <HashRouter>
       <PreferencesProvider>
         <PreferencesContext.Consumer>
-          {context => (
+          {() => (
             <div className="App">
               <NavBar />
               <Switch>
