@@ -8,7 +8,8 @@ import {
   faLinkedin,
   faSkype,
   faStackOverflow,
-  faTwitter
+  faTwitter,
+  faHackerrank
 } from '@fortawesome/free-brands-svg-icons'
 import { faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import ReactGA from 'react-ga'
@@ -56,6 +57,10 @@ const Footer = () => {
         <ReactGA.OutboundLink rel="noopener noreferrer" to="sms:noahbjohnson@icloud.com" eventLabel={'sms'}
                               target="_blank">
           <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faComment}/></Button>
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="https://www.hackerrank.com/noahbjohnson" eventLabel={'hackerrank'}
+                              target="_blank">
+          <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faHackerrank}/></Button>
         </ReactGA.OutboundLink>
     </div>
   )
