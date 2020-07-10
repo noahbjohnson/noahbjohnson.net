@@ -20,13 +20,13 @@ const DefaultView: FC = () => {
     </header>
     <Row>
       <Col lg={6}>
-        <Card className={`blog-card ${darkMode ? 'dark' : 'light'}`}>
-          <Card.Body className={`blog-body ${darkMode ? 'dark' : 'light'}`}>
-            <Card.Title className={`blog-title ${darkMode ? 'dark' : 'light'}`}>reps</Card.Title>
-            <Card.Text className={`blog-text ${darkMode ? 'dark' : 'light'}`}>Find your elected
+        <Card className={`${darkMode ? 'dark' : 'light'}`}>
+          <Card.Body className={`${darkMode ? 'dark' : 'light'}`}>
+            <Card.Title className={`${darkMode ? 'dark' : 'light'}`}>reps</Card.Title>
+            <Card.Text className={`${darkMode ? 'dark' : 'light'}`}>Find your elected
               representatives</Card.Text>
           </Card.Body>
-          <Card.Footer className={`blog-footer ${darkMode ? 'dark' : 'light'}`}>
+          <Card.Footer className={`${darkMode ? 'dark' : 'light'}`}>
             <Link to={'/apps/reps'}>
               <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>Open</Button>
             </Link>
@@ -34,13 +34,13 @@ const DefaultView: FC = () => {
         </Card>
       </Col>
       <Col lg={6}>
-        <Card className={`blog-card ${darkMode ? 'dark' : 'light'}`}>
-          <Card.Body className={`blog-body ${darkMode ? 'dark' : 'light'}`}>
-            <Card.Title className={`blog-title ${darkMode ? 'dark' : 'light'}`}>vote</Card.Title>
-            <Card.Text className={`blog-text ${darkMode ? 'dark' : 'light'}`}>find your polling location and view a
+        <Card className={`${darkMode ? 'dark' : 'light'}`}>
+          <Card.Body className={`${darkMode ? 'dark' : 'light'}`}>
+            <Card.Title className={`${darkMode ? 'dark' : 'light'}`}>vote</Card.Title>
+            <Card.Text className={`${darkMode ? 'dark' : 'light'}`}>find your polling location and view a
             sample ballot</Card.Text>
           </Card.Body>
-          <Card.Footer className={`blog-footer ${darkMode ? 'dark' : 'light'}`}>
+          <Card.Footer className={`${darkMode ? 'dark' : 'light'}`}>
             <Link to={'/apps/vote'}>
               <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>Open</Button>
             </Link>

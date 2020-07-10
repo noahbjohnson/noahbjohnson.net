@@ -31,14 +31,14 @@ export const Blog = () => {
     <Row>
       {BlogPosts.map((post, index) => {
         return <Col lg={6} key={index}>
-          <Card className={`blog-card ${darkMode ? 'dark' : 'light'}`}>
+          <Card className={`${darkMode ? 'dark' : 'light'}`}>
             <Card.Header
-              className={`blog-header ${darkMode ? 'dark' : 'light'}`}>{post.tags?.join(', ').toLowerCase()} - <i>{post.date}</i></Card.Header>
-            <Card.Body className={`blog-body ${darkMode ? 'dark' : 'light'}`}>
-              <Card.Title className={`blog-title ${darkMode ? 'dark' : 'light'}`}>{post.title}</Card.Title>
-              <Card.Text className={`blog-text ${darkMode ? 'dark' : 'light'}`}>{post.summary}</Card.Text>
+              className={`${darkMode ? 'dark' : 'light'}`}>{post.tags?.join(', ').toLowerCase()} - <i>{post.date}</i></Card.Header>
+            <Card.Body className={`${darkMode ? 'dark' : 'light'}`}>
+              <Card.Title className={`${darkMode ? 'dark' : 'light'}`}>{post.title}</Card.Title>
+              <Card.Text className={`${darkMode ? 'dark' : 'light'}`}>{post.summary}</Card.Text>
             </Card.Body>
-            <Card.Footer className={`blog-footer ${darkMode ? 'dark' : 'light'}`}>
+            <Card.Footer className={`${darkMode ? 'dark' : 'light'}`}>
               <Link to={`/blog/${post.slug}`}>
                 <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>Read</Button>
               </Link>

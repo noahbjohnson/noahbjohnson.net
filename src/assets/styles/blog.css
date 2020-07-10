@@ -1,8 +1,3 @@
-.blog-card {
-    margin-bottom: 5vh;
-    min-height: 33vh;
-}
-
 .blog-page-header {
     margin-bottom: 2vh;
     margin-top: 2vh;
@@ -12,26 +7,4 @@
 
 .blog-page {
     padding: 3em;
-}
-
-.dark.blog-card {
-    background-color: rgba(10, 10, 10, .75);
-}
-
-.blog-footer.dark {
-    background-color: rgba(50, 50, 50, .75);
-}
-
-.blog-footer {
-    text-align: center;
-}
-
-.blog-header.dark {
-    background-color: rgba(50, 50, 50, .75);
-}
-
-.blog-footer a {
-    color: whitesmoke;
-    font-size: 2em;
-    padding: 1em;
 }

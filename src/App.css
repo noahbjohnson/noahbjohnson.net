@@ -6,7 +6,7 @@
 }
 
 .page.dark {
-    background-color: rgba(10, 10, 10, .75);
+    background-color: rgb(80,80,80);
     color: whitesmoke;
 }
 
@@ -21,6 +21,25 @@
 }
 
 .card-header.dark {
-    background-color: rgb(10, 10, 10);
+    background-color: rgba(10, 10, 10, .5);
     color: whitesmoke;
+}
+
+.card-footer.dark {
+    background-color: rgba(10, 10, 10, .5);
+}
+
+.card {
+    margin-bottom: 5vh;
+    min-height: 33vh;
+}
+
+.card-footer a {
+    color: whitesmoke;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.card-footer {
+    text-align: center;
 }

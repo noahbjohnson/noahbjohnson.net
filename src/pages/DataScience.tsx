@@ -66,17 +66,17 @@ export const DataScience: FC<DsProps> = (props) => {
         {
           props.projects.map((project, index) => {
             return <Col lg={6} key={index}>
-              <Card className={`ds-card ${darkMode ? 'dark' : 'light'}`}>
+              <Card className={`${darkMode ? 'dark' : 'light'}`}>
                 <Card.Header
-                  className={`ds-header ${darkMode ? 'dark' : 'light'}`}>{project.subtitle} - <i>{project.date}</i></Card.Header>
-                <Card.Body className={`ds-body ${darkMode ? 'dark' : 'light'}`}>
-                  <Card.Title className={`ds-title ${darkMode ? 'dark' : 'light'}`}>{project.title}</Card.Title>
+                  className={`${darkMode ? 'dark' : 'light'}`}>{project.subtitle} - <i>{project.date}</i></Card.Header>
+                <Card.Body className={`${darkMode ? 'dark' : 'light'}`}>
+                  <Card.Title className={`${darkMode ? 'dark' : 'light'}`}>{project.title}</Card.Title>
                   {project.bodyText.map((paragraph, index2) => {
-                    return <Card.Text className={`ds-text ${darkMode ? 'dark' : 'light'}`}
+                    return <Card.Text className={`${darkMode ? 'dark' : 'light'}`}
                                       key={index2}>{paragraph}</Card.Text>
                   })}
                 </Card.Body>
-                <Card.Footer className={`ds-footer ${darkMode ? 'dark' : 'light'}`}>
+                <Card.Footer className={`${darkMode ? 'dark' : 'light'}`}>
                   <></>
                   {project.footerButtons.map((footerButton, index2) => {
                     return <ReactGA.OutboundLink eventLabel={project.title} to={footerButton.link} target="_blank"

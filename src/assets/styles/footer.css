@@ -9,9 +9,9 @@ button {
     padding: 1rem;
     width: 100vw;
 }
-.light {
-    background-color: rgba(230, 230, 230, .75)
+.footer.light {
+    background-color: rgb(248, 249, 250);
 }
-.dark {
-     background-color: rgba(10, 10, 10, .75)
+.footer.dark {
+    background-color: rgb(52, 58, 64);
  }

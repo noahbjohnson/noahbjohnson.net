@@ -1,8 +1,3 @@
-.ds-card {
-    margin-bottom: 5vh;
-    min-height: 33vh;
-}
-
 .ds-page-header {
     margin-bottom: 2vh;
     margin-top: 2vh;
@@ -12,26 +7,4 @@
 
 .ds-page {
     padding: 3em;
-}
-
-.dark.ds-card {
-    background-color: rgba(10, 10, 10, .75);
-}
-
-.ds-footer.dark {
-    background-color: rgba(50, 50, 50, .75);
-}
-
-.ds-footer {
-    text-align: center;
-}
-
-.ds-header.dark {
-    background-color: rgba(50, 50, 50, .75);
-}
-
-.ds-footer a {
-    color: whitesmoke;
-    font-size: 2em;
-    padding: 1em;
 }
