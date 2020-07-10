@@ -1,6 +1,8 @@
 .page {
     padding-top: 70px;
+    padding-bottom: 70px;
     background-color: rgba(230, 230, 230, .75);
+    min-height: 100vh;
 }
 
 .page.dark {

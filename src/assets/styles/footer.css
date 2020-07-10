@@ -1,10 +1,13 @@
 button {
     margin-left: 1em;
-    margin-bottom: 1rem;
 }
 .footer {
     bottom: 0;
     text-align: center;
+    position: fixed;
+    display: block;
+    padding: 1rem;
+    width: 100vw;
 }
 .light {
     background-color: rgba(230, 230, 230, .75)
