@@ -11,7 +11,7 @@ import {
   faTwitter,
   faHackerrank
 } from '@fortawesome/free-brands-svg-icons'
-import { faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faComment, faEnvelope, faDna } from '@fortawesome/free-solid-svg-icons'
 import ReactGA from 'react-ga'
 import { PreferencesContext } from '../contexts/Preferences'
 import '../assets/styles/footer.css'
@@ -62,6 +62,12 @@ const Footer = () => {
                               target="_blank">
           <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faHackerrank}/></Button>
         </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink to={'https://github.com/noahbjohnson/dna'} target="_blank" rel="noopener noreferrer"
+                                eventLabel={'dna'}>
+            <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>
+              <FontAwesomeIcon icon={faDna}/>
+            </Button>
+          </ReactGA.OutboundLink>
     </div>
   )
 }

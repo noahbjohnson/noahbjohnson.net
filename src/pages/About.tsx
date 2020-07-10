@@ -3,7 +3,7 @@ import React, { useContext, useState } from 'react'
 import '../assets/styles/about.css'
 import { PreferencesContext } from '../contexts/Preferences'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDna, faFileAlt, faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import { faFileAlt, faFileDownload } from '@fortawesome/free-solid-svg-icons'
 import { Document, Page } from 'react-pdf'
 import ReactGA from 'react-ga'
 
@@ -56,16 +56,6 @@ export const About = () => {
             <FontAwesomeIcon icon={faFileAlt}/> &nbsp;
             boring formal resume
           </Button><br/>
-          <ReactGA.OutboundLink to={'https://github.com/noahbjohnson/dna'} target="_blank" rel="noopener noreferrer"
-                                eventLabel={'dna'}>
-            <Button
-              variant={darkMode ? 'dark' : 'light'}
-              className={'resume-button'}
-            >
-              <FontAwesomeIcon icon={faDna}/> &nbsp;
-              my genome
-            </Button>
-          </ReactGA.OutboundLink>
         </Col>
       </Row>
       <Row className={'about-section'}>
