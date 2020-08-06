@@ -34,7 +34,7 @@ const Footer = () => {
           <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon
             icon={faStackOverflow}/></Button>
         </ReactGA.OutboundLink>
-        <ReactGA.OutboundLink rel="noopener noreferrer" to="https://twitter.com/NoahBJ" eventLabel={'twitter'}
+        <ReactGA.OutboundLink rel="noopener noreferrer" to="https://twitter.com/IAmNoahBJohnson" eventLabel={'twitter'}
                               target="_blank">
           <Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faTwitter}/></Button>
         </ReactGA.OutboundLink>
