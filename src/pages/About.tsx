@@ -82,6 +82,10 @@ export const About = () => {
         <Col lg={6} className={`about-column`}>
           <h2>Work</h2>
           <div className={'job'}>
+            <h4>GCP Software Engineer</h4>
+            <h6><a href="cloudtamer.io">cloudtamer.io</a> | Remote | September 2020 - present</h6>
+          </div>
+          <div className={'job'}>
             <h4>Senior Backend Developer</h4>
             <h6>Stellar IMS | Remote | March 2020 – July 2020</h6>
             <ul>
