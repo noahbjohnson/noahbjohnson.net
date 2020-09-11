@@ -11,7 +11,7 @@ export const withTracker = <P extends RouteComponentProps> (
       siteSpeedSampleRate: 100,
       alwaysSendReferrer: true
     },
-    testMode: window.location.hostname === "localhost"
+    testMode: window.location.hostname === 'localhost'
   })
   const trackPage = (page: string) => {
     ReactGA.set({ page, ...options })

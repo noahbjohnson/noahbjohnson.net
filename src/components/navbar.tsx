@@ -8,14 +8,13 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { NavLink } from 'react-router-dom'
 
-
 export const NavBar = () => {
   const { darkMode, toggleDark } = useContext(PreferencesContext)
   return (
     <Navbar bg={darkMode ? 'dark' : 'light'} expand={'md'} variant={darkMode ? 'dark' : 'light'} collapseOnSelect={true}
             className={'headerFont headerStyles'} fixed={'top'}>
       <Navbar.Brand href="#">Noah B. Johnson</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
           <NavLink to={'/about'}>profile</NavLink>

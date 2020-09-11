@@ -38,7 +38,7 @@ const DefaultView: FC = () => {
           <Card.Body className={`${darkMode ? 'dark' : 'light'}`}>
             <Card.Title className={`${darkMode ? 'dark' : 'light'}`}>vote</Card.Title>
             <Card.Text className={`${darkMode ? 'dark' : 'light'}`}>find your polling location and view a
-            sample ballot</Card.Text>
+              sample ballot</Card.Text>
           </Card.Body>
           <Card.Footer className={`${darkMode ? 'dark' : 'light'}`}>
             <Link to={'/apps/vote'}>

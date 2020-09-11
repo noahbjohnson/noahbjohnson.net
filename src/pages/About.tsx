@@ -137,11 +137,11 @@ export const About = () => {
           <h2>Certifications</h2>
           <Row className={'certifications'}>
             <Col md={6}>
-            <img src='about-assets/gcp-cloud-dev.png' alt='Google Cloud Certified Cloud Developer' />
+              <img src='about-assets/gcp-cloud-dev.png' alt='Google Cloud Certified Cloud Developer'/>
             </Col>
             <Col md={6}>
-            <img src={'about-assets/aws-certified.png'} alt='AWS Certified' /><br />
-            <img src={'about-assets/cloud-practitioner.png'} alt='Cloud Practitioner' />
+              <img src={'about-assets/aws-certified.png'} alt='AWS Certified'/><br/>
+              <img src={'about-assets/cloud-practitioner.png'} alt='Cloud Practitioner'/>
             </Col>
           </Row>
         </Col>

@@ -75,12 +75,15 @@ export const OfficialCard: React.FC<officialCardProps> = (props) => {
         {props.official.channels?.map((channel, index) => {
           switch (channel.type) {
             case 'Facebook':
-              return <a href={`https://fb.me/${channel.id}`}><Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faFacebook}/></Button></a>
+              return <a href={`https://fb.me/${channel.id}`}><Button
+                variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faFacebook}/></Button></a>
             case 'Twitter':
-              return <a href={`https://twitter.com/${channel.id}`}><Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon
+              return <a href={`https://twitter.com/${channel.id}`}><Button
+                variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon
                 icon={faTwitter}/></Button></a>
             case 'YouTube':
-              return <a href={`https://www.youtube.com/results?search_query=${channel.id}`}><Button variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon
+              return <a href={`https://www.youtube.com/results?search_query=${channel.id}`}><Button
+                variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon
                 icon={faYoutube}/></Button></a>
           }
         })}
