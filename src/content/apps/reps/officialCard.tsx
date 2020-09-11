@@ -72,7 +72,7 @@ export const OfficialCard: React.FC<officialCardProps> = (props) => {
       </p>
       <b>Social</b>
       <p>
-        {props.official.channels?.map((channel, index) => {
+        {props.official.channels?.map((channel, _) => {
           switch (channel.type) {
             case 'Facebook':
               return <a href={`https://fb.me/${channel.id}`}><Button
