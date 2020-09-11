@@ -65,18 +65,33 @@ export const About = () => {
             repeatedly, and abstracting infrastructure into json and yaml. Strong believer in the pillars of SCRUM:
             transparency, inspection, and adaptation.</p>
           <p><b>pronouns: <br/></b> he/him</p>
-          <p><b>great at: <br/></b> internal tooling development & enablement, clearing roadblocks, conceptual
-            communication,
+          <p><b>great at: <br/></b>
+            internal tooling development & enablement,
+            clearing roadblocks,
+            conceptual communication,
             teaching
           </p>
-          <p><b>good at: <br/></b> cloud stuff, standards, documentation, big picture, APIs, data models, data
-            engineering
+          <p><b>good at: <br/></b>
+            cloud stuff,
+            standards,
+            documentation,
+            big picture,
+            APIs,
+            data models,
+            data engineering
           </p>
           <p><b>pretty ok at: <br/></b> project management, stakeholder management, proving ROI
           </p>
           <p><b>currently reading: <br/></b> The Wheel of Time</p>
-          <p><b>hobbies: <br/></b> genealogy, digitizing film negatives, data hoarding</p>
-          <p><b>academic interests: <br/></b> social science statistics, algorithmic bias, archival science, information ethics
+          <p><b>hobbies: <br/></b>
+            genealogy,
+            digitizing film negatives,
+            data hoarding</p>
+          <p><b>academic interests: <br/></b>
+            social science statistics,
+            algorithmic bias,
+            archival science,
+            information ethics
           </p>
         </Col>
         <Col lg={6} className={`about-column`}>
