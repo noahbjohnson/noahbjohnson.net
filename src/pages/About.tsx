@@ -83,7 +83,7 @@ export const About = () => {
           <h2>Work</h2>
           <div className={'job'}>
             <h4>GCP Software Engineer</h4>
-            <h6><a href="cloudtamer.io">cloudtamer.io</a> | Remote | September 2020 - present</h6>
+            <h6><a href="https://cloudtamer.io/">cloudtamer.io</a> | Remote | September 2020 - present</h6>
           </div>
           <div className={'job'}>
             <h4>Senior Backend Developer</h4>
