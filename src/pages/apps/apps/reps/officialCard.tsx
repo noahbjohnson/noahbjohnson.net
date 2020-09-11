@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Button, Card } from 'react-bootstrap'
-import { PreferencesContext } from '../../../contexts/Preferences'
+import { PreferencesContext } from '../../../../contexts/Preferences'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 

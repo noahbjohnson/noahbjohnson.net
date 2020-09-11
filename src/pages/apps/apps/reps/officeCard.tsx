@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import { Official, OfficialCard } from './officialCard'
-import { PreferencesContext } from '../../../contexts/Preferences'
+import { PreferencesContext } from '../../../../contexts/Preferences'
 
 export interface Office {
   name: string

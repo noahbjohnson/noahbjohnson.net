@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import { PreferencesContext } from '../contexts/Preferences'
-import { BlogPosts } from '../content/blogPosts'
+import { PreferencesContext } from '../../contexts/Preferences'
+import { BlogPosts } from './blogPosts'
 import { Link } from 'react-router-dom'
-import '../assets/styles/blog.css'
+import './blog.css'
 
 export interface BlogPost {
   title: string

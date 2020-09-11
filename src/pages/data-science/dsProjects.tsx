@@ -1,4 +1,4 @@
-import { DsProject } from '../pages/DataScience'
+import { DsProject } from './DataScience'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChartBar, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'

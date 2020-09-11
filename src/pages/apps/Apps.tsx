@@ -1,11 +1,11 @@
 import React, { FC, useContext } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import { PreferencesContext } from '../contexts/Preferences'
-import '../assets/styles/apps.css'
+import { PreferencesContext } from '../../contexts/Preferences'
+import './apps.css'
 import { Link, Route, Switch } from 'react-router-dom'
-import { Reps } from '../content/apps/reps'
-import { withTracker } from '../tracker'
-import { Vote } from '../content/apps/vote'
+import { Reps } from './apps/reps'
+import { withTracker } from '../../contexts/tracker'
+import { Vote } from './apps/vote'
 
 const DefaultView: FC = () => {
   const { darkMode } = useContext(PreferencesContext)

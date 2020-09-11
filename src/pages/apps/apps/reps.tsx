@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react'
 import { Accordion, Button, Card, Col, Container, Row } from 'react-bootstrap'
-import { PreferencesContext } from '../../contexts/Preferences'
+import { PreferencesContext } from '../../../contexts/Preferences'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons'

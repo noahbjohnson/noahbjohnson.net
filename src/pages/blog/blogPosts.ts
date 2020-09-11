@@ -1,5 +1,5 @@
 // @ts-ignore
-import { BlogPost } from '../pages/Blog'
+import { BlogPost } from './Blog'
 
 /**
  * Posts in the /blog folder should use the format: "{slug}.md"

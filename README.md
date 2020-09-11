@@ -13,6 +13,6 @@
 
 ## Blog
 
-The blog consists of the [blog posts file](src/content/blogPosts.ts) for metadata, and the [posts folder](public/posts) for entries.
+The blog consists of the [blog posts file](src/pages/blog/blogPosts.ts) for metadata, and the [posts folder](public/posts) for entries.
 
 File names in the posts folder should correspond to the slug from the metadata. (page -> page.md) 

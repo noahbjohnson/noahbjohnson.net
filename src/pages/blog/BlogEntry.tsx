@@ -1,6 +1,6 @@
 import React, { FC, useContext, useState } from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import { PreferencesContext } from '../contexts/Preferences'
+import { PreferencesContext } from '../../contexts/Preferences'
 import { Link, RouteComponentProps } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import * as request from 'superagent'
