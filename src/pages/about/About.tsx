@@ -61,8 +61,13 @@ export const About = () => {
       <Row className={'about-section'}>
         <Col lg={6} className={'about-column'}>
           <h2 id="skills">About Me</h2>
-          <p>I'm a full-stack data scientist and engineer. I enjoy decoupling data architectures, refactoring code
-            repeatedly, and abstracting infrastructure into json and yaml. Strong believer in the pillars of SCRUM:
+          <p>
+            I'm a full-stack data scientist and engineer.
+
+            I enjoy decoupling data architectures, refactoring code repeatedly, and abstracting infrastructure into
+            json and yaml.
+
+            Strong believer in the pillars of SCRUM:
             transparency, inspection, and adaptation.</p>
           <p><b>pronouns: <br/></b> he/him</p>
           <p><b>great at: <br/></b>
@@ -80,10 +85,14 @@ export const About = () => {
             data models,
             data engineering
           </p>
-          <p><b>pretty ok at: <br/></b> project management, stakeholder management, proving ROI
+          <p><b>pretty ok at: <br/></b>
+            project management,
+            stakeholder management,
+            proving ROI
           </p>
           <p><b>currently reading: <br/></b> The Wheel of Time</p>
           <p><b>hobbies: <br/></b>
+            electronics,
             genealogy,
             digitizing film negatives,
             data hoarding</p>
@@ -120,7 +129,7 @@ export const About = () => {
           <div className={'job'}>
             <h4>Data Integration Analyst - Internship</h4>
             <h6>SC Data Center, Inc. | Monroe, Wisconsin | Summer 2018</h6>
-            <ul style={{ fontWeight: 400, fontFamily: 'Montserrat; sans-serif' }}>
+            <ul>
               <li>Led development on a serverless data dictionary web application for the data warehouse team</li>
               <li>Provided extensive business value with clear data provenance and metadata for all users</li>
               <li>Assisted in company-wide efforts to lift-and-shift cobol mainframe routines to an AWS-hosted Hadoop
