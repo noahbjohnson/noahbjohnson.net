@@ -1,11 +1,7 @@
-import { Button, Col, Container, Modal, Row } from 'react-bootstrap'
-import React, { useContext, useState } from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import React, { useContext } from 'react'
 import './about.css'
 import { PreferencesContext } from '../../contexts/Preferences'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileAlt, faFileDownload } from '@fortawesome/free-solid-svg-icons'
-import { Document, Page } from 'react-pdf'
-import ReactGA from 'react-ga'
 
 /**
  *
@@ -13,49 +9,13 @@ import ReactGA from 'react-ga'
  */
 export const About = () => {
   const { darkMode } = useContext(PreferencesContext)
-  const [showResume, setShowResume] = useState<boolean>(false)
   return (
     <Container fluid className={`page ${darkMode ? 'dark' : 'light'}`}>
-      <Modal show={showResume}
-             onHide={() => {setShowResume(false)}} className={'resume-modal'}>
-        <Modal.Header>
-          <Button variant="secondary" onClick={() => {setShowResume(false)}}>
-            Close
-          </Button>
-          <ReactGA.OutboundLink to="about-assets/resume.pdf" target="_blank" download eventLabel={'resume'}>
-            <Button variant="outline-dark">
-              <FontAwesomeIcon icon={faFileDownload}/> &nbsp;
-              Download PDF
-            </Button>
-          </ReactGA.OutboundLink>
-        </Modal.Header>
-        <Modal.Body>
-          <Document
-            className={'resume-doc'}
-            file='about-assets/resume.pdf'>
-            <Page pageNumber={1} className={'resume-page'}/>
-          </Document>
-        </Modal.Body>
-      </Modal>
-
       <Row className={'about-section cover'}>
         <Col lg={12} className={`cover-header${darkMode ? ' dark' : ''}`}>
           <h1>about</h1>
           <h3>full-stack data science</h3>
-          <Button
-            variant={darkMode ? 'dark' : 'light'}
-            className={'resume-button'}
-            onClick={() => {
-              ReactGA.modalview('resume')
-              ReactGA.event({
-                category: 'User',
-                action: 'Opened Resume Modal'
-              })
-              setShowResume(!showResume)
-            }}>
-            <FontAwesomeIcon icon={faFileAlt}/> &nbsp;
-            boring formal resume
-          </Button><br/>
+          <br/>
         </Col>
       </Row>
       <Row className={'about-section'}>
@@ -138,7 +98,6 @@ export const About = () => {
             </ul>
           </div>
 
-          {/*<Link to={'/work'}>Check out the work page for more detailed stack information and other work</Link>*/}
         </Col>
       </Row>
       <Row className={'about-section'}>
