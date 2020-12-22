@@ -11,10 +11,6 @@ import { Apps } from './pages/apps/Apps'
 import Footer from './components/footer/footer'
 import React from 'react'
 
-function dsWrapper () {
-  return (<DataScience projects={dataScienceProjects}/>)
-}
-
 export default function () {
   return (
     <HashRouter>
@@ -25,7 +21,8 @@ export default function () {
               <NavBar/>
               <Switch>
                 <Route path='/about' component={withTracker(About)}/>
-                <Route path='/data-science' component={withTracker(dsWrapper)}/>
+                <Route path='/data-science'
+                       component={withTracker(() => <DataScience projects={dataScienceProjects}/>)}/>
                 <Route exact path="/blog/:slug" component={withTracker(BlogEntry)}/>
                 <Route path='/blog' component={withTracker(Blog)}/>
                 <Route path={['/apps', '/apps/**']} component={withTracker(Apps)}/>
