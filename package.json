@@ -29,11 +29,10 @@
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^24.9.1",
     "@types/node": "^12.12.47",
-    "@types/react-pdf": "^4.0.5",
     "@types/react-router-dom": "^5.1.5",
     "@types/react-toggle": "^4.0.2",
     "@types/superagent": "^4.1.7",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
