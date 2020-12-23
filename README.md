@@ -1,6 +1,6 @@
 # Noah B Johnson personal site
 [![Build Status](https://travis-ci.com/noahbjohnson/noahbjohnson.net.svg?branch=master)](https://travis-ci.com/noahbjohnson/noahbjohnson.net)
-
+[![time tracker](https://wakatime.com/badge/github/noahbjohnson/noahbjohnson.net.svg)](https://wakatime.com/badge/github/noahbjohnson/noahbjohnson.net)
 ## Getting Started
 
 > Why would you want to run this locally? Just go look at the site: <https://noahbjohnson.net>
