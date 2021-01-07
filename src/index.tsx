@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
+// import './index.css'
 import * as serviceWorker from './serviceWorker'
-import './pages/apps/apps/app.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import './pages/apps/apps/app.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+import './assets/lcars/css/lcars.css'
 import App from './app'
 
 ReactDOM.render(<App/>, document.getElementById('root'))

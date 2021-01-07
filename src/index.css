@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:200,400,700|Montserrat:200,400,600&display=swap');
 
+@font-face {
+    font-family: Swiss911;
+    src: url("assets/bitstream_inc_swiss-911-ultra-compressed-bt.ttf");
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
