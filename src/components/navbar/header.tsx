@@ -8,7 +8,8 @@ import 'react-toggle/style.css'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { NavLink } from 'react-router-dom'
 
-// TODO: add background color to active link
+// TODO: add background color to active button
+// TODO: add collapse for sidebar on mobile
 
 export const Header = () => {
   // const { darkMode, toggleDark } = useContext(PreferencesContext)
@@ -26,7 +27,8 @@ export const Header = () => {
         <div className="lcars-bar horizontal right-end decorated"/>
       </div>
 
-      <div id="left-menu" className="lcars-column start-space lcars-u-1" style={{ textTransform: 'uppercase' }}>
+      <div id="left-menu" className="lcars-column start-space lcars-u-1"
+           style={{ textTransform: 'uppercase', width: '50%' }}>
         <NavLink to={'/about'}>
           <div className="lcars-element button">profile</div>
         </NavLink>
