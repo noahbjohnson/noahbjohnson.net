@@ -18,14 +18,40 @@ jobs:
         node-version: 12.x
     - run: npm i
     - run: npm build
-    - name: Push directory to another repos
-      uses: vinayb21/github-action-push-to-another-repo@1.4.0
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+
+    - name: Deploy
+      uses: manzoorwanijk/action-deploy-to-repo@master
       with:
-        source-directory: 'build'
-        destination-github-username: 'noahbjohnson'
-        destination-repository-name: 'noahbjohnson.github.io'
-        user-email: 'noah@noahbjohnson.net'
+        src_dir: build
+        target_owner: noahbjohnson
+        target_repo: noahbjohnson.github.io
+        target_dir: ''
+        target_branch: master # default
+        # Optional
+        access_token: ${{ secrets.API_TOKEN_GITHUB }}
+        cleanup_command: "rm -rf assets/* && rm -f assets/asset-manifest.json"
+
+#    - name: Pushes test file
+#      uses: dmnemec/copy_file_to_another_repo_action@main
+#      env:
+#        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+#      with:
+#        source_file: 'build/*'
+#        destination_repo: 'noahbjohnson/noahbjohnson.github.io'
+#        destination_folder: 'test-dir'
+#        user_email: 'noah@noahbjohnson.net'
+#        user_name: 'noahbjohnson'
+#        commit_message: 'Release from Master'
+#        destination_branch: 'master'
+#
+#    - name: Push directory to another repos
+#      uses: vinayb21/github-action-push-to-another-repo@1.4.0
+#      env:
+#        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+#      with:
+#        source-directory: 'build'
+#        destination-github-username: 'noahbjohnson'
+#        destination-repository-name: 'noahbjohnson.github.io'
+#        user-email: 'noah@noahbjohnson.net'
 
 
