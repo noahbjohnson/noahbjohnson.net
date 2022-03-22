@@ -1,0 +1,153 @@
+{
+  "selectedTemplate": 7,
+  "headings": {
+    "education": "Education",
+    "skills": "Tools",
+    "awards": "Certifications"
+  },
+  "basics": {
+    "name": "Noah B Johnson",
+    "email": "noah@noahbjohnson.net",
+    "phone": "(920) 326-9112",
+    "location": {
+      "address": "Des Moines, IA"
+    },
+    "website": "noahbjohnson.net"
+  },
+  "education": [
+    {
+      "institution": "Luther College",
+      "location": "Decorah, IA",
+      "area": "Data Science, Computer Science",
+      "startDate": "Aug 2015",
+      "endDate": "May 2019"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Spearheaded support for Google Cloud Platform in Kion's cloud governance solution",
+        "Built features from planning to release using Angular, GO, Typescript, and MySQL",
+        "Developed internal libraries, SDKs, and documentation to increase GCP Fluency"
+      ],
+      "company": "Kion",
+      "position": "GCP Software Engineer",
+      "location": "Remote",
+      "startDate": "Sep. 2022",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Deployed backend using AWS API Gateway, Typescript, and gRPC"
+      ],
+      "company": "Stellar IMS",
+      "position": "Senior Backend Developer",
+      "location": "Remote",
+      "startDate": "Mar 2020",
+      "endDate": "July 2020"
+    },
+    {
+      "highlights": [
+        "Engineered and maintained custom data integrations for clients and internal users",
+        "Leveraged Google BigQuery to ensure reliable conversion attribution and segmentation",
+        "Developed a serverless client portal using React, GCP, and Firebase"
+      ],
+      "company": "Trinity Insight",
+      "position": "Data Integration Engineer",
+      "location": "Rochester, MN",
+      "startDate": "May 2019",
+      "endDate": "Mar 2020",
+      "website": "trinity.one"
+    },
+    {
+      "highlights": [
+        "Developed a data dictionary web application for the data warehouse",
+        "Built full-stack on AWS using Node.js and Vue.js"
+      ],
+      "company": "SC Data Center, Inc.",
+      "position": "Data Integration Analyst (Intern)",
+      "location": "Monroe, WI",
+      "startDate": "May 2018",
+      "endDate": "Aug 2018"
+    },
+    {
+      "company": "Heartfelt Tech LLC",
+      "position": "Owner, Developer",
+      "website": "heartfelt.tech",
+      "startDate": "Jul 2017",
+      "highlights": [
+        "Web hosting and services for authors and non-profits"
+      ],
+      "location": "Remote",
+      "endDate": "Present"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Python",
+        "Typescript",
+        "GO",
+        "SQL",
+        "Node.js",
+        "C++",
+        "Shell"
+      ],
+      "name": "Languages"
+    },
+    {
+      "keywords": [
+        "React",
+        "Angular",
+        "IPython & Jupyter",
+        "Pandas",
+        "Docker",
+        "Express.js",
+        "Django"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "Google Cloud Platform",
+        "Firebase",
+        "AWS",
+        "MacOS",
+        "Linux",
+        "Git"
+      ],
+      "name": "Platforms Etc."
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        null
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "date": "March 2019-2022",
+      "title": "AWS Cloud Practitioner",
+      "awarder": "Amazon Web Services",
+      "summary": "Professional"
+    },
+    {
+      "title": "Certified Professional Cloud Developer",
+      "date": "January 2020-2022",
+      "awarder": "Google Cloud Platform",
+      "summary": "Technical"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "education",
+    "projects",
+    "awards"
+  ]
+}
