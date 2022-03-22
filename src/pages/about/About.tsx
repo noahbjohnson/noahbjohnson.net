@@ -55,8 +55,9 @@ export const About = () => {
             electronics,
             genealogy,
             digitizing film negatives,
-            making,
-            e-recycling
+            making things,
+            e-recycling,
+            home improvement
           </p>
           <p><b>academic interests: <br/></b>
             social science statistics,
