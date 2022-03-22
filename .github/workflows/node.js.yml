@@ -18,11 +18,14 @@ jobs:
         node-version: 12.x
     - run: npm i
     - run: npm build
-    - uses: thezzisu/git-repo-deploy-action@v1.0.2
+    - name: Push directory to another repos
+      uses: vinayb21/github-action-push-to-another-repo@1.4.0
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        repo: ${{ secrets.REPO_WITH_TOKEN }}
-        name: noahbjohnson
-        email: noah@noahbjohnson.net
-        branch: master
-        src: build
-        
+        source-directory: 'build'
+        destination-github-username: 'noahbjohnson'
+        destination-repository-name: 'noahbjohnson.github.io'
+        user-email: 'noah@noahbjohnson.net'
+
+
