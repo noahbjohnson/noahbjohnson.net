@@ -22,13 +22,9 @@ export const About = () => {
         <Col lg={6} className={'about-column'}>
           <h2 id="skills">About Me</h2>
           <p>
-            I'm a full-stack data scientist and engineer.
+            Tinkerer and Engineer
+          </p>
 
-            I enjoy decoupling data architectures, refactoring code repeatedly, and abstracting infrastructure into
-            json and yaml.
-
-            Strong believer in the pillars of SCRUM:
-            transparency, inspection, and adaptation.</p>
           <p><b>pronouns: <br/></b> he/him</p>
           <p><b>great at: <br/></b>
             internal tooling development & enablement,
@@ -47,15 +43,21 @@ export const About = () => {
           </p>
           <p><b>pretty ok at: <br/></b>
             project management,
+            stakeholder management
+          </p>
+          <p><b>pretty ok at: <br/></b>
+            product maintenance,
             stakeholder management,
             proving ROI
           </p>
-          <p><b>currently reading: <br/></b> The Wheel of Time</p>
+          <p><b>currently reading: <br/></b> The Wheel of Time </p>
           <p><b>hobbies: <br/></b>
             electronics,
             genealogy,
             digitizing film negatives,
-            data hoarding</p>
+            making,
+            e-recycling
+          </p>
           <p><b>academic interests: <br/></b>
             social science statistics,
             algorithmic bias,
@@ -68,13 +70,17 @@ export const About = () => {
           <div className={'job'}>
             <h4>GCP Software Engineer</h4>
             <h6><a href="https://cloudtamer.io/">cloudtamer.io</a> | Remote | September 2020 - present</h6>
+            <ul>
+              <li>Spearheaded support for Google Cloud Platform in Kion's cloud governance solution</li>
+              <li>Built features from planning to release using Angular, GO, Typescript, and MySQL</li>
+              <li>Developed internal libraries, SDKs, and documentation to increase GCP Fluency</li>
+            </ul>
           </div>
           <div className={'job'}>
             <h4>Senior Backend Developer</h4>
             <h6>Stellar IMS | Remote | March 2020 – July 2020</h6>
             <ul>
-              <li>Designed cloud infrastructure with the other backend developer</li>
-              <li>Authored containerized microservices and API gateway in TS/Node</li>
+              <li>Deployed backend using AWS API Gateway, Typescript, and gRPC</li>
             </ul>
           </div>
           <div className={'job'}>
@@ -90,7 +96,9 @@ export const About = () => {
             <h4>Data Integration Analyst - Internship</h4>
             <h6>SC Data Center, Inc. | Monroe, Wisconsin | Summer 2018</h6>
             <ul>
-              <li>Led development on a serverless data dictionary web application for the data warehouse team</li>
+              <li>Developed a data dictionary web application for the data warehouse. Built full-stack on AWS using
+                Node.js and Vue.js
+              </li>
               <li>Provided extensive business value with clear data provenance and metadata for all users</li>
               <li>Assisted in company-wide efforts to lift-and-shift cobol mainframe routines to an AWS-hosted Hadoop
                 cluster
@@ -105,11 +113,11 @@ export const About = () => {
           <h2>Certifications</h2>
           <Row className={'certifications'}>
             <Col md={6}>
-              <img src='about-assets/gcp-cloud-dev.png' alt='Google Cloud Certified Cloud Developer'/>
+              <img src="about-assets/gcp-cloud-dev.png" alt="Google Cloud Certified Cloud Developer"/>
             </Col>
             <Col md={6}>
-              <img src={'about-assets/aws-certified.png'} alt='AWS Certified'/><br/>
-              <img src={'about-assets/cloud-practitioner.png'} alt='Cloud Practitioner'/>
+              <img src={'about-assets/aws-certified.png'} alt="AWS Certified"/><br/>
+              <img src={'about-assets/cloud-practitioner.png'} alt="Cloud Practitioner"/>
             </Col>
           </Row>
         </Col>
