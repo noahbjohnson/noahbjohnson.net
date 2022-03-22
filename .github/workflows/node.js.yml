@@ -17,7 +17,7 @@ jobs:
       with:
         node-version: 12.x
     - run: npm i
-    - run: npm build
+    - run: npm run build
 
     - name: Deploy
       uses: manzoorwanijk/action-deploy-to-repo@master
