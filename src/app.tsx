@@ -11,7 +11,8 @@ import { Apps } from './pages/apps/Apps'
 import Footer from './components/footer/footer'
 import React from 'react'
 
-export default function () {
+export default app
+function app() {
   return (
     <HashRouter>
       <PreferencesProvider>

@@ -67,7 +67,7 @@ export const About = () => {
           <h2>Work</h2>
           <div className={'job'}>
             <h4>Backend Software Engineer</h4>
-            <h6><a href="https://form.com/" target="_blank">form.com</a> | Remote | September 2022 - present</h6>
+            <h6><a href="https://form.com/">form.com</a> | Remote | September 2022 - present</h6>
             <ul>
               <li>Integral part of small team addressing tech debt and product stability</li>
               <li>Worked extensively in Go to decouple existing services and develop new features</li>

@@ -85,6 +85,8 @@ export const OfficialCard: React.FC<officialCardProps> = (props) => {
               return <a href={`https://www.youtube.com/results?search_query=${channel.id}`}><Button
                 variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon
                 icon={faYoutube}/></Button></a>
+            default:
+              return null
           }
         })}
       </p>
