@@ -25,7 +25,7 @@ export const About = () => {
             Tinkerer and Engineer
           </p>
 
-          <p><b>pronouns: <br/></b> he/him</p>
+          <p><b>pronouns: <br/></b> he/they</p>
           <p><b>great at: <br/></b>
             internal tooling development & enablement,
             clearing roadblocks,
@@ -42,10 +42,6 @@ export const About = () => {
             data engineering
           </p>
           <p><b>pretty ok at: <br/></b>
-            project management,
-            stakeholder management
-          </p>
-          <p><b>pretty ok at: <br/></b>
             product maintenance,
             stakeholder management,
             proving ROI
@@ -53,6 +49,7 @@ export const About = () => {
           <p><b>currently reading: <br/></b> The Wheel of Time </p>
           <p><b>hobbies: <br/></b>
             electronics,
+            3d printing,
             genealogy,
             digitizing film negatives,
             making things,
@@ -69,8 +66,17 @@ export const About = () => {
         <Col lg={6} className={`about-column`}>
           <h2>Work</h2>
           <div className={'job'}>
+            <h4>Backend Software Engineer</h4>
+            <h6><a href="https://form.com/" target="_blank">form.com</a> | Remote | September 2022 - present</h6>
+            <ul>
+              <li>Integral part of small team addressing tech debt and product stability</li>
+              <li>Worked extensively in Go to decouple existing services and develop new features</li>
+              <li>Achieved service restoration when faced with overloaded architecture and upstream services failing</li>
+            </ul>
+          </div>
+          <div className={'job'}>
             <h4>GCP Software Engineer</h4>
-            <h6><a href="https://cloudtamer.io/">cloudtamer.io</a> | Remote | September 2020 - present</h6>
+            <h6><a href="https://kion.io/">kion.io (previously cloudtamer.io)</a> | Remote | September 2020 - August 2022</h6>
             <ul>
               <li>Spearheaded support for Google Cloud Platform in Kion's cloud governance solution</li>
               <li>Built features from planning to release using Angular, GO, Typescript, and MySQL</li>
@@ -106,7 +112,6 @@ export const About = () => {
               </li>
             </ul>
           </div>
-
         </Col>
       </Row>
       <Row className={'about-section'}>
