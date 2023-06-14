@@ -28,7 +28,7 @@ export const BlogEntry: FC<RouteComponentProps<BlogEntryProps>> = (props) => {
     </header>
     <Row>
       <Col lg={12}>
-        <ReactMarkdown source={contents}/>
+        <ReactMarkdown children={contents}/>
       </Col>
     </Row>
   </Container>

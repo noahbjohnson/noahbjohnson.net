@@ -40,10 +40,10 @@ export const PreferencesProvider = class extends React.Component<ProviderProps, 
   _isMounted = false
 
   /**
-   * toggle the darlk mode and sync with local storage
+   * toggle the dark mode and sync with local storage
    */
   toggleDark = () => {
-    // toggle dark mode and flag the value as manually overriden
+    // toggle dark mode and flag the value as manually overridden
     const currentValue = this.state.darkMode
     if (this._isMounted) this.setState({
       darkMode: !currentValue,
@@ -68,7 +68,7 @@ export const PreferencesProvider = class extends React.Component<ProviderProps, 
   }
 
   /**
-   * setup the local storage listener and load values in
+   * set up the local storage listener and load values in
    */
   componentDidMount (): void {
     this._isMounted = true

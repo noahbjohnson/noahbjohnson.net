@@ -16,7 +16,7 @@ interface FooterButton {
   /**
    * Font Awesome icon dom element with icon ID
    */
-  icon?: JSX.Element
+  icon?: React.JSX.Element
 }
 
 export interface DsProject {
