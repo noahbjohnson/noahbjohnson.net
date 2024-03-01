@@ -1,0 +1,10 @@
+.ds-page-header {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    width: 100%;
+    text-align: center;
+}
+
+.ds-page {
+    padding: 3em;
+}

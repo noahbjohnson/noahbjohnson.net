@@ -1,0 +1,45 @@
+.page {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgba(230, 230, 230, .75);
+    min-height: 100vh;
+}
+
+.page.dark {
+    background-color: rgb(80, 80, 80);
+    color: whitesmoke;
+}
+
+.card.dark {
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+}
+
+.card-body.dark {
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+}
+
+.card-header.dark {
+    background-color: rgba(10, 10, 10, .5);
+    color: whitesmoke;
+}
+
+.card-footer.dark {
+    background-color: rgba(10, 10, 10, .5);
+}
+
+.card {
+    margin-bottom: 5vh;
+    min-height: 33vh;
+}
+
+.card-footer a {
+    color: whitesmoke;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.card-footer {
+    text-align: center;
+}
