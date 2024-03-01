@@ -28,6 +28,7 @@ export const About = () => {
           <p><b>pronouns: <br/></b> he/they</p>
           <p><b>great at: <br/></b>
             internal tooling development & enablement,
+            taking ownership
             clearing roadblocks,
             conceptual communication,
             teaching
@@ -41,12 +42,7 @@ export const About = () => {
             data models,
             data engineering
           </p>
-          <p><b>pretty ok at: <br/></b>
-            product maintenance,
-            stakeholder management,
-            proving ROI
-          </p>
-          <p><b>currently reading: <br/></b> The Wheel of Time </p>
+          <p><b>currently reading: <br/></b> The Wheel of Time (I will never finish these books) </p>
           <p><b>hobbies: <br/></b>
             electronics,
             3d printing,
