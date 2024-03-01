@@ -80,10 +80,11 @@ export const Reps: FC = () => {
             <Accordion> {
               Object.entries(voterInfo.divisions).map((division: [string, any], key) => {
                 return <Card key={key} className={`card ${darkMode ? 'dark' : 'light'}`}>
-                  <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`} onClick={() => ReactGA.event({
-                    category: 'Apps',
-                    action: 'Viewed Division Representatives'
-                  })}>
+                  <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`}
+                               onClick={() => ReactGA.event({
+                                 category: 'Apps',
+                                 action: 'Viewed Division Representatives'
+                               })}>
                     <Accordion.Toggle as={Button} variant="link" eventKey={String(key)}
                                       disabled={!division[1]?.officeIndices}>
                       {division[1].name}

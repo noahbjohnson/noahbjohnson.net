@@ -54,7 +54,7 @@ export const Vote: FC = () => {
   return <LoadingOverlay
     active={loading}
     spinner
-    text='Loading your voting information'
+    text="Loading your voting information"
   ><Container className={`page ${darkMode ? 'dark' : 'light'}`} fluid>
     <Row>
       <Col xs={'12'} style={{ textAlign: 'center' }}>
@@ -96,105 +96,110 @@ export const Vote: FC = () => {
               <h4>Unable to find information for that address!</h4>
             </>
             : voterInfo
-            ? <>
-              <h4>Here's your voting info!</h4>
+              ? <>
+                <h4>Here's your voting info!</h4>
 
-              <Accordion>
-                {
-                  voterInfo.election ?
-                    <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
-                      <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`}
-                                   onClick={() => ReactGA.event({
-                                     category: 'Apps',
-                                     action: 'Viewed Voter Information'
-                                   })}>
-                        <Accordion.Toggle as={Button} variant="link" eventKey={'early'}
-                                          disabled={!voterInfo.election}>
-                          {voterInfo.election.name} {moment().calendar(moment(voterInfo.election.electionDay as string, 'YYYY-MM-DD'), {
-                          sameDay: '[Today]',
-                          nextDay: '[Tomorrow]',
-                          nextWeek: 'dddd',
-                          lastDay: '[Yesterday]',
-                          lastWeek: '[Last] dddd',
-                          sameElse: 'DD/MM/YYYY'
-                        })}
-                        </Accordion.Toggle>
-                      </Card.Header>
-                      <Accordion.Collapse eventKey={'early'}>
-                        <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>
-                          {JSON.stringify(voterInfo.election)}
-                          <p>{JSON.stringify(voterInfo.contests[0])}</p></Card.Body>
-                      </Accordion.Collapse>
-                    </Card>
-                    : ''
-                }
-                <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
-                  <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`} onClick={() => ReactGA.event({
-                    category: 'Apps',
-                    action: 'Viewed Voter Information'
-                  })}>
-                    <Accordion.Toggle as={Button} variant="link" eventKey={JSON.stringify(voterInfo.state)}
-                                      disabled={!voterInfo.state}>
-                      Your State
-                    </Accordion.Toggle>
-                  </Card.Header>
-                  <Accordion.Collapse eventKey={JSON.stringify(voterInfo.state)}>
-                    <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>{
-                      JSON.stringify(voterInfo.state)
-                    }</Card.Body>
-                  </Accordion.Collapse>
-                </Card>
-                <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
-                  <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`} onClick={() => ReactGA.event({
-                    category: 'Apps',
-                    action: 'Viewed Voter Information'
-                  })}>
-                    <Accordion.Toggle as={Button} variant="link" eventKey={'locations'}
-                                      disabled={!voterInfo.pollingLocations}>
-                      Polling locations
-                    </Accordion.Toggle>
-                  </Card.Header>
-                  <Accordion.Collapse eventKey={'locations'}>
-                    <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>{
-                      JSON.stringify(voterInfo.pollingLocations)
-                    }</Card.Body>
-                  </Accordion.Collapse>
-                </Card>
-                <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
-                  <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`} onClick={() => ReactGA.event({
-                    category: 'Apps',
-                    action: 'Viewed Voter Information'
-                  })}>
-                    <Accordion.Toggle as={Button} variant="link" eventKey={'early'}
-                                      disabled={!voterInfo.earlyVoteSites}>
-                      Early voting locations
-                    </Accordion.Toggle>
-                  </Card.Header>
-                  <Accordion.Collapse eventKey={'early'}>
-                    <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>{
-                      JSON.stringify(voterInfo.earlyVoteSites)
-                    }</Card.Body>
-                  </Accordion.Collapse>
-                </Card>
-                <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
-                  <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`} onClick={() => ReactGA.event({
-                    category: 'Apps',
-                    action: 'Viewed Voter Information'
-                  })}>
-                    <Accordion.Toggle as={Button} variant="link" eventKey={'drop'}
-                                      disabled={!voterInfo.dropOffLocations}>
-                      Ballot Drop Off Locations
-                    </Accordion.Toggle>
-                  </Card.Header>
-                  <Accordion.Collapse eventKey={'drop'}>
-                    <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>{
-                      JSON.stringify(voterInfo.dropOffLocations)
-                    }</Card.Body>
-                  </Accordion.Collapse>
-                </Card>
-              </Accordion>
-            </>
-            : ''}
+                <Accordion>
+                  {
+                    voterInfo.election ?
+                      <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
+                        <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`}
+                                     onClick={() => ReactGA.event({
+                                       category: 'Apps',
+                                       action: 'Viewed Voter Information'
+                                     })}>
+                          <Accordion.Toggle as={Button} variant="link" eventKey={'early'}
+                                            disabled={!voterInfo.election}>
+                            {voterInfo.election.name} {moment().calendar(moment(voterInfo.election.electionDay as string, 'YYYY-MM-DD'), {
+                            sameDay: '[Today]',
+                            nextDay: '[Tomorrow]',
+                            nextWeek: 'dddd',
+                            lastDay: '[Yesterday]',
+                            lastWeek: '[Last] dddd',
+                            sameElse: 'DD/MM/YYYY'
+                          })}
+                          </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey={'early'}>
+                          <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>
+                            {JSON.stringify(voterInfo.election)}
+                            <p>{JSON.stringify(voterInfo.contests[0])}</p></Card.Body>
+                        </Accordion.Collapse>
+                      </Card>
+                      : ''
+                  }
+                  <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
+                    <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`}
+                                 onClick={() => ReactGA.event({
+                                   category: 'Apps',
+                                   action: 'Viewed Voter Information'
+                                 })}>
+                      <Accordion.Toggle as={Button} variant="link"
+                                        eventKey={JSON.stringify(voterInfo.state)}
+                                        disabled={!voterInfo.state}>
+                        Your State
+                      </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey={JSON.stringify(voterInfo.state)}>
+                      <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>{
+                        JSON.stringify(voterInfo.state)
+                      }</Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                  <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
+                    <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`}
+                                 onClick={() => ReactGA.event({
+                                   category: 'Apps',
+                                   action: 'Viewed Voter Information'
+                                 })}>
+                      <Accordion.Toggle as={Button} variant="link" eventKey={'locations'}
+                                        disabled={!voterInfo.pollingLocations}>
+                        Polling locations
+                      </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey={'locations'}>
+                      <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>{
+                        JSON.stringify(voterInfo.pollingLocations)
+                      }</Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                  <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
+                    <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`}
+                                 onClick={() => ReactGA.event({
+                                   category: 'Apps',
+                                   action: 'Viewed Voter Information'
+                                 })}>
+                      <Accordion.Toggle as={Button} variant="link" eventKey={'early'}
+                                        disabled={!voterInfo.earlyVoteSites}>
+                        Early voting locations
+                      </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey={'early'}>
+                      <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>{
+                        JSON.stringify(voterInfo.earlyVoteSites)
+                      }</Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                  <Card className={`card ${darkMode ? 'dark' : 'light'}`}>
+                    <Card.Header className={`card-header ${darkMode ? 'dark' : 'light'}`}
+                                 onClick={() => ReactGA.event({
+                                   category: 'Apps',
+                                   action: 'Viewed Voter Information'
+                                 })}>
+                      <Accordion.Toggle as={Button} variant="link" eventKey={'drop'}
+                                        disabled={!voterInfo.dropOffLocations}>
+                        Ballot Drop Off Locations
+                      </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey={'drop'}>
+                      <Card.Body className={`card-body ${darkMode ? 'dark' : 'light'}`}>{
+                        JSON.stringify(voterInfo.dropOffLocations)
+                      }</Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </>
+              : ''}
       </Col>
     </Row>
   </Container>

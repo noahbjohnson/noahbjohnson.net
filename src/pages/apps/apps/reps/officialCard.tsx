@@ -42,11 +42,13 @@ export const OfficialCard: React.FC<officialCardProps> = (props) => {
       {props.official.address
         ? <><b>Address</b>
           <p>
-            {props.official.address[0].locationName ? <> {props.official.address[0].locationName} <br/></> : ''}
+            {props.official.address[0].locationName ? <> {props.official.address[0].locationName}
+              <br/></> : ''}
             {props.official.address[0].line1 ? <> {props.official.address[0].line1} <br/></> : ''}
             {props.official.address[0].line2 ? <> {props.official.address[0].line2} <br/></> : ''}
             {props.official.address[0].line3 ? <> {props.official.address[0].line3} <br/></> : ''}
-            {props.official.address[0].city}, {props.official.address[0].state} {props.official.address[0].zip} <br/>
+            {props.official.address[0].city}, {props.official.address[0].state} {props.official.address[0].zip}
+            <br/>
           </p>
         </>
         : ''}
@@ -76,7 +78,8 @@ export const OfficialCard: React.FC<officialCardProps> = (props) => {
           switch (channel.type) {
             case 'Facebook':
               return <a href={`https://fb.me/${channel.id}`}><Button
-                variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon icon={faFacebook}/></Button></a>
+                variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon
+                icon={faFacebook}/></Button></a>
             case 'Twitter':
               return <a href={`https://twitter.com/${channel.id}`}><Button
                 variant={darkMode ? 'outline-light' : 'outline-dark'}><FontAwesomeIcon

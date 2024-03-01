@@ -70,7 +70,8 @@ export const DataScience: FC<DsProps> = (props) => {
                 <Card.Header
                   className={`${darkMode ? 'dark' : 'light'}`}>{project.subtitle} - <i>{project.date}</i></Card.Header>
                 <Card.Body className={`${darkMode ? 'dark' : 'light'}`}>
-                  <Card.Title className={`${darkMode ? 'dark' : 'light'}`}>{project.title}</Card.Title>
+                  <Card.Title
+                    className={`${darkMode ? 'dark' : 'light'}`}>{project.title}</Card.Title>
                   {project.bodyText.map((paragraph, index2) => {
                     return <Card.Text className={`${darkMode ? 'dark' : 'light'}`}
                                       key={index2}>{paragraph}</Card.Text>
@@ -79,7 +80,8 @@ export const DataScience: FC<DsProps> = (props) => {
                 <Card.Footer className={`${darkMode ? 'dark' : 'light'}`}>
                   <></>
                   {project.footerButtons.map((footerButton, index2) => {
-                    return <ReactGA.OutboundLink eventLabel={project.title} to={footerButton.link} target="_blank"
+                    return <ReactGA.OutboundLink eventLabel={project.title} to={footerButton.link}
+                                                 target="_blank"
                                                  rel="noopener noreferrer" key={index2}>
                       <Button variant={darkMode ? 'outline-light' : 'outline-dark'}>
                         {footerButton.icon || ''} {footerButton.text}

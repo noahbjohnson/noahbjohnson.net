@@ -12,7 +12,8 @@ import Footer from './components/footer/footer'
 import React from 'react'
 
 export default app
-function app() {
+
+function app () {
   return (
     <HashRouter>
       <PreferencesProvider>
@@ -21,11 +22,11 @@ function app() {
             <div className="App">
               <NavBar/>
               <Switch>
-                <Route path='/about' component={withTracker(About)}/>
-                <Route path='/data-science'
+                <Route path="/about" component={withTracker(About)}/>
+                <Route path="/data-science"
                        component={withTracker(() => <DataScience projects={dataScienceProjects}/>)}/>
                 <Route exact path="/blog/:slug" component={withTracker(BlogEntry)}/>
-                <Route path='/blog' component={withTracker(Blog)}/>
+                <Route path="/blog" component={withTracker(Blog)}/>
                 <Route path={['/apps', '/apps/**']} component={withTracker(Apps)}/>
                 <Redirect path={'**'} to={'/about'}/>
               </Switch>

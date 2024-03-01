@@ -71,12 +71,15 @@ export const About = () => {
             <ul>
               <li>Integral part of small team addressing tech debt and product stability</li>
               <li>Worked extensively in Go to decouple existing services and develop new features</li>
-              <li>Achieved service restoration when faced with overloaded architecture and upstream services failing</li>
+              <li>Achieved service restoration when faced with overloaded architecture and upstream
+                services failing
+              </li>
             </ul>
           </div>
           <div className={'job'}>
             <h4>GCP Software Engineer</h4>
-            <h6><a href="https://kion.io/">kion.io (previously cloudtamer.io)</a> | Remote | September 2020 - August 2022</h6>
+            <h6><a href="https://kion.io/">kion.io (previously cloudtamer.io)</a> | Remote | September 2020
+              - August 2022</h6>
             <ul>
               <li>Spearheaded support for Google Cloud Platform in Kion's cloud governance solution</li>
               <li>Built features from planning to release using Angular, GO, Typescript, and MySQL</li>
@@ -96,18 +99,23 @@ export const About = () => {
             <ul>
               <li>Built Custom serverless data pipelines and integrations on Google Cloud Platform</li>
               <li>Led React application development for client portal and internal tooling</li>
-              <li>Leveraged Google BigQuery to ensure reliable conversion attribution and segmentation</li>
+              <li>Leveraged Google BigQuery to ensure reliable conversion attribution and segmentation
+              </li>
             </ul>
           </div>
           <div className={'job'}>
             <h4>Data Integration Analyst - Internship</h4>
             <h6>SC Data Center, Inc. | Monroe, Wisconsin | Summer 2018</h6>
             <ul>
-              <li>Developed a data dictionary web application for the data warehouse. Built full-stack on AWS using
+              <li>Developed a data dictionary web application for the data warehouse. Built full-stack on
+                AWS using
                 Node.js and Vue.js
               </li>
-              <li>Provided extensive business value with clear data provenance and metadata for all users</li>
-              <li>Assisted in company-wide efforts to lift-and-shift cobol mainframe routines to an AWS-hosted Hadoop
+              <li>Provided extensive business value with clear data provenance and metadata for all
+                users
+              </li>
+              <li>Assisted in company-wide efforts to lift-and-shift cobol mainframe routines to an
+                AWS-hosted Hadoop
                 cluster
               </li>
             </ul>

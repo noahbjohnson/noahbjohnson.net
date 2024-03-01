@@ -21,7 +21,8 @@ type ProviderState = {
 const defaultContext = {
   darkMode: false,
   manualDarkModeSet: false,
-  toggleDark: () => {}
+  toggleDark: () => {
+  }
 }
 
 export const PreferencesContext = React.createContext(defaultContext)

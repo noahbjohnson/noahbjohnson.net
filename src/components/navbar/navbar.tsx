@@ -11,7 +11,8 @@ import { NavLink } from 'react-router-dom'
 export const NavBar = () => {
   const { darkMode, toggleDark } = useContext(PreferencesContext)
   return (
-    <Navbar bg={darkMode ? 'dark' : 'light'} expand={'md'} variant={darkMode ? 'dark' : 'light'} collapseOnSelect={true}
+    <Navbar bg={darkMode ? 'dark' : 'light'} expand={'md'} variant={darkMode ? 'dark' : 'light'}
+            collapseOnSelect={true}
             className={'headerFont headerStyles'} fixed={'top'}>
       <Navbar.Brand href="#">Noah B. Johnson</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
