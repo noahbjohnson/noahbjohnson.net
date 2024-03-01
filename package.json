@@ -32,6 +32,7 @@
     "@types/react-router-dom": "^5.3.1",
     "@types/react-toggle": "^4.0.3",
     "@types/superagent": "^4.1.13",
+    "gh-pages": "^6.1.1",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
@@ -39,7 +40,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "npx eslint --fix src/**/*.tsx"
+    "lint": "npx eslint --fix src/**/*.tsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -r git@github.com:noahbjohnson/noahbjohnson.github.io.git -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

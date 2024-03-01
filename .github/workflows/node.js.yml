@@ -15,7 +15,7 @@ jobs:
     - name: Add Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: 12.x
+        node-version: 16.x
     - run: npm i
     - run: npm run build
 
@@ -28,7 +28,7 @@ jobs:
         target_dir: ''
         target_branch: master # default
         # Optional
-        access_token: ${{ secrets.API_TOKEN_GITHUB }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
         cleanup_command: "rm -rf assets/* && rm -f assets/asset-manifest.json"
 
 #    - name: Pushes test file
