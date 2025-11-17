@@ -209,7 +209,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     max-width: 1000px;
     margin: 0 auto;
     padding: 40px 20px;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
     min-height: 100vh;
   }
 
@@ -217,7 +217,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   .header {
     margin-bottom: 40px;
     padding-bottom: 30px;
-    border-bottom: 3px solid #2c3e50;
+    border-bottom: 3px solid #4a9eff;
   }
 
   .header-content {
@@ -231,11 +231,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     height: 150px;
     min-width: 150px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4a9eff 0%, #7b68ee 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    box-shadow: 0 4px 20px rgba(74, 158, 255, 0.3);
   }
 
   .headshot-placeholder svg {
@@ -246,20 +247,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   .header-text h1 {
     margin: 0 0 8px 0;
     font-size: 2.5rem;
-    color: #2c3e50;
+    color: #ffffff;
     font-weight: 700;
   }
 
   .subtitle {
     margin: 0 0 4px 0;
     font-size: 1.1rem;
-    color: #555;
+    color: #a0aec0;
     font-weight: 500;
   }
 
   .location {
     margin: 0 0 12px 0;
-    color: #777;
+    color: #718096;
     font-size: 0.95rem;
   }
 
@@ -272,18 +273,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .contact-info a {
-    color: #667eea;
+    color: #4a9eff;
     text-decoration: none;
     transition: color 0.2s;
   }
 
   .contact-info a:hover {
-    color: #764ba2;
+    color: #7b68ee;
     text-decoration: underline;
   }
 
   .separator {
-    color: #ccc;
+    color: #4a5568;
   }
 
   /* Section Styles */
@@ -293,16 +294,26 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .section h2 {
     font-size: 1.6rem;
-    color: #2c3e50;
+    color: #4a9eff;
     margin-bottom: 20px;
     padding-bottom: 8px;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 2px solid #2d3748;
     font-weight: 600;
   }
 
   /* Job Styles */
   .job {
     margin-bottom: 30px;
+    padding: 20px;
+    background-color: #242424;
+    border-radius: 8px;
+    border-left: 3px solid #4a9eff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .job:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(74, 158, 255, 0.1);
   }
 
   .job-header {
@@ -314,14 +325,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .job h3 {
     font-size: 1.3rem;
-    color: #2c3e50;
+    color: #ffffff;
     margin: 0;
     font-weight: 600;
   }
 
   .tenure {
     font-size: 0.9rem;
-    color: #777;
+    color: #718096;
     margin: 2px 0 0 0;
     font-style: italic;
   }
@@ -333,20 +344,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .role h4 {
     font-size: 1.1rem;
-    color: #34495e;
+    color: #e2e8f0;
     margin: 0 0 4px 0;
     font-weight: 600;
   }
 
   .date {
     font-size: 0.9rem;
-    color: #777;
+    color: #718096;
     margin: 0 0 4px 0;
   }
 
   .location-text {
     font-size: 0.9rem;
-    color: #888;
+    color: #718096;
     margin: 0 0 8px 0;
     font-style: italic;
   }
@@ -354,7 +365,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   .description {
     margin: 8px 0;
     line-height: 1.6;
-    color: #555;
+    color: #cbd5e0;
   }
 
   .job ul {
@@ -365,24 +376,31 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   .job li {
     margin-bottom: 6px;
     line-height: 1.5;
-    color: #555;
+    color: #cbd5e0;
+  }
+
+  .job li::marker {
+    color: #4a9eff;
   }
 
   /* Education */
   .education {
     margin-bottom: 15px;
+    padding: 15px;
+    background-color: #242424;
+    border-radius: 8px;
   }
 
   .education h3 {
     font-size: 1.2rem;
-    color: #2c3e50;
+    color: #ffffff;
     margin: 0 0 4px 0;
     font-weight: 600;
   }
 
   .education p {
     margin: 0;
-    color: #555;
+    color: #cbd5e0;
   }
 
   /* Skills Grid */
@@ -394,7 +412,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .skills-grid h4 {
     font-size: 1.1rem;
-    color: #34495e;
+    color: #e2e8f0;
     margin: 0 0 10px 0;
     font-weight: 600;
   }
@@ -406,13 +424,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .skill-list li {
-    padding: 6px 0;
-    color: #555;
-    border-bottom: 1px solid #f0f0f0;
+    padding: 8px 12px;
+    color: #cbd5e0;
+    background-color: #242424;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    transition: background-color 0.2s;
+  }
+
+  .skill-list li:hover {
+    background-color: #2d3748;
   }
 
   .skill-list li:last-child {
-    border-bottom: none;
+    margin-bottom: 0;
   }
 
   /* Awards */
@@ -423,13 +448,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .awards-list li {
-    padding: 8px 0;
-    color: #555;
-    border-bottom: 1px solid #f0f0f0;
+    padding: 12px;
+    color: #cbd5e0;
+    background-color: #242424;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border-left: 3px solid #7b68ee;
   }
 
   .awards-list li:last-child {
-    border-bottom: none;
+    margin-bottom: 0;
   }
 
   /* Responsive Design */
@@ -461,6 +489,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     .skills-grid {
       grid-template-columns: 1fr;
     }
+
+    .job {
+      padding: 15px;
+    }
   }
 
   /* Global Styles */
@@ -471,6 +503,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #f5f5f5;
+    background-color: #0d0d0d;
+    color: #cbd5e0;
   }
 </style>
