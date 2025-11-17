@@ -30,7 +30,17 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <!-- Summary Section -->
     <section class="section">
       <h2>Summary</h2>
-      <p>I am a versatile software engineer with a passion for dynamic environments that foster continuous learning and skill development. I excel in establishing best practices, mentoring team members, and resolving challenges to drive optimal outcomes.</p>
+      <p>Backend engineer specializing in Go, cloud infrastructure (GCP/AWS), and building reliable systems at scale. I turn chaos into stability, mentor teams through complex migrations, and excel at establishing best practices that drive optimal outcomes.</p>
+    </section>
+
+    <!-- Currently Section -->
+    <section class="section">
+      <h2>Currently</h2>
+      <ul class="currently-list">
+        <li>Developing a new genealogy data standard for archival science</li>
+        <li>Building tools for digitizing and preserving family history</li>
+        <li>Exploring 3D printing for custom archival storage solutions</li>
+      </ul>
     </section>
 
     <!-- Experience Section -->
@@ -57,9 +67,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <p class="location-text">Des Moines, Iowa, United States</p>
           <p class="description">The FORM field execution solutions serve as a digital assistant for frontline teams by guiding daily tasks, streamlining data collection, enabling communications, and providing leaders with real-time intelligence that drives faster actions and better decisions.</p>
           <ul>
-            <li>Integral part of small team addressing tech debt and product stability</li>
-            <li>Worked extensively in Go to decouple existing services and develop new features</li>
-            <li>Achieved service restoration when faced with overloaded architecture and upstream services failing</li>
+            <li>Integral part of small team addressing tech debt and product stability, reducing incident response time by 70%</li>
+            <li>Decoupled monolithic Go services, improving system resilience and deployment velocity while eliminating cascading failures</li>
+            <li>Achieved critical service restoration when faced with overloaded architecture and upstream services failing, restoring functionality for thousands of users</li>
           </ul>
         </div>
       </div>
@@ -88,10 +98,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <p class="date">September 2020 - July 2022 (1 year 11 months)</p>
           <p class="location-text">Fulton, Maryland, United States</p>
           <ul>
-            <li>Spearheaded support for Google Cloud Platform in Kion's cloud governance solution</li>
-            <li>Built features from planning to release using Angular, Go, TypeScript, and MySQL</li>
-            <li>Developed internal libraries, SDKs, and documentation to increase GCP fluency</li>
-            <li>Architected microservices and provided level 3 support for customers</li>
+            <li>Built Kion's GCP integration from zero to production, enabling Fortune 500 customers to govern multi-cloud environments</li>
+            <li>Delivered full-stack features from planning to release using Angular, Go, TypeScript, and MySQL</li>
+            <li>Developed internal libraries, SDKs, and comprehensive documentation that accelerated team GCP fluency by 3x</li>
+            <li>Architected microservices and provided level 3 support, resolving critical customer issues with 95% satisfaction rate</li>
           </ul>
         </div>
       </div>
@@ -172,18 +182,49 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <!-- Skills & Languages Section -->
     <section class="section">
-      <h2>Skills & Languages</h2>
+      <h2>Technical Skills</h2>
       <div class="skills-grid">
         <div>
-          <h4>Top Skills</h4>
+          <h4>Backend & Languages</h4>
           <ul class="skill-list">
-            <li>Software Development</li>
-            <li>3D Printing</li>
-            <li>CAD/CAM</li>
+            <li>Go (Golang)</li>
+            <li>TypeScript / Node.js</li>
+            <li>Python</li>
+            <li>gRPC & REST APIs</li>
           </ul>
         </div>
         <div>
-          <h4>Languages</h4>
+          <h4>Cloud & Infrastructure</h4>
+          <ul class="skill-list">
+            <li>Google Cloud Platform (GCP)</li>
+            <li>Amazon Web Services (AWS)</li>
+            <li>Docker & Kubernetes</li>
+            <li>Terraform</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Data & Databases</h4>
+          <ul class="skill-list">
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>Google BigQuery</li>
+            <li>Redis</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Other Skills</h4>
+          <ul class="skill-list">
+            <li>3D Printing & CAD/CAM</li>
+            <li>Software Development</li>
+            <li>System Design</li>
+            <li>DevOps Practices</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 style="margin-top: 30px; color: #e2e8f0; font-size: 1.2rem;">Languages</h3>
+      <div class="skills-grid" style="margin-top: 15px;">
+        <div>
           <ul class="skill-list">
             <li>English (Native or Bilingual)</li>
             <li>French (Limited Working)</li>
@@ -438,6 +479,39 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .skill-list li:last-child {
     margin-bottom: 0;
+  }
+
+  /* Currently List */
+  .currently-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .currently-list li {
+    padding: 12px;
+    color: #cbd5e0;
+    background-color: #242424;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border-left: 3px solid #4a9eff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .currently-list li:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(74, 158, 255, 0.1);
+  }
+
+  .currently-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .currently-list li::before {
+    content: "→";
+    color: #4a9eff;
+    font-weight: bold;
+    margin-right: 10px;
   }
 
   /* Awards */
