@@ -11,10 +11,10 @@
     "gh-pages": "^6.1.1"
   },
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "astro dev --host",
+    "start": "astro dev --host",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "astro preview --host",
     "predeploy": "npm run build",
     "deploy": "gh-pages -r git@github.com:noahbjohnson/noahbjohnson.github.io.git -b master -d build"
   },
