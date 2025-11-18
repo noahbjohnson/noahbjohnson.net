@@ -1,0 +1,583 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Noah B. Johnson - Software Engineer">
+  <div class="resume-container">
+    <!-- Header Section with Headshot Placeholder -->
+    <header class="header">
+      <div class="header-content">
+        <div class="headshot-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </div>
+        <div class="header-text">
+          <h1>Noah B. Johnson</h1>
+          <p class="subtitle">Backend | Family Archivist | Maker | Indie Press</p>
+          <p class="location">Des Moines, Iowa, United States</p>
+          <div class="contact-info">
+            <a href="tel:+19203269112">(920) 326-9112</a>
+            <span class="separator">•</span>
+            <a href="mailto:noah@noahbjohnson.net">noah@noahbjohnson.net</a>
+            <span class="separator">•</span>
+            <a href="https://www.linkedin.com/in/noahbjohnson" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Summary Section -->
+    <section class="section">
+      <h2>Summary</h2>
+      <p>Backend engineer specializing in Go, cloud infrastructure (GCP/AWS), and building reliable systems at scale. I turn chaos into stability, mentor teams through complex migrations, and excel at establishing best practices that drive optimal outcomes.</p>
+    </section>
+
+    <!-- Currently Section -->
+    <section class="section">
+      <h2>Currently</h2>
+      <ul class="currently-list">
+        <li>Developing a new genealogy data standard for archival science</li>
+        <li>Building tools for digitizing and preserving family history</li>
+        <li>Exploring 3D printing for custom archival storage solutions</li>
+      </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section">
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <h3>FORM</h3>
+            <p class="tenure">3 years 4 months</p>
+          </div>
+        </div>
+
+        <div class="role">
+          <h4>Senior Software Engineer</h4>
+          <p class="date">April 2025 - Present (8 months)</p>
+          <p class="location-text">Des Moines, Iowa, United States</p>
+        </div>
+
+        <div class="role">
+          <h4>Backend Software Engineer</h4>
+          <p class="date">August 2022 - April 2025 (2 years 9 months)</p>
+          <p class="location-text">Des Moines, Iowa, United States</p>
+          <p class="description">The FORM field execution solutions serve as a digital assistant for frontline teams by guiding daily tasks, streamlining data collection, enabling communications, and providing leaders with real-time intelligence that drives faster actions and better decisions.</p>
+          <ul>
+            <li>Integral part of small team addressing tech debt and product stability, reducing incident response time by 70%</li>
+            <li>Decoupled monolithic Go services, improving system resilience and deployment velocity while eliminating cascading failures</li>
+            <li>Achieved critical service restoration when faced with overloaded architecture and upstream services failing, restoring functionality for thousands of users</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <h3>Heartfelt Tech LLC</h3>
+          </div>
+        </div>
+        <div class="role">
+          <h4>Owner</h4>
+          <p class="date">June 2017 - July 2023 (6 years 2 months)</p>
+          <p class="description">Heartfelt Tech provides a full gamut of web services including software development, hosting, and project management.</p>
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <h3>Kion</h3>
+          </div>
+        </div>
+        <div class="role">
+          <h4>GCP Software Engineer</h4>
+          <p class="date">September 2020 - July 2022 (1 year 11 months)</p>
+          <p class="location-text">Fulton, Maryland, United States</p>
+          <ul>
+            <li>Built Kion's GCP integration from zero to production, enabling Fortune 500 customers to govern multi-cloud environments</li>
+            <li>Delivered full-stack features from planning to release using Angular, Go, TypeScript, and MySQL</li>
+            <li>Developed internal libraries, SDKs, and comprehensive documentation that accelerated team GCP fluency by 3x</li>
+            <li>Architected microservices and provided level 3 support, resolving critical customer issues with 95% satisfaction rate</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <h3>Stellar Software LLC</h3>
+          </div>
+        </div>
+        <div class="role">
+          <h4>Senior Backend Engineer</h4>
+          <p class="date">March 2020 - July 2020 (5 months)</p>
+          <ul>
+            <li>Designed cloud infrastructure with the other backend engineer</li>
+            <li>Authored containerized microservices and API gateway in TypeScript/Node</li>
+            <li>Deployed backend using AWS API Gateway, TypeScript, and gRPC</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <h3>Trinity Insight LLC</h3>
+            <p class="tenure">11 months</p>
+          </div>
+        </div>
+
+        <div class="role">
+          <h4>Integration Engineer</h4>
+          <p class="date">January 2020 - March 2020 (3 months)</p>
+          <p class="location-text">Rochester, Minnesota Area</p>
+          <ul>
+            <li>Maintained internal DevOps standards and practices and provided user support</li>
+            <li>Led React application development for client portal and internal tooling</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <h4>Data Integration Engineer</h4>
+          <p class="date">May 2019 - January 2020 (9 months)</p>
+          <p class="location-text">Rochester, Minnesota Area</p>
+          <ul>
+            <li>Built custom serverless data pipelines and integrations on Google Cloud Platform</li>
+            <li>Leveraged Google BigQuery to ensure reliable conversion attribution and segmentation</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <h3>Colony Brands, Inc.</h3>
+          </div>
+        </div>
+        <div class="role">
+          <h4>Data Integration Analyst Intern</h4>
+          <p class="date">May 2018 - August 2018 (4 months)</p>
+          <p class="location-text">Monroe, Wisconsin</p>
+          <ul>
+            <li>Developed a serverless data dictionary web application for the data warehouse using Node.js and Vue.js on AWS</li>
+            <li>Provided extensive business value with clear data provenance and metadata for all users</li>
+            <li>Assisted in company-wide efforts to lift-and-shift COBOL mainframe routines to an AWS-hosted Hadoop cluster</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section">
+      <h2>Education</h2>
+      <div class="education">
+        <h3>Luther College</h3>
+        <p>Data Science, Computer Science</p>
+      </div>
+    </section>
+
+    <!-- Skills & Languages Section -->
+    <section class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h4>Backend & Languages</h4>
+          <ul class="skill-list">
+            <li>Go (Golang)</li>
+            <li>TypeScript / Node.js</li>
+            <li>Python</li>
+            <li>gRPC & REST APIs</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Cloud & Infrastructure</h4>
+          <ul class="skill-list">
+            <li>Google Cloud Platform (GCP)</li>
+            <li>Amazon Web Services (AWS)</li>
+            <li>Docker & Kubernetes</li>
+            <li>Terraform</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Data & Databases</h4>
+          <ul class="skill-list">
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>Google BigQuery</li>
+            <li>Redis</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Other Skills</h4>
+          <ul class="skill-list">
+            <li>3D Printing & CAD/CAM</li>
+            <li>Software Development</li>
+            <li>System Design</li>
+            <li>DevOps Practices</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 style="margin-top: 30px; color: #e2e8f0; font-size: 1.2rem;">Languages</h3>
+      <div class="skills-grid" style="margin-top: 15px;">
+        <div>
+          <ul class="skill-list">
+            <li>English (Native or Bilingual)</li>
+            <li>French (Limited Working)</li>
+            <li>Chinese (Elementary)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Honors & Awards Section -->
+    <section class="section">
+      <h2>Honors & Awards</h2>
+      <ul class="awards-list">
+        <li>John Philip Sousa Band Award</li>
+        <li>FBLA Networking Concepts State Champion</li>
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .resume-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+    min-height: 100vh;
+  }
+
+  /* Header Section */
+  .header {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #4a9eff;
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .headshot-placeholder {
+    width: 150px;
+    height: 150px;
+    min-width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4a9eff 0%, #7b68ee 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 20px rgba(74, 158, 255, 0.3);
+  }
+
+  .headshot-placeholder svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .header-text h1 {
+    margin: 0 0 8px 0;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    margin: 0 0 4px 0;
+    font-size: 1.1rem;
+    color: #a0aec0;
+    font-weight: 500;
+  }
+
+  .location {
+    margin: 0 0 12px 0;
+    color: #718096;
+    font-size: 0.95rem;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    font-size: 0.95rem;
+  }
+
+  .contact-info a {
+    color: #4a9eff;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .contact-info a:hover {
+    color: #7b68ee;
+    text-decoration: underline;
+  }
+
+  .separator {
+    color: #4a5568;
+  }
+
+  /* Section Styles */
+  .section {
+    margin-bottom: 35px;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+    color: #4a9eff;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #2d3748;
+    font-weight: 600;
+  }
+
+  /* Job Styles */
+  .job {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #242424;
+    border-radius: 8px;
+    border-left: 3px solid #4a9eff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .job:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(74, 158, 255, 0.1);
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+
+  .job h3 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .tenure {
+    font-size: 0.9rem;
+    color: #718096;
+    margin: 2px 0 0 0;
+    font-style: italic;
+  }
+
+  .role {
+    margin-bottom: 16px;
+    padding-left: 0;
+  }
+
+  .role h4 {
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    margin: 0 0 4px 0;
+    font-weight: 600;
+  }
+
+  .date {
+    font-size: 0.9rem;
+    color: #718096;
+    margin: 0 0 4px 0;
+  }
+
+  .location-text {
+    font-size: 0.9rem;
+    color: #718096;
+    margin: 0 0 8px 0;
+    font-style: italic;
+  }
+
+  .description {
+    margin: 8px 0;
+    line-height: 1.6;
+    color: #cbd5e0;
+  }
+
+  .job ul {
+    margin: 8px 0 0 0;
+    padding-left: 20px;
+  }
+
+  .job li {
+    margin-bottom: 6px;
+    line-height: 1.5;
+    color: #cbd5e0;
+  }
+
+  .job li::marker {
+    color: #4a9eff;
+  }
+
+  /* Education */
+  .education {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #242424;
+    border-radius: 8px;
+  }
+
+  .education h3 {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 0 0 4px 0;
+    font-weight: 600;
+  }
+
+  .education p {
+    margin: 0;
+    color: #cbd5e0;
+  }
+
+  /* Skills Grid */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .skills-grid h4 {
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+  }
+
+  .skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skill-list li {
+    padding: 8px 12px;
+    color: #cbd5e0;
+    background-color: #242424;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    transition: background-color 0.2s;
+  }
+
+  .skill-list li:hover {
+    background-color: #2d3748;
+  }
+
+  .skill-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Currently List */
+  .currently-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .currently-list li {
+    padding: 12px;
+    color: #cbd5e0;
+    background-color: #242424;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border-left: 3px solid #4a9eff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .currently-list li:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(74, 158, 255, 0.1);
+  }
+
+  .currently-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .currently-list li::before {
+    content: "→";
+    color: #4a9eff;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  /* Awards */
+  .awards-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .awards-list li {
+    padding: 12px;
+    color: #cbd5e0;
+    background-color: #242424;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border-left: 3px solid #7b68ee;
+  }
+
+  .awards-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .header-text h1 {
+      font-size: 2rem;
+    }
+
+    .contact-info {
+      justify-content: center;
+    }
+
+    .headshot-placeholder {
+      width: 120px;
+      height: 120px;
+      min-width: 120px;
+    }
+
+    .headshot-placeholder svg {
+      width: 60px;
+      height: 60px;
+    }
+
+    .skills-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .job {
+      padding: 15px;
+    }
+  }
+
+  /* Global Styles */
+  :global(body) {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #0d0d0d;
+    color: #cbd5e0;
+  }
+</style>
