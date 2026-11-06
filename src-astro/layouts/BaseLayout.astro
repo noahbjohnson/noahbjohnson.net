@@ -1,9 +1,34 @@
 ---
 interface Props {
   title?: string;
+  description?: string;
+  noindex?: boolean;
 }
 
-const { title = 'Noah B. Johnson' } = Astro.props;
+const {
+  title = 'Noah B. Johnson',
+  description = 'Noah B. Johnson is an engineering lead and hands-on systems architect building high-performing teams and resilient, scalable platforms.',
+  noindex = false,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = new URL('/og-image.png', Astro.site).href;
+const person = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Noah B. Johnson',
+  alternateName: 'Noah Johnson',
+  url: 'https://noahbjohnson.net',
+  image: new URL('/avatar.webp', Astro.site).href,
+  jobTitle: 'Lead Software Engineer',
+  worksFor: { '@type': 'Organization', name: 'FORM' },
+  alumniOf: { '@type': 'CollegeOrUniversity', name: 'Luther College' },
+  address: { '@type': 'PostalAddress', addressLocality: 'Madison', addressRegion: 'WI', addressCountry: 'US' },
+  sameAs: [
+    'https://www.linkedin.com/in/noahbjohnson',
+    'https://github.com/noahbjohnson',
+  ],
+};
 ---
 
 <!DOCTYPE html>
@@ -11,8 +36,30 @@ const { title = 'Noah B. Johnson' } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Noah B. Johnson - Tinkerer and Engineer" />
+    <meta name="description" content={description} />
+    <meta name="author" content="Noah B. Johnson" />
+    {noindex && <meta name="robots" content="noindex" />}
     <title>{title}</title>
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Link previews -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Noah B. Johnson" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="profile:first_name" content="Noah" />
+    <meta property="profile:last_name" content="Johnson" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(person)} />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,6 +73,7 @@ const { title = 'Noah B. Johnson' } = Astro.props;
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <slot name="head" />
   </head>
   <body>
     <slot />

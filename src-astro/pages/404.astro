@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Noah B. Johnson" noindex>
+  <meta http-equiv="refresh" content="0; url=/" slot="head" />
+  <main style="max-width: 600px; margin: 80px auto; padding: 0 20px; text-align: center;">
+    <p>That page has moved. Taking you to <a href="/" style="color: #4a9eff;">noahbjohnson.net</a>.</p>
+  </main>
+  <script is:inline>window.location.replace('/');</script>
+</BaseLayout>

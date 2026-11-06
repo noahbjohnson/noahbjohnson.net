@@ -2,52 +2,40 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Noah B. Johnson - Software Engineer">
+<BaseLayout
+  title="Noah B. Johnson | Engineering Lead"
+  description="Noah B. Johnson is an engineering lead and hands-on systems architect in Madison, WI, building high-performing teams and resilient, scalable platforms."
+>
   <div class="resume-container">
-    <!-- Header Section with Headshot Placeholder -->
     <header class="header">
       <div class="header-content">
-        <div class="headshot-placeholder">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-          </svg>
-        </div>
+        <img class="headshot" src="/avatar.webp" alt="Illustrated portrait of Noah B. Johnson" width="150" height="150" />
         <div class="header-text">
           <h1>Noah B. Johnson</h1>
-          <p class="subtitle">Backend | Family Archivist | Maker | Indie Press</p>
-          <p class="location">Des Moines, Iowa, United States</p>
+          <p class="subtitle">Engineering lead building high-performing teams and resilient, scalable platforms</p>
+          <p class="location">Madison, Wisconsin, United States</p>
           <div class="contact-info">
-            <a href="tel:+19203269112">(920) 326-9112</a>
-            <span class="separator">•</span>
             <a href="mailto:noah@noahbjohnson.net">noah@noahbjohnson.net</a>
             <span class="separator">•</span>
-            <a href="https://www.linkedin.com/in/noahbjohnson" target="_blank">LinkedIn</a>
+            <a href="tel:+19203269112">(920) 326-9112</a>
             <span class="separator">•</span>
-            <a href="https://github.com/noahbjohnson" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/noahbjohnson" target="_blank" rel="noopener">LinkedIn</a>
             <span class="separator">•</span>
-            <a href="https://www.instagram.com/noahbjohnsonphotos/" target="_blank">Instagram</a>
+            <a href="https://github.com/noahbjohnson" target="_blank" rel="noopener">GitHub</a>
+            <span class="separator">•</span>
+            <a href="https://www.instagram.com/noahbjohnsonphotos/" target="_blank" rel="noopener">Instagram</a>
+            <span class="separator">•</span>
+            <a class="resume-link" href="/resume/resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Summary Section -->
     <section class="section">
       <h2>Summary</h2>
-      <p>Backend engineer specializing in Go, cloud infrastructure (GCP/AWS), and building reliable systems at scale. I turn chaos into stability, mentor teams through complex migrations, and excel at establishing best practices that drive optimal outcomes.</p>
+      <p class="summary">Engineering lead and hands-on systems architect. At FORM I built much of the image recognition platform as an engineer and now lead it; it serves hundreds of the world's top brands and costs about half what it did when I joined. I grow engineers by giving them ownership of whole systems and guarding the focus that takes. I ship code through agentic engineering, and I created the harness and practices that made it the default across my team.</p>
     </section>
 
-    <!-- Currently Section -->
-    <section class="section">
-      <h2>Currently</h2>
-      <ul class="currently-list">
-        <li>Developing a new genealogy data standard for archival science</li>
-        <li>Building tools for digitizing and preserving family history</li>
-        <li>Exploring 3D printing for custom archival storage solutions</li>
-      </ul>
-    </section>
-
-    <!-- Experience Section -->
     <section class="section">
       <h2>Experience</h2>
 
@@ -55,39 +43,50 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="job-header">
           <div>
             <h3>FORM</h3>
-            <p class="tenure">3 years 4 months</p>
+            <p class="tenure">Remote · Aug 2022 to present</p>
           </div>
+        </div>
+
+        <div class="role">
+          <h4>Lead Software Engineer</h4>
+          <p class="date">Apr 2026 to present</p>
+          <ul>
+            <li>Lead the team that owns FORM's image recognition platform, from public APIs through workflow orchestration and reporting, at a scale of ~25M images a month, producing ~250M tags and bounding boxes</li>
+            <li>Oversaw the migration of image recognition orchestration to Temporal, which halved processing latency; the median is now ~10 seconds and every image finishes within 5 minutes</li>
+            <li>Led my team's integration work through FORM's merger with Trax: brought Trax's image recognition into our pipeline, designed the API contracts between the two companies' systems and coordinated across business units to consolidate processing onto one architecture</li>
+            <li>Built the team's Claude Code workspace of specialist agents, skills and shared practices</li>
+            <li>Shape system design and architecture with our principal engineer and product partner, and run technical spikes to de-risk work before the team commits</li>
+            <li>Take on high-impact projects outside the product roadmap, shipping full-stack solutions ahead of productization without pulling the team off its priorities; the latest, a planogram ingestion and product-matching tool, should save solutions and professional services teams thousands of hours</li>
+            <li>Manage 6 direct reports across 1:1s, performance reviews and career development</li>
+            <li>Doubled the team from 3 to 6; new hires ship to production within their first two weeks</li>
+            <li>Partner with product and engineering leadership at the department and executive levels on planning, priorities and resourcing, and with customer success teams on new use cases</li>
+          </ul>
         </div>
 
         <div class="role">
           <h4>Senior Software Engineer</h4>
-          <p class="date">April 2025 - Present (8 months)</p>
-          <p class="location-text">Des Moines, Iowa, United States</p>
-        </div>
-
-        <div class="role">
-          <h4>Backend Software Engineer</h4>
-          <p class="date">August 2022 - April 2025 (2 years 9 months)</p>
-          <p class="location-text">Des Moines, Iowa, United States</p>
-          <p class="description">The FORM field execution solutions serve as a digital assistant for frontline teams by guiding daily tasks, streamlining data collection, enabling communications, and providing leaders with real-time intelligence that drives faster actions and better decisions.</p>
+          <p class="date">Apr 2025 to Apr 2026</p>
           <ul>
-            <li>Integral part of small team addressing tech debt and product stability, reducing incident response time by 70%</li>
-            <li>Decoupled monolithic Go services, improving system resilience and deployment velocity while eliminating cascading failures</li>
-            <li>Achieved critical service restoration when faced with overloaded architecture and upstream services failing, restoring functionality for thousands of users</li>
+            <li>Technical lead for the image recognition platform's architecture and roadmap; defined the service contracts between the ML, web, mobile and reporting teams that depend on it</li>
+            <li>Architected and led delivery of IRaaS, FORM's external image recognition API, built for 100x traffic bursts; partnered with Google Cloud engineering to validate its scaling behavior at volume</li>
+            <li>Designed a configurable orchestration layer and wrote the region-migration playbook on top of it, carrying processing through multiple regional degradations with no downtime</li>
+            <li>Incident commander for most production incidents; unified GCP monitoring and PagerDuty alerting</li>
+            <li>Championed company-wide Go standards; mentored, onboarded and interviewed engineers</li>
           </ul>
         </div>
-      </div>
 
-      <div class="job">
-        <div class="job-header">
-          <div>
-            <h3>Heartfelt Tech LLC</h3>
-          </div>
-        </div>
         <div class="role">
-          <h4>Owner</h4>
-          <p class="date">June 2017 - July 2023 (6 years 2 months)</p>
-          <p class="description">Heartfelt Tech provides a full gamut of web services including software development, hosting, and project management.</p>
+          <h4>Software Engineer</h4>
+          <p class="date">Aug 2022 to Apr 2025</p>
+          <ul>
+            <li>Led the zero-downtime move from a homegrown orchestrator to Google Cloud Workflows, which became the foundation for the image recognition pipeline and IRaaS</li>
+            <li>Wrote the Python data validation framework that compared outputs across the old and new pipelines to verify parity through the migration</li>
+            <li>Designed the system of record for image recognition configs, inputs and model outputs alongside our principal engineer</li>
+            <li>Migrated PhotoWorks, FORM's reporting app, from NoSQL to Postgres with zero data loss and zero downtime, not even a maintenance window</li>
+            <li>Normalized the PhotoWorks domain model, making responses 5x faster for large enterprise customers</li>
+            <li>Cut service downtime ~95% through architecture and stack upgrades, ending the multi-day PhotoWorks ingestion outages that were common when I joined</li>
+            <li>Brought PhotoWorks ingest and operations costs down ~90%</li>
+          </ul>
         </div>
       </div>
 
@@ -95,156 +94,81 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="job-header">
           <div>
             <h3>Kion</h3>
+            <p class="tenure">Remote</p>
           </div>
         </div>
+
         <div class="role">
           <h4>GCP Software Engineer</h4>
-          <p class="date">September 2020 - July 2022 (1 year 11 months)</p>
-          <p class="location-text">Fulton, Maryland, United States</p>
+          <p class="date">Sep 2020 to Jul 2022</p>
           <ul>
-            <li>Built Kion's GCP integration from zero to production, enabling Fortune 500 customers to govern multi-cloud environments</li>
-            <li>Delivered full-stack features from planning to release using Angular, Go, TypeScript, and MySQL</li>
-            <li>Developed internal libraries, SDKs, and comprehensive documentation that accelerated team GCP fluency by 3x</li>
-            <li>Architected microservices and provided level 3 support, resolving critical customer issues with 95% satisfaction rate</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="job">
-        <div class="job-header">
-          <div>
-            <h3>Stellar Software LLC</h3>
-          </div>
-        </div>
-        <div class="role">
-          <h4>Senior Backend Engineer</h4>
-          <p class="date">March 2020 - July 2020 (5 months)</p>
-          <ul>
-            <li>Designed cloud infrastructure with the other backend engineer</li>
-            <li>Authored containerized microservices and API gateway in TypeScript/Node</li>
-            <li>Deployed backend using AWS API Gateway, TypeScript, and gRPC</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="job">
-        <div class="job-header">
-          <div>
-            <h3>Trinity Insight LLC</h3>
-            <p class="tenure">11 months</p>
-          </div>
-        </div>
-
-        <div class="role">
-          <h4>Integration Engineer</h4>
-          <p class="date">January 2020 - March 2020 (3 months)</p>
-          <p class="location-text">Rochester, Minnesota Area</p>
-          <ul>
-            <li>Maintained internal DevOps standards and practices and provided user support</li>
-            <li>Led React application development for client portal and internal tooling</li>
-          </ul>
-        </div>
-
-        <div class="role">
-          <h4>Data Integration Engineer</h4>
-          <p class="date">May 2019 - January 2020 (9 months)</p>
-          <p class="location-text">Rochester, Minnesota Area</p>
-          <ul>
-            <li>Built custom serverless data pipelines and integrations on Google Cloud Platform</li>
-            <li>Leveraged Google BigQuery to ensure reliable conversion attribution and segmentation</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="job">
-        <div class="job-header">
-          <div>
-            <h3>Colony Brands, Inc.</h3>
-          </div>
-        </div>
-        <div class="role">
-          <h4>Data Integration Analyst Intern</h4>
-          <p class="date">May 2018 - August 2018 (4 months)</p>
-          <p class="location-text">Monroe, Wisconsin</p>
-          <ul>
-            <li>Developed a serverless data dictionary web application for the data warehouse using Node.js and Vue.js on AWS</li>
-            <li>Provided extensive business value with clear data provenance and metadata for all users</li>
-            <li>Assisted in company-wide efforts to lift-and-shift COBOL mainframe routines to an AWS-hosted Hadoop cluster</li>
+            <li>Built Google Cloud support into Kion's cloud governance product from scratch and owned it from architecture through customer escalations</li>
+            <li>Wrote the microservices and internal SDKs behind it, and led company-wide education on GCP architecture and best practices</li>
+            <li>Shipped full-stack features in Go and Angular</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- Education Section -->
+    <section class="section">
+      <h2>Open Source</h2>
+      <div class="job project">
+        <h3><a href="https://github.com/genealogix/glx" target="_blank" rel="noopener">Genealogix (GLX)</a></h3>
+        <p class="tenure">Creator and lead maintainer</p>
+        <p>An open standard and Go CLI for collaborative, Git-native genealogy archives, designed to succeed GEDCOM: YAML records validated by JSON Schema, GEDCOM import and export, search, citations and a local viewer. Apache 2.0.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h4>Leadership</h4>
+          <ul class="skill-list">
+            <li>Engineering management</li>
+            <li>Technical leadership</li>
+            <li>People development</li>
+            <li>Cross-functional leadership</li>
+            <li>Incident command</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Engineering</h4>
+          <ul class="skill-list">
+            <li>Full-stack development</li>
+            <li>Distributed systems and solution architecture</li>
+            <li>API design</li>
+            <li>Event-driven systems</li>
+            <li>Observability</li>
+            <li>AI agents and agentic engineering</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stack</h4>
+          <ul class="skill-list">
+            <li>Go</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Google Cloud Platform</li>
+            <li>Terraform</li>
+            <li>Temporal</li>
+            <li>PostgreSQL</li>
+            <li>OpenSearch</li>
+            <li>Apache Kafka</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <section class="section">
       <h2>Education</h2>
       <div class="education">
         <h3>Luther College</h3>
-        <p>Data Science, Computer Science</p>
+        <p>Data Science, Computer Science minor · 2015 to 2019</p>
       </div>
-    </section>
-
-    <!-- Skills & Languages Section -->
-    <section class="section">
-      <h2>Technical Skills</h2>
-      <div class="skills-grid">
-        <div>
-          <h4>Backend & Languages</h4>
-          <ul class="skill-list">
-            <li>Go (Golang)</li>
-            <li>TypeScript / Node.js</li>
-            <li>Python</li>
-            <li>gRPC & REST APIs</li>
-          </ul>
-        </div>
-        <div>
-          <h4>Cloud & Infrastructure</h4>
-          <ul class="skill-list">
-            <li>Google Cloud Platform (GCP)</li>
-            <li>Amazon Web Services (AWS)</li>
-            <li>Docker & Kubernetes</li>
-            <li>Terraform</li>
-          </ul>
-        </div>
-        <div>
-          <h4>Data & Databases</h4>
-          <ul class="skill-list">
-            <li>PostgreSQL</li>
-            <li>MySQL</li>
-            <li>Google BigQuery</li>
-            <li>Redis</li>
-          </ul>
-        </div>
-        <div>
-          <h4>Other Skills</h4>
-          <ul class="skill-list">
-            <li>3D Printing & CAD/CAM</li>
-            <li>Software Development</li>
-            <li>System Design</li>
-            <li>DevOps Practices</li>
-          </ul>
-        </div>
-      </div>
-
-      <h3 style="margin-top: 30px; color: #e2e8f0; font-size: 1.2rem;">Languages</h3>
-      <div class="skills-grid" style="margin-top: 15px;">
-        <div>
-          <ul class="skill-list">
-            <li>English (Native or Bilingual)</li>
-            <li>French (Limited Working)</li>
-            <li>Chinese (Elementary)</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Honors & Awards Section -->
-    <section class="section">
-      <h2>Honors & Awards</h2>
-      <ul class="awards-list">
-        <li>John Philip Sousa Band Award</li>
-        <li>FBLA Networking Concepts State Champion</li>
-      </ul>
     </section>
   </div>
 </BaseLayout>
@@ -271,22 +195,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     gap: 30px;
   }
 
-  .headshot-placeholder {
+  .headshot {
     width: 150px;
     height: 150px;
     min-width: 150px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #4a9eff 0%, #7b68ee 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
     box-shadow: 0 4px 20px rgba(74, 158, 255, 0.3);
-  }
-
-  .headshot-placeholder svg {
-    width: 80px;
-    height: 80px;
   }
 
   .header-text h1 {
@@ -485,57 +399,22 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     margin-bottom: 0;
   }
 
-  /* Currently List */
-  .currently-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  .contact-info .resume-link {
+    font-weight: 600;
   }
 
-  .currently-list li {
-    padding: 12px;
+  .project p {
+    margin: 8px 0 0 0;
+    line-height: 1.6;
     color: #cbd5e0;
-    background-color: #242424;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    border-left: 3px solid #4a9eff;
-    transition: transform 0.2s, box-shadow 0.2s;
   }
 
-  .currently-list li:hover {
-    transform: translateX(4px);
-    box-shadow: 0 4px 12px rgba(74, 158, 255, 0.1);
-  }
-
-  .currently-list li:last-child {
-    margin-bottom: 0;
-  }
-
-  .currently-list li::before {
-    content: "→";
+  .project a {
     color: #4a9eff;
-    font-weight: bold;
-    margin-right: 10px;
   }
 
-  /* Awards */
-  .awards-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .awards-list li {
-    padding: 12px;
-    color: #cbd5e0;
-    background-color: #242424;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    border-left: 3px solid #7b68ee;
-  }
-
-  .awards-list li:last-child {
-    margin-bottom: 0;
+  .summary {
+    line-height: 1.7;
   }
 
   /* Responsive Design */
@@ -553,15 +432,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       justify-content: center;
     }
 
-    .headshot-placeholder {
+    .headshot {
       width: 120px;
       height: 120px;
       min-width: 120px;
-    }
-
-    .headshot-placeholder svg {
-      width: 60px;
-      height: 60px;
     }
 
     .skills-grid {
