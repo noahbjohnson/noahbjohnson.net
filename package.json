@@ -16,7 +16,7 @@
     "build": "astro build",
     "preview": "astro preview --host",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -r git@github.com:noahbjohnson/noahbjohnson.github.io.git -b master -d build"
+    "deploy": "gh-pages -r git@github.com:noahbjohnson/noahbjohnson.github.io.git -b master -d build --dotfiles"
   },
   "homepage": "https://noahbjohnson.net"
 }

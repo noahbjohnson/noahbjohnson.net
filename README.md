@@ -1,22 +1,17 @@
 # Noah B Johnson personal site
 
-## Built With
-- [Create React App](https://create-react-app.dev)
-- [gh-pages](https://github.com/tschaub/gh-pages)
-- [Cloudflare](https://cloudflare.com/)
+Source for <https://noahbjohnson.net>: a single-page resume built with [Astro](https://astro.build).
 
-## Getting Started
+## Layout
+- `src-astro/pages/index.astro`: the page content
+- `src-astro/pages/404.astro`: sends old or unknown URLs back to the homepage
+- `src-astro/layouts/BaseLayout.astro`: head, SEO and link preview tags
+- `public-astro/`: static files (avatar, favicon, link preview image, `resume/resume.pdf`, CNAME)
 
-> Why would you want to run this locally? Just go look at the site: <https://noahbjohnson.net>
+## Develop
+1. `npm ci`
+2. `npm start` for a local dev server, or `npm run build` to build into `./build`
 
-1. Clone the repo `git clone https://github.com/noahbjohnson/noahbjohnson.net.git`
-2. Install the dependencies `npm i`
-3. Fire it up `npm start`
-
-
-
-## Blog
-
-The blog consists of the [blog posts file](src/pages/blog/blogPosts.ts) for metadata, and the [posts folder](public/posts) for entries.
-
-File names in the posts folder should correspond to the slug from the metadata. (page -> page.md) 
+## Deploy
+`npm run deploy` builds the site and pushes `./build` (dotfiles included, so `.nojekyll` ships) to the `master` branch of
+[noahbjohnson.github.io](https://github.com/noahbjohnson/noahbjohnson.github.io), which GitHub Pages serves at noahbjohnson.net.
